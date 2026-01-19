@@ -1,0 +1,904 @@
+id,lesson,kana,kanji,romaji,meaning,category,source
+1,1,わたし,私,watashi,saya
+2,1,あなた,,anata,anda
+3,1,あのひと,あの人,ano hito,orang itu
+4,1,あのかた,あの方,ano kata,beliau
+5,1,みなさん,,minasan,semua orang
+6,1,せんせい,先生,sensei,guru
+7,1,きょうし,教師,kyoushi,guru (profesi)
+8,1,がくせい,学生,gakusei,mahasiswa
+9,1,かいしゃいん,会社員,kaishain,karyawan
+10,1,しゃいん,社員,shain,pegawai
+11,1,ぎんこういん,銀行員,ginkouin,pegawai bank
+12,1,いしゃ,医者,isha,dokter
+13,1,けんきゅうしゃ,研究者,kenkyuusha,peneliti
+14,1,エンジニア,,enjinia,insinyur
+15,1,だいがく,大学,daigaku,universitas
+16,1,びょういん,病院,byouin,rumah sakit
+17,1,でんき,電気,denki,listrik
+18,1,だれ,,dare,siapa
+19,1,どなた,,donata,siapa (sopan)
+20,1,はい,,hai,ya
+21,1,いいえ,,iie,tidak
+
+22,2,これ,,kore,ini
+23,2,それ,,sore,itu
+24,2,あれ,,are,itu (jauh)
+25,2,この,,kono,ini (kata benda)
+26,2,その,,sono,itu (kata benda)
+27,2,あの,,ano,itu (kata benda jauh)
+28,2,ほん,本,hon,buku
+29,2,じしょ,辞書,jisho,kamus
+30,2,ざっし,雑誌,zasshi,majalah
+31,2,しんぶん,新聞,shinbun,koran
+32,2,ノート,,nooto,buku catatan
+33,2,てちょう,手帳,techou,buku agenda
+34,2,めいし,名刺,meishi,kartu nama
+35,2,カード,,kaado,kartu
+36,2,えんぴつ,鉛筆,enpitsu,pensil
+37,2,ボールペン,,boorupen,pulpen
+38,2,かぎ,,kagi,kunci
+39,2,とけい,時計,tokei,jam/arloji
+40,2,かさ,,kasa,payung
+41,2,かばん,,kaban,tas
+42,2,テレビ,,terebi,televisi
+43,2,ラジオ,,rajio,radio
+44,2,カメラ,,kamera,kamera
+45,2,コンピューター,,konpyuutaa,komputer
+46,2,くるま,車,kuruma,mobil
+47,2,つくえ,机,tsukue,meja
+48,2,いす,椅子,isu,kursi
+362,2,コーヒー,,koohii,kopi
+
+49,3,ここ,,koko,di sini
+50,3,そこ,,soko,di situ
+51,3,あそこ,,asoko,di sana
+52,3,どこ,,doko,di mana
+53,3,こちら,,kochira,ini (sopan)
+54,3,そちら,,sochira,itu (sopan)
+55,3,あちら,,achira,itu (sopan jauh)
+56,3,どちら,,dochira,yang mana (sopan)
+57,3,きょうしつ,教室,kyoushitsu,ruang kelas
+58,3,しょくどう,食堂,shokudou,kantin
+59,3,じむしょ,事務所,jimusho,kantor
+60,3,かいぎしつ,会議室,kaigishitsu,ruang rapat
+61,3,うけつけ,受付,uketsuke,resepsionis
+62,3,ロビー,,robii,lobi
+63,3,へや,部屋,heya,kamar
+64,3,トイレ,,toire,toilet
+65,3,かいだん,階段,kaidan,tangga
+66,3,エレベーター,,erebeetaa,lift
+
+67,4,おきます,起きます,okimasu,bangun
+68,4,ねます,寝ます,nemasu,tidur
+69,4,はたらきます,働きます,hatarakimasu,bekerja
+70,4,やすみます,休みます,yasumimasu,istirahat
+71,4,べんきょうします,勉強します,benkyoushimasu,belajar
+72,4,おわります,終わります,owarimasu,selesai
+73,4,デパート,,depaato,toserba
+74,4,ぎんこう,銀行,ginkou,bank
+75,4,ゆうびんきょく,郵便局,yuubinkyoku,kantor pos
+76,4,としょかん,図書館,toshokan,perpustakaan
+77,4,いま,,ima,sekarang
+78,4,〜じ,,ji,jam
+79,4,〜ふん,〜分,fun,menit
+80,4,はん,半,han,setengah
+
+81,5,いきます,行きます,ikimasu,pergi
+82,5,きます,来ます,kimasu,datang
+83,5,かえります,帰ります,kaerimasu,pulang
+84,5,がっこう,学校,gakkou,sekolah
+85,5,スーパー,,suupaa,supermarket
+86,5,えき,駅,eki,stasiun
+87,5,ひこうき,飛行機,hikouki,pesawat
+88,5,でんしゃ,電車,densha,kereta
+89,5,バス,,basu,bus
+90,5,タクシー,,takushii,taksi
+91,5,じてんしゃ,自転車,jitensha,sepeda
+92,5,あるいて,歩いて,aruite,berjalan kaki
+93,5,ひと,人,hito,orang
+94,5,ともだち,友だち,tomodachi,teman
+95,5,かれ,彼,kare,dia (laki-laki)
+96,5,かのじょ,彼女,kanojo,dia (perempuan)
+
+97,6,たべます,食べます,tabemasu,makan
+98,6,のみます,飲みます,nomimasu,minum
+99,6,すいます,吸います,suimasu,merokok
+100,6,みます,見ます,mimasu,melihat
+101,6,ききます,聞きます,kikimasu,mendengar
+102,6,よみます,読みます,yomimasu,membaca
+103,6,かきます,書きます,kakimasu,menulis
+104,6,かいます,買います,kaimasu,membeli
+105,6,とります,撮ります/取ります,torimasu,mengambil/memotret
+106,6,あいます,会います,aimasu,bertemu
+107,6,ごはん,ご飯,gohan,nasi
+108,6,パン,,pan,roti
+109,6,たまご,卵,tamago,telur
+110,6,にく,肉,niku,daging
+111,6,さかな,魚,sakana,ikan
+112,6,やさい,野菜,yasai,sayuran
+113,6,みず,水,mizu,air
+114,6,おちゃ,お茶,ocha,teh
+
+115,7,きります,切ります,kirimasu,memotong
+116,7,おくります,送ります,okurimasu,mengirim
+117,7,あげます,,agemasu,memberi
+118,7,もらいます,,moraimasu,menerima
+119,7,かします,貸します,kashimasu,meminjamkan
+120,7,かります,借ります,karimasu,meminjam
+121,7,おしえます,教えます,oshiemasu,mengajar
+122,7,ならいます,習います,naraimasu,belajar
+123,7,でんわ,電話,denwa,telepon
+124,7,て,手,te,tangan
+125,7,はし,,hashi,sumpit
+126,7,スプーン,,supuun,sendok
+127,7,ナイフ,,naifu,pisau
+128,7,フォーク,,fooku,garpu
+129,7,はさみ,,hasami,gunting
+
+130,8,ハンサム,,hansamu,tampan
+131,8,きれい,綺麗,kirei,bersih/cantik
+132,8,しずか,静か,shizuka,tenang
+133,8,にぎやか,賑やか,nigiyaka,ramai
+134,8,ゆうめい,有名,yuumei,terkenal
+135,8,しんせつ,親切,shinsetsu,baik hati
+136,8,げんき,元気,genki,sehat
+137,8,ひま,暇,hima,senggang
+138,8,べんり,便利,benri,praktis
+139,8,すてき,,suteki,bagus
+140,8,たかい,高い,takai,tinggi/mahal
+141,8,やすい,安い,yasui,murah
+142,8,あたらしい,新しい,atarashii,baru
+143,8,ふるい,古い,furui,lama
+144,8,おおきい,大きい,ookii,besar
+145,8,ちいさい,小さい,chiisai,kecil
+
+146,9,わかります,分かります,wakarimasu,mengerti
+147,9,あります,,arimasu,ada (benda)
+148,9,すき,好き,suki,suka
+149,9,きらい,嫌い,kirai,benci
+150,9,じょうず,上手,jouzu,pandai
+151,9,へた,下手,heta,tidak pandai
+152,9,りょうり,料理,ryouri,masakan
+153,9,スポーツ,,supootsu,olahraga
+154,9,やきゅう,野球,yakyuu,baseball
+155,9,おんがく,音楽,ongaku,musik
+156,9,えいが,映画,eiga,film
+157,9,えいご,英語,eigo,bahasa Inggris
+158,9,にほんご,日本語,nihongo,bahasa Jepang
+159,9,すこし,少し,sukoshi,sedikit
+160,9,たくさん,,takusan,banyak
+
+161,10,います,,imasu,ada (makhluk hidup)
+162,10,あります,,arimasu,ada (benda)
+163,10,いろいろ,,iroiro,bermacam-macam
+164,10,おとこ,男,otoko,laki-laki
+165,10,おんな,女,onna,perempuan
+166,10,こども,子ども,kodomo,anak
+167,10,いぬ,犬,inu,anjing
+168,10,ねこ,猫,neko,kucing
+169,10,き,木,ki,pohon
+170,10,もの,物,mono,benda
+171,10,ばしょ,場所,basho,tempat
+172,10,いけ,池,ike,kolam
+173,10,こうえん,公園,kouen,taman
+174,10,きっさてん,喫茶店,kissaten,kedai kopi
+175,10,ほんや,本屋,honya,toko buku
+176,10,〜や,,ya,toko ~
+
+177,11,わかります,分かります,wakarimasu,mengerti
+178,11,あります,,arimasu,ada (benda)
+179,11,いろいろ,,iroiro,bermacam-macam
+180,11,おとこ,男,otoko,laki-laki
+181,11,おんな,女,onna,perempuan
+182,11,こども,子ども,kodomo,anak
+183,11,いぬ,犬,inu,anjing
+184,11,ねこ,猫,neko,kucing
+185,11,き,木,ki,pohon
+186,11,もの,物,mono,benda
+187,11,ばしょ,場所,basho,tempat
+188,11,いけ,池,ike,kolam
+189,11,こうえん,公園,kouen,taman
+190,11,きっさてん,喫茶店,kissaten,kedai kopi
+191,11,ほんや,本屋,honya,toko buku
+192,11,〜や,,ya,toko ~
+193,11,のりば,乗り場,noriba,tempat naik
+194,11,いちばん,,ichiban,paling
+195,11,〜に,,ni,ke (partikel)
+196,11,どうやって,,douyatte,bagaimana caranya
+
+197,12,かんたん,簡単,kantan,mudah
+198,12,ちかい,近い,chikai,dekat
+199,12,とおい,遠い,tooi,jauh
+200,12,はやい,早い,hayai,cepat
+201,12,おそい,遅い,osoi,lambat
+202,12,ひと,人,hito,orang
+203,12,ともだち,友だち,tomodachi,teman
+204,12,かれ,彼,kare,dia (laki-laki)
+205,12,かのじょ,彼女,kanojo,dia (perempuan)
+206,12,かぞく,家族,kazoku,keluarga
+207,12,ひとりで,一人で,hitoride,sendirian
+208,12,たしか,,tashika,mungkin
+209,12,べつに,,betsuni,tidak khusus
+
+210,13,あそびます,遊びます,asobimasu,bermain
+211,13,およぎます,泳ぎます,oyogimasu,berenang
+212,13,むかえます,迎えます,mukaemasu,menjemput
+213,13,つかれます,疲れます,tsukaremasu,lelah
+214,13,だします,出します,dashimasu,mengeluarkan
+215,13,はいります,入ります,hairimasu,masuk
+216,13,でます,出ます,demasu,keluar
+217,13,けっこんします,結婚します,kekkonshimasu,menikah
+218,13,かいものします,買い物します,kaimonoshimasu,berbelanja
+219,13,しょくじします,食事します,shokujishimasu,makan
+220,13,さんぽします,散歩します,sanposhimasu,jalan-jalan
+
+221,14,つけます,,tsukemasu,menyalakan
+222,14,けします,,keshimasu,mematikan
+223,14,あけます,,akemasu,membuka
+224,14,しめます,,shimemasu,menutup
+225,14,いそぎます,,isogimasu,bergegas
+226,14,まちます,,machimasu,menunggu
+227,14,とめます,,tomemasu,menghentikan
+228,14,みせます,,misemasu,memperlihatkan
+229,14,おしえます,教えます,oshiemasu,mengajar
+230,14,すわります,,suwarimasu,duduk
+231,14,たちます,,tachimasu,berdiri
+232,14,つかいます,,tsukaimasu,menggunakan
+
+233,15,おきます,起きます,okimasu,bangun
+234,15,ねます,寝ます,nemasu,tidur
+235,15,はたらきます,働きます,hatarakimasu,bekerja
+236,15,やすみます,休みます,yasumimasu,istirahat
+237,15,べんきょうします,勉強します,benkyoushimasu,belajar
+238,15,おわります,終わります,owarimasu,selesai
+239,15,デパート,,depaato,toserba
+240,15,ぎんこう,銀行,ginkou,bank
+241,15,ゆうびんきょく,郵便局,yuubinkyoku,kantor pos
+242,15,としょかん,図書館,toshokan,perpustakaan
+243,15,いま,,ima,sekarang
+
+244,16,のります,乗ります,norimasu,naik
+245,16,おります,降ります,orimasu,turun
+246,16,のりかえます,乗り換えます,norikaemasu,pindah (kendaraan)
+247,16,あびます,浴びます,abimasu,mandi
+248,16,いれます,入れます,iremasu,memasukkan
+249,16,だします,出します,dashimasu,mengeluarkan
+250,16,はいります,入ります,hairimasu,masuk
+251,16,でます,出ます,demasu,keluar
+252,16,おします,,oshimasu,menekan
+253,16,わかい,若い,wakai,muda
+254,16,ながい,長い,nagai,panjang
+255,16,みじかい,短い,mijikai,pendek
+256,16,あかるい,明るい,akarui,terang
+257,16,くらい,暗い,kurai,gelap
+258,16,せ,背,se,tinggi badan
+259,16,あたま,頭,atama,kepala
+260,16,かみ,髪,kami,rambut
+261,16,かお,顔,kao,wajah
+
+262,17,おぼえます,覚えます,oboemasu,mengingat
+263,17,わすれます,忘れます,wasuremasu,melupakan
+264,17,なくします,,nakushimasu,kehilangan
+265,17,だします,出します,dashimasu,mengajukan
+266,17,はらいます,払います,haraimasu,membayar
+267,17,かえします,返します,kaeshimasu,mengembalikan
+268,17,でかけます,出かけます,dekakemasu,keluar rumah
+269,17,ぬぎます,,nugimasu,melepas (pakaian)
+270,17,もっていきます,持って行きます,motteikimasu,membawa (pergi)
+271,17,もってきます,持って来ます,mottekimasu,membawa (datang)
+272,17,しんぱいします,心配します,shinpai shimasu,khawatir
+273,17,ざんねん,,zannen,sayang sekali
+274,17,まだ,,mada,belum
+275,17,もう,,mou,sudah
+
+276,18,できます,,dekimasu,bisa
+277,18,あらいます,洗います,araimasu,mencuci
+278,18,ひきます,,hikimasu,memainkan (alat musik)
+279,18,うたいます,歌います,utaimasu,menyanyi
+280,18,あつめます,集めます,atsumemasu,mengumpulkan
+281,18,すてます,捨てます,sutemasu,membuang
+282,18,かえます,換えます/替えます,kaemasu,menukar
+283,18,うんてんします,運転します,untenshimasu,mengemudi
+284,18,よやくします,予約します,yoyakushimasu,memesan
+285,18,けんがくします,見学します,kengakushimasu,kunjungan studi
+286,18,ピアノ,,piano,piano
+287,18,げんきん,現金,genkin,tunai
+288,18,しゅみ,趣味,shumi,hobi
+
+289,19,のぼります,登ります,noborimasu,mendaki
+290,19,とまります,泊まります,tomarimasu,menginap
+291,19,そうじします,掃除します,soujishimasu,bersih-bersih
+292,19,せんたくします,洗濯します,sentakushimasu,mencuci pakaian
+293,19,れんしゅうします,練習します,renshuushimasu,latihan
+294,19,なります,,narimasu,menjadi
+295,19,ねむい,眠い,nemui,mengantuk
+296,19,つよい,強い,tsuyoi,kuat
+297,19,よわい,弱い,yowai,lemah
+298,19,ちょうし,調子,choushi,kondisi
+299,19,ゴルフ,,gorufu,golf
+
+300,20,ひつよう,必要,hitsuyou,perlu
+301,20,べんきょう,勉強,benkyou,belajar
+302,20,しゅくだい,宿題,shukudai,pekerjaan rumah
+303,20,しごと,仕事,shigoto,pekerjaan
+304,20,やくそく,約束,yakusoku,janji
+305,20,じかん,時間,jikan,waktu
+306,20,ようじ,用事,youji,urusan
+307,20,りょこう,旅行,ryokou,perjalanan
+308,20,けんこう,健康,kenkou,kesehatan
+309,20,むり,,muri,tidak mungkin
+310,20,だいじょうぶ,大丈夫,daijoubu,tidak apa-apa
+311,20,ぜひ,,zehi,silakan (dengan kuat)
+
+312,21,思います,おもいます,omoimasu,berpikir
+313,21,言います,いいます,iimasu,mengatakan
+314,21,足ります,たります,tarimasu,cukup
+315,21,勝ちます,かちます,kachimasu,menang
+316,21,負けます,まけます,makemasu,kalah
+317,21,役に立ちます,やくにたちます,yaku ni tachimasu,berguna
+318,21,無駄,むだ,muda,sia-sia
+319,21,同じ,おなじ,onaji,sama
+320,21,違います,ちがいます,chigaimasu,berbeda
+321,21,最近,さいきん,saikin,akhir-akhir ini
+
+322,22,着ます,きます,kimasu,memakai (atas)
+323,22,履きます,はきます,hakimasu,memakai (bawah)
+324,22,被ります,かぶります,kaburimasu,memakai (topi)
+325,22,掛けます,かけます,kakemasu,memakai (kacamata)
+326,22,生まれます,うまれます,umaremasu,lahir
+327,22,コート,こーと,kooto,mantel
+328,22,スーツ,すーつ,suutsu,setelan jas
+329,22,帽子,ぼうし,boushi,topi
+330,22,眼鏡,めがね,megane,kacamata
+331,22,よく,yoku,sering
+
+332,23,聞きます,ききます,kikimasu,bertanya
+333,23,回します,まわします,mawashimasu,memutar
+334,23,引きます,ひきます,hikimasu,menarik
+335,23,変えます,かえます,kaemasu,mengganti
+336,23,触ります,さわります,sawarimasu,menyentuh
+337,23,歩きます,あるきます,arukimasu,berjalan
+338,23,渡ります,わたります,watarimasu,menyebrang
+339,23,曲がります,まがります,magarimasu,belok
+340,23,止まります,とまります,tomarimasu,berhenti
+341,23,交差点,こうさてん,kousaten,persimpangan
+
+342,24,くれます,くれます,kuremasu,memberi (kepada saya)
+343,24,連れて行きます,つれていきます,tsurete ikimasu,mengajak pergi
+344,24,連れて来ます,つれてきます,tsurete kimasu,mengajak datang
+345,24,送ります,おくります,okurimasu,mengantar
+346,24,紹介します,しょうかいします,shoukaishimasu,memperkenalkan
+347,24,案内します,あんないします,annaishimasu,memandu
+348,24,説明します,せつめいします,setsumeishimasu,menjelaskan
+349,24,祖父,そふ,sofu,kakek
+350,24,祖母,そぼ,sobo,nenek
+351,24,お祝い,おいわい,oiwai,perayaan
+
+352,25,考えます,かんがえます,kangaemasu,memikirkan
+353,25,着きます,つきます,tsukimasu,tiba
+354,25,留学します,りゅうがくします,ryuugaku shimasu,belajar di luar negeri
+355,25,取ります,とります,torimasu,mengambil
+356,25,田舎,いなか,inaka,desa
+357,25,大使館,たいしかん,taishikan,kedutaan
+358,25,理由,りゆう,riyuu,alasan
+359,25,気持ち,きもち,kimochi,perasaan
+360,25,本当,ほんとう,hontou,benar
+361,25,ぜひ,ぜひ,zehi,sangat ingin
+
+363,26,見る,みる,miru,melihat
+364,26,聞く,きく,kiku,mendengar
+365,26,探す,さがす,sagasu,mencari
+366,26,待つ,まつ,matsu,menunggu
+367,26,出す,だす,dasu,mengeluarkan
+368,26,送る,おくる,okuru,mengirim
+369,26,連絡する,れんらくする,renraku suru,menghubungi
+370,26,約束する,やくそくする,yakusoku suru,berjanji
+371,26,考える,かんがえる,kangaeru,berpikir
+372,26,決める,きめる,kimeru,memutuskan
+373,26,知らせる,しらせる,shiraseru,memberitahu
+374,26,遅れる,おくれる,okureru,terlambat
+375,26,間に合う,まにあう,maniau,sempat/keburu/tepat waktu/cukup(waktu)
+376,26,都合,つごう,tsugou,kondisi/keadaan
+377,26,予定,よてい,yotei,rencana
+378,26,気分,きぶん,kibun,perasaan
+379,26,急ぐ,いそぐ,isogu,tergesa-gesa
+380,26,一生懸命,いっしょうけんめい,isshoukenmei,bersungguh-sungguh
+
+381,27,飼う,かう,kau,memelihara
+382,27,建てる,たてる,tateru,membangun
+383,27,走る,はしる,hashiru,berlari
+384,27,見える,みえる,mieru,terlihat
+385,27,聞こえる,きこえる,kikoeru,terdengar
+386,27,できる,できる,dekiru,bisa
+387,27,開く,ひらく,hiraku,membuka
+388,27,集まる,あつまる,atsumaru,berkumpul
+389,27,場所,ばしょ,basho,tempat
+390,27,音,おと,oto,suara
+391,27,景色,けしき,keshiki,pemandangan
+392,27,交通,こうつう,koutsuu,lalu lintas
+393,27,花火,はなび,hanabi,kembang api
+394,27,空気,くうき,kuuki,udara
+395,27,自然,しぜん,shizen,alam
+396,27,機械,きかい,kikai,mesin
+397,27,会議,かいぎ,kaigi,rapat
+398,27,自由,じゆう,jiyuu,bebas
+
+399,28,売れる,うれる,ureru,terjual
+400,28,踊る,おどる,odoru,menari
+401,28,噛む,かむ,kamu,menggigit
+402,28,選ぶ,えらぶ,erabu,memilih
+403,28,通う,かよう,kayou,pergi rutin/pergi-pulang/berulangkali datang
+404,28,集める,あつめる,atsumeru,mengumpulkan
+405,28,経験,けいけん,keiken,pengalaman
+406,28,人気,にんき,ninki,populer
+407,28,形,かたち,katachi,bentuk
+408,28,色,いろ,iro,warna
+409,28,味,あじ,aji,rasa
+410,28,音楽,おんがく,ongaku,musik
+411,28,文化,ぶんか,bunka,budaya
+412,28,習慣,しゅうかん,shuukan,kebiasaan
+413,28,メモする,,memo suru,mencatat
+414,28,真面目,まじめ,majime,rajin
+415,28,熱心,ねっしん,nesshin,antusias
+416,28,優しい,やさしい,yasashii,baik
+417,28,偉い,えらい,erai,hebat
+418,28,大会,たいかい,taikai,kompetisi
+419,28,意見,いけん,iken,pendapat
+420,28,話,はなし,hanashi,cerita
+421,28,交通,こうつう,koutsuu,lalu lintas
+422,28,デザイン,,dezain,desain
+
+423,29,開く,あく,aku,terbuka
+424,29,閉まる,しまる,shimaru,tertutup
+425,29,付く,つく,tsuku,menempel
+426,29,消える,きえる,kieru,padam
+427,29,壊れる,こわれる,kowareru,rusak
+428,29,割れる,われる,wareru,pecah
+429,29,折れる,おれる,oreru,patah
+430,29,破れる,やぶれる,yabureru,robek
+431,29,汚れる,よごれる,yogoreru,kotor
+432,29,落ちる,おちる,ochiru,jatuh
+433,29,かかる,,kakaru,memakan waktu/biaya
+434,29,皿,さら,sara,piring
+435,29,茶碗,ちゃわん,chawan,mangkuk nasi
+436,29,ガラス,,garasu,kaca
+437,29,袋,ふくろ,fukuro,kantong
+
+438,30,貼る,はる,haru,menempel
+439,30,掛ける,かける,kakeru,menggantung
+440,30,飾る,かざる,kazaru,menghias
+441,30,並べる,ならべる,naraberu,menyusun
+442,30,植える,うえる,ueru,menanam
+443,30,戻す,もどす,modosu,mengembalikan
+444,30,まとめる,,matomeru,merangku40440,30,しまう,,shimau,menyimpan
+445,30,決める,きめる,kimeru,memutuskan
+446,30,知らせる,しらせる,shiraseru,memberitahu
+447,30,相談する,そうだんする,soudan suru,berkonsultasi
+448,30,予定,よてい,yotei,rencana
+449,30,希望,きぼう,kibou,harapan
+450,30,ごみ箱,ごみばこ,gomibako,tempat sampah
+451,30,予定表,よていひょう,yoteihyou,jadwal
+
+452,31,始める,はじめる,hajimeru,memulai
+453,31,続ける,つづける,tsuzukeru,melanjutkan
+454,31,見つける,みつける,mitsukeru,menemukan
+455,31,取れる,とれる,toreru,dapat diambil
+456,31,受ける,うける,ukeru,menerima
+457,31,申し込む,もうしこむ,moushikomu,mendaftar
+458,31,休憩する,きゅうけいする,kyuukei suru,istirahat
+459,31,連休,れんきゅう,renkyuu,libur panjang
+460,31,作文,さくぶん,sakubun,karangan
+461,31,発表,はっぴょう,happyou,presentasi
+462,31,展覧会,てんらんかい,tenrankai,pameran
+463,31,結婚式,けっこんしき,kekkonshiki,upacara pernikahan
+464,31,式,しき,shiki,upacara
+465,31,本社,ほんしゃ,honsha,kantor pusat
+466,31,支店,してん,shiten,cabang
+
+467,32,運動する,うんどうする,undou suru,berolahraga
+468,32,成功する,せいこうする,seikou suru,berhasil
+469,32,失敗する,しっぱいする,shippai suru,gagal
+470,32,合格する,ごうかくする,goukaku suru,lulus
+471,32,戻る,もどる,modoru,kembali
+472,32,止む,やむ,yamu,berhenti
+473,32,晴れる,はれる,hareru,cerah
+474,32,曇る,くもる,kumoru,mendung
+475,32,吹く,ふく,fuku,bertiup
+476,32,治る,なおる,naoru,sembuh
+477,32,心,こころ,kokoro,hati
+478,32,問題,もんだい,mondai,masalah
+479,32,答え,こたえ,kotae,jawaban
+480,32,禁煙,きんえん,kin'en,larangan merokok
+481,32,健康,けんこう,kenkou,kesehatan
+
+482,33,逃げる,にげる,nigeru,melarikan diri
+483,33,騒ぐ,さわぐ,sawagu,berisik
+484,33,諦める,あきらめる,akirameru,menyerah
+485,33,投げる,なげる,nageru,melempar
+486,33,守る,まもる,mamoru,menjaga
+487,33,上げる,あげる,ageru,menaikkan
+488,33,下げる,さげる,sageru,menurunkan
+489,33,伝える,つたえる,tsutaeru,menyampaikan
+490,33,注意する,ちゅういする,chuui suru,memperingatkan
+491,33,警察,けいさつ,keisatsu,polisi
+492,33,席,せき,seki,tempat duduk
+493,33,規則,きそく,kisoku,peraturan
+494,33,使用中,しようちゅう,shiyouchuu,sedang dipakai
+495,33,立入禁止,たちいりきんし,tachiiri kinshi,dilarang masuk
+496,33,非常口,ひじょうぐち,hijouguchi,pintu darurat
+
+497,34,磨く,みがく,migaku,menggosok
+498,34,組み立てる,くみたてる,kumitatsuru,merakit
+499,34,折る,おる,oru,melipat
+500,34,気が付く,きがつく,ki ga tsuku,menyadari
+501,34,付ける,つける,tsukeru,menyalakan
+502,34,消す,けす,kesu,mematikan
+503,34,鍵,かぎ,kagi,kunci
+504,34,棚,たな,tana,rak
+505,34,説明書,せつめいしょ,setsumeisho,buku petunjuk
+506,34,図,ず,zu,gambar
+507,34,線,せん,sen,garis
+508,34,矢印,やじるし,yajirushi,tanda panah
+509,34,触る,さわる,sawaru,menyentuh
+510,34,回す,まわす,mawasu,memutar
+511,34,引く,ひく,hiku,menarik
+
+512,35,咲く,さく,saku,mekar
+513,35,変わる,かわる,kawaru,berubah
+514,35,困る,こまる,komaru,kesulitan
+515,35,付く,つく,tsuku,menyala
+516,35,治す,なおす,naosu,memperbaiki
+517,35,直す,なおす,naosu,membetulkan
+518,35,片付く,かたづく,katazuku,rapi
+519,35,相談,そうだん,soudan,konsultasi
+520,35,案内書,あんないしょ,annaisho,buku panduan
+521,35,機械,きかい,kikai,mesin
+522,35,大事,だいじ,daiji,penting
+523,35,危険,きけん,kiken,berbahaya
+524,35,必要,ひつよう,hitsuyou,perlu
+525,35,不便,ふべん,fuben,tidak praktis
+526,35,調子,ちょうし,choushi,kondisi/keadaan/suasana
+527,35,会,かい,kai,pertemuan
+528,35,会議,かいぎ,kaigi,rapat
+529,35,出張,しゅっちょう,shucchou,perjalanan dinas
+530,35,都合,つごう,tsugou,keadaan/kondisi/kesempatan
+531,35,予定,よてい,yotei,rencana/jadwal
+532,35,約束,やくそく,yakusoku,janji
+533,35,時間,じかん,jikan,waktu
+534,35,場所,ばしょ,basho,tempat
+535,35,連絡,れんらく,renraku,menghubungi/kontak
+536,35,連絡します,れんらくします,renraku shimasu,menghubungi
+537,35,相談,そうだん,soudan,konsultasi
+538,35,相談します,そうだんします,soudan shimasu,berkonsultasi
+539,35,参加,さんか,sanka,partisipasi
+540,35,参加します,さんかします,sanka shimasu,ikut serta
+541,35,欠席,けっせき,kesseki,tidak hadir/absen
+542,35,欠席します,けっせきします,kesseki shimasu,tidak hadir
+543,35,出席,しゅっせき,shusseki,kehadiran
+544,35,出席します,しゅっせきします,shusseki shimasu,hadir
+545,35,準備,じゅんび,junbi,persiapan
+546,35,準備します,じゅんびします,junbi shimasu,mempersiapkan
+547,35,変更,へんこう,henkou,perubahan
+548,35,変更します,へんこうします,henkou shimasu,mengubah
+549,35,決定,けってい,kettei,keputusan
+550,35,決定します,けっていします,kettei shimasu,memutuskan
+
+551,36,事故,じこ,jiko,kecelakaan
+552,36,地震,じしん,jishin,gempa bumi
+553,36,火事,かじ,kaji,kebakaran
+554,36,台風,たいふう,taifuu,topan
+555,36,大雨,おおあめ,ooame,hujan lebat
+556,36,洪水,こうずい,kouzui,banjir
+557,36,連絡,れんらく,renraku,kontak/kabar
+558,36,連絡します,れんらくします,renraku shimasu,menghubungi
+559,36,困ります,こまります,komarimasu,kesulitan
+560,36,止まります,とまります,tomarimasu,berhenti
+561,36,壊れます,こわれます,kowaremasu,rusak
+562,36,割れます,われます,waremasu,pecah
+563,36,折れます,おれます,oremasu,patah
+564,36,破れます,やぶれます,yaburemasu,robek
+565,36,汚れます,よごれます,yogoremasu,kotor
+566,36,付いています,ついています,tsuite imasu,menyala/terpasang
+567,36,外れます,はずれます,hazuremasu,lepas
+568,36,止めます,とめます,tomemasu,menghentikan
+569,36,直します,なおします,naoshimasu,memperbaiki
+570,36,片づけます,かたづけます,katazukemasu,membereskan
+
+571,37,褒めます,ほめます,homemasu,memuji
+572,37,叱ります,しかります,shikarimasu,memarahi
+573,37,誘います,さそいます,sasoimasu,mengajak
+574,37,招待します,しょうたいします,shoutai shimasu,mengundang
+575,37,頼みます,たのみます,tanomimasu,meminta
+576,37,注意します,ちゅういします,chuui shimasu,memperingatkan
+577,37,盗みます,ぬすみます,nusumimasu,mencuri
+578,37,踏みます,ふみます,fumimasu,menginjak
+579,37,壊します,こわします,kowashimasu,merusak
+580,37,汚します,よごします,yogoshimasu,mengotori
+581,37,行います,おこないます,okonaimasu,melaksanakan
+582,37,輸出,ゆしゅつ,yushutsu,ekspor
+583,37,輸入,ゆにゅう,yunyuu,impor
+584,37,翻訳,ほんやく,honyaku,terjemahan
+585,37,発明,はつめい,hatsumei,penemuan
+586,37,発見,はっけん,hakken,penemuan
+587,37,設計,せっけい,sekkei,desain/perancangan
+588,37,米,こめ,kome,beras
+589,37,麦,むぎ,mugi,gandum
+590,37,石油,せきゆ,sekiyu,minyak bumi
+
+591,38,運転,うんてん,unten,mengemudi
+592,38,運転します,うんてんします,unten shimasu,mengemudi
+593,38,予約,よやく,yoyaku,reservasi
+594,38,予約します,よやくします,yoyaku shimasu,memesan
+595,38,利用,りよう,riyou,penggunaan
+596,38,利用します,りようします,riyou shimasu,menggunakan
+597,38,申請,しんせい,shinsei,pengajuan
+598,38,申請します,しんせいします,shinsei shimasu,mengajukan
+599,38,経験,けいけん,keiken,pengalaman
+600,38,経験します,けいけんします,keiken shimasu,mengalami
+601,38,安全,あんぜん,anzen,aman
+602,38,危険,きけん,kiken,berbahaya
+603,38,必要,ひつよう,hitsuyou,perlu
+604,38,可能,かのう,kanou,mungkin
+605,38,禁止,きんし,kinshi,dilarang
+606,38,規則,きそく,kisoku,aturan
+607,38,免許,めんきょ,menkyo,surat izin/lisensi
+608,38,免許証,めんきょしょう,menkyoshou,surat izin mengemudi
+609,38,操作,そうさ,sousa,pengoperasian
+610,38,機械,きかい,kikai,mesin
+
+611,39,答え,こたえ,kotae,jawaban
+612,39,質問,しつもん,shitsumon,pertanyaan
+613,39,説明,せつめい,setsumei,penjelasan
+614,39,説明します,せつめいします,setsumei shimasu,menjelaskan
+615,39,相談,そうだん,soudan,konsultasi
+616,39,相談します,そうだんします,soudan shimasu,berkonsultasi
+617,39,知らせます,しらせます,shirasemasu,memberi tahu
+618,39,調べます,しらべます,shirabemasu,menyelidiki/mencari
+619,39,考えます,かんがえます,kangaemasu,berpikir
+620,39,決めます,きめます,kimemasu,menentukan
+621,39,伝えます,つたえます,tsutaemasu,menyampaikan
+622,39,比べます,くらべます,kurabemasu,membandingkan
+623,39,違います,ちがいます,chigaimasu,berbeda
+624,39,同じ,おなじ,onaji,sama
+625,39,理由,りゆう,riyuu,alasan
+626,39,結果,けっか,kekka,hasil
+627,39,方法,ほうほう,houhou,metode/cara
+628,39,意見,いけん,iken,pendapat
+629,39,場合,ばあい,baai,kasus/keadaan
+630,39,問題,もんだい,mondai,masalah
+
+631,40,数えます,かぞえます,kazoemasu,menghitung
+632,40,測ります,はかります,hakarimasu,mengukur
+633,40,量ります,はかります,hakarimasu,menimbang
+634,40,確かめます,たしかめます,tashikamemasu,memastikan
+635,40,合います,あいます,aimasu,cocok/sesuai
+636,40,違います,ちがいます,chigaimasu,tidak sama
+637,40,足ります,たります,tarimasu,cukup
+638,40,余ります,あまります,amarimasu,bersisa
+639,40,出ます,でます,demasu,keluar/muncul
+640,40,入ります,はいります,hairimasu,masuk
+641,40,音,おと,oto,suara
+642,40,大きさ,おおきさ,ookisa,ukuran
+643,40,重さ,おもさ,omosa,berat
+644,40,色,いろ,iro,warna
+645,40,形,かたち,katachi,bentuk
+646,40,値段,ねだん,nedan,harga
+647,40,量,りょう,ryou,jumlah/volume
+648,40,基準,きじゅん,kijun,standar
+649,40,正確,せいかく,seikaku,akurat
+650,40,間違い,まちがい,machigai,kesalahan
+
+651,41,受けます,うけます,ukemasu,mengikuti/menerima
+652,41,合格します,ごうかくします,goukaku shimasu,lulus
+653,41,失敗します,しっぱいします,shippai shimasu,gagal
+654,41,試験,しけん,shiken,ujian
+655,41,経験,けいけん,keiken,pengalaman
+656,41,経験します,けいけんします,keiken shimasu,mengalami
+657,41,機会,きかい,kikai,kesempatan
+658,41,原因,げんいん,genin,penyebab
+659,41,結果,けっか,kekka,hasil
+660,41,努力,どりょく,doryoku,usaha
+661,41,努力します,どりょくします,doryoku shimasu,berusaha
+662,41,成功,せいこう,seikou,keberhasilan
+663,41,成功します,せいこうします,seikou shimasu,berhasil
+664,41,失敗,しっぱい,shippai,kegagalan
+665,41,感謝,かんしゃ,kansha,terima kasih/rasa syukur
+666,41,感謝します,かんしゃします,kansha shimasu,berterima kasih
+667,41,反省,はんせい,hansei,introspeksi
+668,41,反省します,はんせいします,hansei shimasu,introspeksi
+669,41,理由,りゆう,riyuu,alasan
+670,41,自信,じしん,jishin,percaya diri
+
+671,42,包みます,つつみます,tsutsumimasu,membungkus
+672,42,混みます,こみます,komimasu,padat/ramai
+673,42,空きます,あきます,akimasu,kosong/lowong
+674,42,助けます,たすけます,tasukemasu,menolong
+675,42,届けます,とどけます,todokemasu,mengantarkan
+676,42,過ぎます,すぎます,sugimasu,melewati/terlalu
+677,42,慣れます,なれます,naremasu,terbiasa
+678,42,腐ります,くさります,kusarimasu,busuk
+679,42,焼けます,やけます,yakemasu,terbakar/terpanggang
+680,42,晴れます,はれます,haremasu,cerah
+681,42,続きます,つづきます,tsuzukimasu,berlanjut
+682,42,安全,あんぜん,anzen,aman
+683,42,危険,きけん,kiken,berbahaya
+684,42,注意,ちゅうい,chuui,perhatian
+685,42,注意します,ちゅういします,chuui shimasu,memperingatkan
+686,42,生活,せいかつ,seikatsu,kehidupan
+687,42,環境,かんきょう,kankyou,lingkungan
+688,42,習慣,しゅうかん,shuukan,kebiasaan
+689,42,変化,へんか,henka,perubahan
+690,42,影響,えいきょう,eikyou,pengaruh
+
+691,43,増えます,ふえます,fuemasu,bertambah
+692,43,減ります,へります,herimasu,berkurang
+693,43,上がります,あがります,agarimasu,naik
+694,43,下がります,さがります,sagarimasu,turun
+695,43,伸びます,のびます,nobimasu,memanjang/berkembang
+696,43,縮みます,ちぢみます,chijimimasu,menyusut
+697,43,広がります,ひろがります,hirogarimasu,meluas
+698,43,狭まります,せばまります,sebamarimasu,menyempit
+699,43,変わります,かわります,kawarimasu,berubah
+700,43,続けます,つづけます,tsudukemasu,melanjutkan
+701,43,成長,せいちょう,seichou,pertumbuhan
+702,43,発展,はってん,hatten,perkembangan
+703,43,人口,じんこう,jinkou,populasi
+704,43,経済,けいざい,keizai,ekonomi
+705,43,社会,しゃかい,shakai,masyarakat
+706,43,技術,ぎじゅつ,gijutsu,teknologi
+707,43,進歩,しんぽ,shinpo,kemajuan
+708,43,影響,えいきょう,eikyou,pengaruh
+709,43,変化,へんか,henka,perubahan
+710,43,将来,しょうらい,shourai,masa depan
+
+711,44,泣きます,なきます,nakimasu,menangis
+712,44,笑います,わらいます,waraimasu,tertawa
+713,44,怒ります,おこります,okorimasu,marah
+714,44,喜びます,よろこびます,yorokobimasu,bergembira
+715,44,驚きます,おどろきます,odorokimasu,terkejut
+716,44,安心します,あんしんします,anshin shimasu,lega
+717,44,心配します,しんぱいします,shinpai shimasu,khawatir
+718,44,感動します,かんどうします,kandou shimasu,terharu
+719,44,気持ち,きもち,kimochi,perasaan
+720,44,感情,かんじょう,kanjou,emosi
+721,44,理由,りゆう,riyuu,alasan
+722,44,原因,げんいん,genin,penyebab
+723,44,結果,けっか,kekka,hasil
+724,44,経験,けいけん,keiken,pengalaman
+725,44,思い出,おもいで,omoide,kenangan
+726,44,記憶,きおく,kioku,ingatan
+727,44,過去,かこ,kako,masa lalu
+728,44,現在,げんざい,genzai,sekarang
+729,44,未来,みらい,mirai,masa depan
+730,44,人生,じんせい,jinsei,kehidupan
+
+731,45,信じます,しんじます,shinjimasu,percaya
+732,45,疑います,うたがいます,utagaimasu,meragukan
+733,45,認めます,みとめます,mitomemasu,mengakui
+734,45,否定します,ひていします,hitei shimasu,menolak
+735,45,約束,やくそく,yakusoku,janji
+736,45,守ります,まもります,mamorimasu,menjaga/menepati
+737,45,破ります,やぶります,yaburimasu,melanggar
+738,45,責任,せきにん,sekinin,tanggung jawab
+739,45,義務,ぎむ,gimu,kewajiban
+740,45,権利,けんり,kenri,hak
+741,45,自由,じゆう,jiyuu,kebebasan
+742,45,規則,きそく,kisoku,aturan
+743,45,法律,ほうりつ,houritsu,hukum
+744,45,社会,しゃかい,shakai,masyarakat
+745,45,行動,こうどう,koudou,tindakan
+746,45,判断,はんだん,handan,penilaian
+747,45,選択,せんたく,sentaku,pilihan
+748,45,決断,けつだん,ketsudan,keputusan
+749,45,価値,かち,kachi,nilai
+750,45,信頼,しんらい,shinrai,kepercayaan
+
+751,46,渡します,わたします,watashimasu,menyerahkan
+752,46,返します,かえします,kaeshimasu,mengembalikan
+753,46,預けます,あずけます,azukemasu,menitipkan
+754,46,受け取ります,うけとります,uketorimasu,menerima
+755,46,紹介,しょうかい,shoukai,perkenalan
+756,46,紹介します,しょうかいします,shoukai shimasu,memperkenalkan
+757,46,案内,あんない,annai,panduan
+758,46,案内します,あんないします,annai shimasu,memandu
+759,46,説明,せつめい,setsumei,penjelasan
+760,46,説明します,せつめいします,setsumei shimasu,menjelaskan
+761,46,準備,じゅんび,junbi,persiapan
+762,46,準備します,じゅんびします,junbi shimasu,mempersiapkan
+763,46,確認,かくにん,kakunin,konfirmasi
+764,46,確認します,かくにんします,kakunin shimasu,memastikan
+765,46,連絡,れんらく,renraku,kontak
+766,46,連絡します,れんらくします,renraku shimasu,menghubungi
+767,46,書類,しょるい,shorui,dokumen
+768,46,資料,しりょう,shiryou,materi/data
+769,46,手続き,てつづき,tetsuzuki,prosedur
+770,46,受付,うけつけ,uketsuke,resepsionis/penerimaan
+
+771,47,集まります,あつまります,atsumarimasu,berkumpul
+772,47,別れます,わかれます,wakaremasu,berpisah
+773,47,続けます,つづけます,tsudukemasu,melanjutkan
+774,47,終わります,おわります,owarimasu,selesai
+775,47,始まります,はじまります,hajimarimasu,dimulai
+776,47,変わります,かわります,kawarimasu,berubah
+777,47,決まります,きまります,kimarimasu,ditentukan
+778,47,増えます,ふえます,fuemasu,bertambah
+779,47,減ります,へります,herimasu,berkurang
+780,47,広がります,ひろがります,hirogarimasu,meluas
+781,47,狭くなります,せまくなります,semaku narimasu,menjadi sempit
+782,47,便利,べんり,benri,praktis
+783,47,不便,ふべん,fuben,tidak praktis
+784,47,簡単,かんたん,kantan,mudah
+785,47,複雑,ふくざつ,fukuzatsu,rumit
+786,47,大切,たいせつ,taisetsu,penting
+787,47,必要,ひつよう,hitsuyou,perlu
+788,47,可能,かのう,kanou,mungkin
+789,47,影響,えいきょう,eikyou,pengaruh
+790,47,変化,へんか,henka,perubahan
+
+791,48,下げます,さげます,sagemasu,menurunkan
+792,48,上げます,あげます,agemasu,menaikkan
+793,48,止めます,とめます,tomemasu,menghentikan
+794,48,続けます,つづけます,tsudukemasu,melanjutkan
+795,48,取り替えます,とりかえます,torikaemasu,mengganti
+796,48,直します,なおします,naoshimasu,memperbaiki
+797,48,修理,しゅうり,shuuri,perbaikan
+798,48,修理します,しゅうりします,shuuri shimasu,memperbaiki
+799,48,点検,てんけん,tenken,pemeriksaan
+800,48,点検します,てんけんします,tenken shimasu,memeriksa
+801,48,操作,そうさ,sousa,pengoperasian
+802,48,方法,ほうほう,houhou,cara/metode
+803,48,原因,げんいん,genin,penyebab
+804,48,結果,けっか,kekka,hasil
+805,48,対策,たいさく,taisaku,solusi/langkah
+806,48,故障,こしょう,koshou,kerusakan
+807,48,安全,あんぜん,anzen,aman
+808,48,注意,ちゅうい,chuui,perhatian
+809,48,危険,きけん,kiken,berbahaya
+810,48,規則,きそく,kisoku,aturan
+
+811,49,感謝,かんしゃ,kansha,rasa terima kasih
+812,49,感謝します,かんしゃします,kansha shimasu,berterima kasih
+813,49,謝ります,あやまります,ayamarimasu,meminta maaf
+814,49,許します,ゆるします,yurushimasu,memaafkan
+815,49,尊敬,そんけい,sonkei,hormat
+816,49,尊敬します,そんけいします,sonkei shimasu,menghormati
+817,49,信頼,しんらい,shinrai,kepercayaan
+818,49,信じます,しんじます,shinjimasu,percaya
+819,49,約束,やくそく,yakusoku,janji
+820,49,守ります,まもります,mamorimasu,menepati/menjaga
+821,49,破ります,やぶります,yaburimasu,melanggar
+822,49,責任,せきにん,sekinin,tanggung jawab
+823,49,義務,ぎむ,gimu,kewajiban
+824,49,権利,けんり,kenri,hak
+825,49,社会,しゃかい,shakai,masyarakat
+826,49,規則,きそく,kisoku,aturan
+827,49,法律,ほうりつ,houritsu,hukum
+828,49,行動,こうどう,koudou,tindakan
+829,49,判断,はんだん,handan,penilaian
+830,49,価値,かち,kachi,nilai
+
+831,50,思います,おもいます,omoimasu,berpikir/merasa
+832,50,考えます,かんがえます,kangaemasu,memikirkan
+833,50,信じます,しんじます,shinjimasu,percaya
+834,50,感じます,かんじます,kanjimasu,merasakan
+835,50,決めます,きめます,kimemasu,menentukan
+836,50,選びます,えらびます,erabimasu,memilih
+837,50,続けます,つづけます,tsudukemasu,melanjutkan
+838,50,やめます,やめます,yamemasu,berhenti
+839,50,目標,もくひょう,mokuhyou,tujuan
+840,50,計画,けいかく,keikaku,rencana
+841,50,夢,ゆめ,yume,mimpi
+842,50,希望,きぼう,kibou,harapan
+843,50,将来,しょうらい,shourai,masa depan
+844,50,人生,じんせい,jinsei,kehidupan
+845,50,経験,けいけん,keiken,pengalaman
+846,50,成功,せいこう,seikou,keberhasilan
+847,50,失敗,しっぱい,shippai,kegagalan
+848,50,努力,どりょく,doryoku,usaha
+849,50,挑戦,ちょうせん,chousen,tantangan
+850,50,成長,せいちょう,seichou,pertumbuhan
+
+901,35,スマホ,,sumaho,smartphone,supplement
+902,35,充電,じゅうでん,juuden,pengisian daya,supplement
+903,35,通知,つうち,tsuuchi,notifikasi,supplement

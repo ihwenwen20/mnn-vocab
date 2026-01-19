@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>MNN Vocabulary Trainer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h1 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.gear {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 30px 20px;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.question {
+  font-size: 34px;
+  margin-bottom: 24px;
+}
+
+.romaji {
+  font-size: 14px;
+  color: #666;
+  margin-top: -12px;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.answer {
+  font-size: 20px;
+  min-height: 28px;
+  margin-top: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #4caf50;
+  color: white;
+}
+
+.secondary {
+  background: #2196f3;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.nav button {
+  width: 50%;
+}
+
+/* POPUP */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: white;
+  width: 90%;
+  max-width: 360px;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.popup h2 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+<div class="app">
+  <div class="header">
+    <h1>Minna no Nihongo – Vocabulary</h1>
+    <div class="gear" onclick="openSettings()">⚙️</div>
+  </div>
+
+  <div class="card">
+    <div class="question" id="question">—</div>
+    <div class="romaji" id="romaji"></div>
+    <button class="primary" onclick="showAnswer()">Lihat Jawaban</button>
+    <div class="answer" id="answer"></div>
+  </div>
+
+  <div class="nav">
+    <button class="secondary" onclick="goBack()">◀ Back</button>
+    <button class="secondary" onclick="nextQuestion()">Next ▶</button>
+  </div>
+</div>
+
+<!-- SETTINGS -->
+<div class="overlay" id="settings">
+  <div class="popup">
+    <h2>Settings</h2>
+
+    <label>
+      <input type="checkbox" id="kanjiToggle"> Tampilkan Kanji
+    </label>
+
+    <label>
+      <input type="checkbox" id="randomToggle"> Mode Acak
+    </label>
+    
+    <label>
+    <input type="checkbox" id="kanjiOnlyToggle"> Kanji Only
+    </label>
+
+    <strong>Lesson</strong>
+    <label><input type="checkbox" class="lesson" value="1" checked> Lesson 1</label>
+    <label><input type="checkbox" class="lesson" value="2" checked> Lesson 2</label>
+    <label><input type="checkbox" class="lesson" value="3" checked> Lesson 3</label>
+
+    <button class="primary" onclick="closeSettings()">Tutup</button>
+  </div>
+</div>
+
+<script>
+function parseCSV(csv) {
+  const lines = csv.trim().split("\n");
+  const headers = lines.shift().split(",");
+
+  return lines.map(line => {
+    const values = line.split(",");
+    const obj = {};
+
+    headers.forEach((key, i) => {
+      let value = values[i]?.trim() ?? "";
+
+      if (key === "id" || key === "lesson") {
+        value = Number(value);
+      }
+
+      obj[key] = value;
+    });
+
+    return obj;
+  });
+}
+</script>
+<script>
+/* =====================
+   DATA VOCAB
+===================== */
+let vocab = [];
+
+async function loadVocab() {
+  const res = await fetch("vocab.csv");
+  const text = await res.text();
+  // vocab = parseCSV(text);
+  vocab = parseCSV(text).filter(v =>
+  v.kana && v.meaning && v.lesson
+  );
+
+  applyLessonFilter();
+  nextQuestion();
+}
+
+
+/* =====================
+   STATE
+===================== */
+let showKanji = localStorage.getItem("showKanji") === "true";
+let randomMode = localStorage.getItem("randomMode") === "false";
+let kanjiOnly = localStorage.getItem("kanjiOnly") === "true";
+
+let selectedLessons = [1,2,3];
+let activeVocab = [];
+
+let currentIndex = 0;
+let currentWord = null;
+
+let history = [];
+let future = [];
+
+/* =====================
+   INIT SETTINGS
+===================== */
+const kanjiToggle = document.getElementById("kanjiToggle");
+const randomToggle = document.getElementById("randomToggle");
+const kanjiOnlyToggle = document.getElementById("kanjiOnlyToggle");
+
+kanjiToggle.checked = showKanji;
+randomToggle.checked = randomMode;
+kanjiOnlyToggle.checked = kanjiOnly;
+
+kanjiToggle.onchange = e => {
+  showKanji = e.target.checked;
+  localStorage.setItem("showKanji", showKanji);
+  renderQuestion();
+};
+
+randomToggle.onchange = e => {
+  randomMode = e.target.checked;
+  localStorage.setItem("randomMode", randomMode);
+  applyLessonFilter();
+  nextQuestion();
+
+};
+
+
+kanjiOnlyToggle.onchange = e => {
+  kanjiOnly = e.target.checked;
+  localStorage.setItem("kanjiOnly", kanjiOnly);
+  applyLessonFilter();
+  nextQuestion();
+
+};
+
+/* =====================
+   FILTER LESSON
+===================== */
+
+function applyLessonFilter() {
+  let filtered = vocab.filter(v => {
+    if (!selectedLessons.includes(v.lesson)) return false;
+    if (kanjiOnly && !v.kanji) return false;
+    return true;
+  });
+
+  if (randomMode) {
+    activeVocab = shuffleArray(filtered);
+  } else {
+    activeVocab = filtered;
+  }
+
+  currentIndex = 0;
+
+  if (activeVocab.length === 0) {
+    alert("Tidak ada kosakata sesuai filter");
+  }
+}
+
+
+
+document.querySelectorAll(".lesson").forEach(cb => {
+  cb.onchange = () => {
+    selectedLessons = Array.from(
+      document.querySelectorAll(".lesson:checked")
+    ).map(cb => Number(cb.value));
+
+    applyLessonFilter();
+    nextQuestion();
+    // loadVocab();
+  };
+});
+
+/* =====================
+   CORE LOGIC
+===================== */
+
+function pickWord() {
+    if (activeVocab.length === 0) return null;
+  const word = activeVocab[currentIndex];
+  currentIndex = (currentIndex + 1) % activeVocab.length;
+  return word;
+}
+
+function shuffleArray(arr) {
+  const copy = [...arr];
+  for (let i = copy.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+function renderQuestion() {
+  if (!currentWord) return;
+
+  let text = "";
+
+  if (kanjiOnly) {
+    text = currentWord.kanji;
+  } else if (showKanji && currentWord.kanji) {
+    text = `${currentWord.kanji}（${currentWord.kana}）`;
+  } else {
+    text = currentWord.kana;
+  }
+
+  document.getElementById("question").innerText = text;
+  document.getElementById("romaji").innerText = currentWord.romaji || "";
+}
+
+
+function showAnswer() {
+  if (!currentWord) return;
+  document.getElementById("answer").innerText = currentWord.meaning;
+}
+
+function nextQuestion() {
+  if (currentWord) history.push(currentWord);
+  future = [];
+  currentWord = pickWord();
+  if (!currentWord) return;
+
+  document.getElementById("answer").innerText = "";
+  document.getElementById("romaji").innerText = "";
+  renderQuestion();
+}
+
+function goBack() {
+  if (history.length === 0) return;
+  future.push(currentWord);
+  currentWord = history.pop();
+  document.getElementById("answer").innerText = "";
+  document.getElementById("romaji").innerText = "";
+  renderQuestion();
+}
+
+/* =====================
+   SETTINGS POPUP
+===================== */
+function openSettings() {
+  document.getElementById("settings").style.display = "flex";
+}
+
+function closeSettings() {
+  document.getElementById("settings").style.display = "none";
+}
+
+/* =====================
+   START
+===================== */
+// applyLessonFilter();
+// nextQuestion();
+loadVocab();
+</script>
+
+</body>
+</html>
