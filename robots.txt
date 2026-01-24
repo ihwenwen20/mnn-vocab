@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ihwenwen20.github.io/mnn-vocab/sitemap.xml

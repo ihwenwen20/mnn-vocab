@@ -3,6 +3,8 @@ const FILES_TO_CACHE = [
   "./",
   "./index.html",
   "./vocab.csv",
+  "./vocab2.csv",
+  "./vocab.reindexed.csv",
   "./manifest.json"
 ];
 

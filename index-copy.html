@@ -1,48 +1,13 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<!-- Basic -->
 <meta charset="UTF-8">
-<title>Minna no Nihongo Vocabulary Trainer</title>
+<title>MNN Vocabulary Trainer</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-<!-- SEO -->
-<meta name="description" content="Latihan kosakata Minna no Nihongo (MNN) secara offline dan online. Cocok untuk pemula bahasa Jepang.">
-<meta name="description" content="Latihan kosakata Minna no Nihongo offline. Belajar kana, kanji, romaji, dan arti bahasa Indonesia dengan mudah.">
-<meta name="description" content="MNN Vocabulary Trainer adalah aplikasi latihan kosakata Minna no Nihongo berbasis web yang dapat digunakan secara offline, gratis, dan mudah untuk pemula bahasa Jepang.">
-
-<meta name="keywords" content="minna no nihongo, vocab jepang, kosakata jepang, belajar bahasa jepang, mnn">
-<meta name="keywords" content="latihan kosakata minna no nihongo offline">
-<meta name="keywords" content="minna no nihongo, kosakata bahasa jepang, belajar bahasa jepang, jlpt n5, vocab jepang">
-<meta name="keywords" content="Minna no Nihongo, kosakata bahasa Jepang, belajar bahasa Jepang, JLPT, vocabulary trainer Jepang">
-  
-<meta name="author" content="Ihwanul Hakim">
-  
-<meta name="robots" content="index, follow">
-
-<!-- Canonical (WAJIB untuk GitHub Pages) -->
-<link rel="canonical" href="https://ihwenwen20.github.io/mnn-vocab/">
-
-
-<!-- Favicon -->
-<link rel="icon" href="./favicon.ico">
-<link rel="apple-touch-icon" href="./weagate-02.png">
-
-
-<!-- PWA -->
-<link rel="manifest" href="./manifest.json">
+<link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#4caf50">
-<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-
-
-<!-- Open Graph (untuk share WA / FB) -->
-<meta property="og:title" content="Minna no Nihongo Vocabulary Trainer">
-<meta property="og:description" content="Latihan kosakata Minna no Nihongo secara interaktif dan offline.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ihwenwen20.github.io/mnn-vocab/">
-<meta property="og:image" content="https://ihwenwen20.github.io/mnn-vocab/weagate-02.png">
 
 <style>
 body {
@@ -53,8 +18,8 @@ body {
 }
 
 .app {
-  max-width: 360px; 
-  /* max-width: 480px; */
+  /* max-width: 360px;  */
+  max-width: 480px;
   margin: auto;
   padding: 16px;
 }
@@ -108,8 +73,8 @@ body {
 .answer {
   font-size: 20px;
   min-height: 28px;
-  margin: 16px;
-  /* margin-bottom: 12px; */
+  /* margin-top: 16px; */
+  margin-bottom: 12px;
 }
 
 button {
@@ -201,70 +166,12 @@ label {
 
 
 </style>
-<style>
-  .about-link-wrapper {
-    text-align: center;
-    margin: 40px 0 20px;
-  }
-
-  .about-link {
-    display: inline-block;
-    padding: 8px 14px;
-    border: 1px solid #4caf50;
-    border-radius: 6px;
-    font-size: 14px;
-    color: #4caf50;
-    text-decoration: none;
-    transition: all 0.2s ease;
-    font-weight: 500;
-  }
-
-  .about-link:hover {
-    text-decoration: underline;
-    background: #4caf50;
-    color: #fff;
-  }
-</style>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": ["SoftwareApplication", "EducationalApplication"],
-  "name": "Minna no Nihongo Vocabulary Trainer",
-  "alternateName": "MNN Vocab",
-  "description": "Aplikasi web offline untuk latihan kosakata Minna no Nihongo lengkap dengan kana, kanji, romaji, dan arti bahasa Indonesia.",
-  "applicationCategory": "EducationalApplication",
-  "operatingSystem": "Web",
-  "browserRequirements": "Requires JavaScript. Works offline via PWA.",
-  "isAccessibleForFree": true,
-  "inLanguage": ["id", "ja"],
-  "educationalUse": "Self-study",
-  "learningResourceType": "Vocabulary practice",
-  "author": {
-    "@type": "Person",
-    "name": "Ihwanul Hakim"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "MNN Vocab"
-  },
-  "url": "https://ihwenwen20.github.io/mnn-vocab/",
-  "image": "https://ihwenwen20.github.io/mnn-vocab/weagate-02.png"
-}
-</script>
 </head>
 <body>
-<noscript>
-  <h1 style="display:none">Minna no Nihongo Vocabulary Trainer</h1>
-  <p>
-    Aplikasi latihan kosakata Minna no Nihongo (MNN) untuk pemula bahasa Jepang.
-    Mendukung mode offline dan filter per lesson.
-  </p>
-</noscript>
 
 <div class="app">
   <div class="header">
-    <h1>Minna no Nihongo – Vocabulary Trainer</h1>
+    <h1>Minna no Nihongo – Vocabulary</h1>
     <div class="gear" onclick="openSettings()">⚙️</div>
   </div>
 
@@ -314,38 +221,18 @@ label {
   </div>
 </div>
 
-<div class="about-link-wrapper">
-  <a href="./about.html" class="about-link">Tentang Aplikasi</a>
-</div>
 <script>
 function parseCSV(csv) {
-  // normalize smart quotes
-  csv = csv
-    .replace(/[“”]/g, '"')
-    .replace(/[‘’]/g, "'");
-
   const lines = csv.trim().split(/\r?\n/);
   const headers = splitCSVLine(lines.shift());
-  const expectedCols = headers.length;
 
-  const result = [];
-
-  lines.forEach((line, index) => {
-    if (!line.trim()) return;
-
+  return lines.map(line => {
     const values = splitCSVLine(line);
-    const rowNumber = index + 2;
-
-    if (values.length !== expectedCols) {
-      console.warn(
-        `[CSV WARNING] Baris ${rowNumber}: kolom=${values.length}, expected=${expectedCols}`,
-        { line, parsed: values }
-      );
-    }
-
     const obj = {};
+
     headers.forEach((key, i) => {
       let value = values[i] ?? "";
+
       value = value.trim();
 
       if (key === "id" || key === "lesson") {
@@ -355,10 +242,8 @@ function parseCSV(csv) {
       obj[key] = value;
     });
 
-    result.push(obj);
+    return obj;
   });
-
-  return result;
 }
 
 function splitCSVLine(line) {
@@ -396,7 +281,7 @@ let activeVocab = [];
 let queue = [];
 
 async function loadVocab() {
-  const res = await fetch("vocab.reindexed.csv");
+  const res = await fetch("vocab2.csv");
   const text = await res.text();
 
   vocab = parseCSV(text).filter(v =>
@@ -410,9 +295,8 @@ async function loadVocab() {
 /* =====================
    STATE
 ===================== */
-// let showKanji   = localStorage.getItem("showKanji") === "true";
+let showKanji   = localStorage.getItem("showKanji") === "true";
 // let randomMode  = localStorage.getItem("randomMode") !== "false";
-let showKanji   = true
 let randomMode  = false
 let kanjiOnly   = localStorage.getItem("kanjiOnly") === "true";
 let showRomaji = localStorage.getItem("showRomaji") !== "false";

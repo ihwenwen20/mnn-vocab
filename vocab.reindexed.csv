@@ -1085,27 +1085,26 @@ id,lesson,kana,kanji,romaji,meaning,category,source
 1072,13,プール,,puuru,kolam renang,noun,mnn
 1073,13,かわ,川,kawa,sungai,noun,mnn
 1074,13,びじゅつ,美術,bijutsu,seni,noun,mnn
-1093,13,つり,釣り,tsuri,memancing,noun,mnn
-1075,13,つりをします,釣りをします,tsuri o shimasu,memancing,verb,mnn
-1094,13,スキー,,sukii,ski,noun,mnn
-1076,13,スキーをします,,sukii o shimasu,bermain ski,verb,mnn
-1077,13,しゅうまつ,週末,shuumatsu,akhir pekan,noun,mnn
-1078,13,おしょうがつ,お正月,oshougatsu,tahun baru,noun,mnn
-1079,13,～ごろ,,~goro,sekitar / kira-kira,suffix,mnn
-1080,13,なにか,,nanika,sesuatu,pronoun,mnn
-1081,13,どこか,,dokoka,suatu tempat,pronoun,mnn
-1082,13,のどがかわきました,喉が渇きました,nodo ga kawakimashita,haus (keadaan),expression,mnn
-1083,13,おなかがすきました,お腹が空きました,onaka ga sukimashita,lapar (keadaan),expression,mnn
-1084,13,そうですね。,そうですね。,sou desu ne,"Ya, mari. (menyetujui)",expression,mnn
-1085,13,なににしますか,,nani ni shimasu ka,mau pesan apa?,expression,mnn
-1086,13,ていしょく,定食,teishoku,menu paket,noun,mnn
-1087,13,ぎゅうどん,牛丼,gyuudon,gyudon,noun,mnn
-1088,13,ちょっとまってください,ちょっと待ってください,chotto matte kudasai,tunggu sebentar,expression,mnn
-1089,13,でございます,,de gozaimasu,(bentuk halus dari desu),expression,mnn
-1090,13,べつべつに,別々に,betsubetsu ni,sendiri-sendiri / masing-masing,adverb,mnn
-1091,13,IMC,,IMC,perusahaan fiksi,noun,mnn
-1092,13,レポーター,,repootaa,acara televisi fiksi,noun,mnn
-
+1075,13,つり,釣り,tsuri,memancing,noun,mnn
+1076,13,つりをします,釣りをします,tsuri o shimasu,memancing,verb,mnn
+1077,13,スキー,,sukii,ski,noun,mnn
+1078,13,スキーをします,,sukii o shimasu,bermain ski,verb,mnn
+1079,13,しゅうまつ,週末,shuumatsu,akhir pekan,noun,mnn
+1080,13,おしょうがつ,お正月,oshougatsu,tahun baru,noun,mnn
+1081,13,～ごろ,,~goro,sekitar / kira-kira,suffix,mnn
+1082,13,なにか,,nanika,sesuatu,pronoun,mnn
+1083,13,どこか,,dokoka,suatu tempat,pronoun,mnn
+1084,13,のどがかわきました,喉が渇きました,nodo ga kawakimashita,haus (keadaan),expression,mnn
+1085,13,おなかがすきました,お腹が空きました,onaka ga sukimashita,lapar (keadaan),expression,mnn
+1086,13,そうですね。,そうですね。,sou desu ne,"Ya, mari. (menyetujui)",expression,mnn
+1087,13,なににしますか,,nani ni shimasu ka,mau pesan apa?,expression,mnn
+1088,13,ていしょく,定食,teishoku,menu paket,noun,mnn
+1089,13,ぎゅうどん,牛丼,gyuudon,gyudon,noun,mnn
+1090,13,ちょっとまってください,ちょっと待ってください,chotto matte kudasai,tunggu sebentar,expression,mnn
+1091,13,でございます,,de gozaimasu,(bentuk halus dari desu),expression,mnn
+1092,13,べつべつに,別々に,betsubetsu ni,sendiri-sendiri / masing-masing,adverb,mnn
+1093,13,IMC,,IMC,perusahaan fiksi,noun,mnn
+1094,13,レポーター,,repootaa,acara televisi fiksi,noun,mnn
 1095,13,まち,町,machi,kota,noun,mnn
 1096,13,まちのなか,町の中,machi no naka,di kota,expression,mnn
 1097,13,びじゅつかん,美術館,bijutsukan,museum,noun,mnn
