@@ -9,9 +9,7 @@ const csv = fs.readFileSync(INPUT, "utf8");
 
 // ================= utils =================
 function normalizeCSV(csv) {
-  return csv
-    .replace(/[“”]/g, '"')
-    .replace(/[‘’]/g, "'");
+  return csv.replace(/[“”]/g, '"').replace(/[‘’]/g, "'");
 }
 
 function splitCSVLine(line) {
@@ -71,7 +69,7 @@ lines.forEach((line, i) => {
 
   if (values.length !== expectedCols) {
     console.warn(
-      `⚠️ Baris ${i + 2}: kolom=${values.length}, expected=${expectedCols}`
+      `⚠️ Baris ${i + 2}: kolom=${values.length}, expected=${expectedCols}`,
     );
   }
 
@@ -82,8 +80,30 @@ lines.forEach((line, i) => {
     output.push(""); // empty line
   }
 
+  // 👉 Buat huruf pertama kolom 'meaning' jadi kapital
+  const meaningIndex = headers.indexOf("meaning");
+  if (meaningIndex !== -1 && values[meaningIndex]) {
+    values[meaningIndex] =
+      values[meaningIndex].charAt(0).toUpperCase() +
+      values[meaningIndex].slice(1);
+  }
+
+  // Cek [[ENTER]] di akhir baris
+  let addExtraLine = false;
+  if (line.includes("[[ENTER]]")) {
+    addExtraLine = true;
+    // Hapus placeholder dari kolom terakhir atau seluruh line
+    values[values.length - 1] = values[values.length - 1].replace(
+      /\[\[ENTER\]\]/g,
+      "",
+    );
+  }
+
   values[idIndex] = String(newId++);
   output.push(joinCSVLine(values));
+  
+  // Jika ada [[ENTER]] di baris ini, tambahkan baris kosong ekstra
+  if (addExtraLine) output.push("");
 
   lastLesson = currentLesson;
 });
