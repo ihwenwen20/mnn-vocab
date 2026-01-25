@@ -342,7 +342,7 @@
     <!-- SEARCH BOX -->
     <div class="search-wrapper">
       <input type="text" id="searchBox" placeholder="Cari vocab..." />
-      <span class="search-icon">| 🔍</span>
+      <span class="search-icon" id="searchBtn">| 🔍</span>
 
       <!-- POPUP Hasil Pencarian -->
       <div class="search-results" id="searchResults"></div>
@@ -476,7 +476,7 @@
     let queue = [];
 
     async function loadVocab() {
-      const res = await fetch("vocab.reindexed.csv");
+      const res = await fetch("./vocab.reindexed.csv");
       const text = await res.text();
 
       vocab = parseCSV(text).filter(v =>
@@ -748,11 +748,61 @@
        START
     ===================== */
     const searchBox = document.getElementById("searchBox");
+    const searchBtn = document.getElementById("searchBtn");
+    const searchResults = document.getElementById("searchResults");
 
-    searchBox.addEventListener("input", function () {
-      const keyword = this.value.toLowerCase().trim();
-      console.log('keyword', !keyword)
+    // searchBox.addEventListener("input", function () {
+    //   const keyword = this.value.toLowerCase().trim();
+    //   console.log('keyword', !keyword)
 
+    //   if (!keyword) {
+    //     searchResults.style.display = "none";
+    //     searchBox.value = "";
+    //     clearUI();
+    //     renderQuestion();
+    //     loadVocab();
+    //   }
+
+    //   // Cari di vocab
+    //   const results = vocab.filter(v =>
+    //     (v.kana && v.kana.toLowerCase().includes(keyword)) ||
+    //     (v.kanji && v.kanji.toLowerCase().includes(keyword)) ||
+    //     (v.romaji && v.romaji.toLowerCase().includes(keyword)) ||
+    //     (v.meaning && v.meaning.toLowerCase().includes(keyword))
+    //   );
+    //   console.log('results', results.length)
+
+    //   searchResults.innerHTML = "";
+    //   if (results.length === 0) {
+    //     searchResults.style.display = "none";
+    //     return;
+    //   }
+
+    //   results.forEach(v => {
+    //     const div = document.createElement("div");
+    //     div.textContent = `${v.kanji || v.kana} (${v.romaji || "-"}) - ${v.meaning}`;
+    //     div.addEventListener("click", () => {
+    //       showInCard(v);
+    //       searchResults.style.display = "none";
+    //       searchBox.value = "";
+    //     });
+    //     searchResults.appendChild(div);
+    //   });
+
+    //   if (results && keyword) {
+    //     searchResults.style.display = "block";
+    //   } else {
+    //     searchResults.style.display = "none";
+    //     searchBox.value = "";
+    //     console.log(`❌ Tidak ditemukan hasil untuk "${keyword}"`);
+    //     document.getElementById("question").textContent = "❌ Tidak ditemukan";
+    //     document.getElementById("romaji").textContent = "";
+    //     document.getElementById("answer").textContent = "";
+    //   }
+    // });
+
+    // Fungsi untuk mencari dan tampilkan popup
+    function searchVocab(keyword) {
       if (!keyword) {
         searchResults.style.display = "none";
         searchBox.value = "";
@@ -761,7 +811,6 @@
         loadVocab();
       }
 
-      // Cari di vocab
       const results = vocab.filter(v =>
         (v.kana && v.kana.toLowerCase().includes(keyword)) ||
         (v.kanji && v.kanji.toLowerCase().includes(keyword)) ||
@@ -770,15 +819,17 @@
       );
       console.log('results', results.length)
 
+      // Tampilkan popup hasil
       searchResults.innerHTML = "";
       if (results.length === 0) {
         searchResults.style.display = "none";
         return;
       }
 
+
       results.forEach(v => {
         const div = document.createElement("div");
-        div.textContent = `${v.kanji || v.kana} (${v.romaji || "-"}) - ${v.meaning}`;
+        div.textContent = `${v.kanji || v.kana} - ${v.kana} - (${v.romaji || "-"}) - ${v.meaning}`;
         div.addEventListener("click", () => {
           showInCard(v);
           searchResults.style.display = "none";
@@ -787,56 +838,27 @@
         searchResults.appendChild(div);
       });
 
+      searchResults.style.display = "block";
+    }
+
+    // Event input real-time
+    searchBox.addEventListener("input", () => searchVocab(searchBox.value.trim().toLowerCase()));
 
 
-      if (results && keyword) {
-        searchResults.style.display = "block";
-      } else {
+    // Klik icon search juga bisa trigger
+    searchBtn.addEventListener("click", () => searchVocab(searchBox.value.trim().toLowerCase()));
+
+
+    // Klik di luar popup tutup popup
+    document.addEventListener("click", e => {
+      if (!searchBox.contains(e.target) && !searchResults.contains(e.target)) {
         searchResults.style.display = "none";
         searchBox.value = "";
-        console.log(`❌ Tidak ditemukan hasil untuk "${keyword}"`);
-        document.getElementById("question").textContent = "❌ Tidak ditemukan";
-        document.getElementById("romaji").textContent = "";
-        document.getElementById("answer").textContent = "";
       }
     });
 
     loadVocab();
   </script>
-
-  <!-- <script>
-    const searchBox = document.getElementById("searchBox");
-
-    searchBox.addEventListener("input", function () {
-      const keyword = this.value.toLowerCase().trim();
-
-      if (!keyword) {
-        // Kosongkan pencarian, tampilkan pertanyaan normal
-        document.getElementById("question").textContent = "—";
-        document.getElementById("romaji").textContent = "";
-        document.getElementById("answer").textContent = "";
-        return;
-      }
-
-      // Cari di vocab
-      const result = vocab.find(v =>
-        (v.kana && v.kana.toLowerCase().includes(keyword)) ||
-        (v.kanji && v.kanji.toLowerCase().includes(keyword)) ||
-        (v.romaji && v.romaji.toLowerCase().includes(keyword)) ||
-        (v.meaning && v.meaning.toLowerCase().includes(keyword))
-      );
-
-      if (result) {
-        document.getElementById("question").textContent = result.kanji || result.kana;
-        document.getElementById("romaji").textContent = result.romaji || "";
-        document.getElementById("answer").textContent = result.meaning || "";
-      } else {
-        document.getElementById("question").textContent = "❌ Tidak ditemukan";
-        document.getElementById("romaji").textContent = "";
-        document.getElementById("answer").textContent = "";
-      }
-    });
-  </script> -->
 
   <script>
     if ("serviceWorker" in navigator) {

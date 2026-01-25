@@ -56,17 +56,20 @@ id,lesson,kana,kanji,romaji,meaning,category,source
 53,1,〜さい,〜歳,~sai,Umur (akhiran usia),core,mnn
 54,1,なんさい,何歳,nansai,Umur berapa,core,mnn
 55,1,おいくつ,,oikutsu,Umur berapa (lebih sopan dari "nansai"),core,mnn [[ENTER]]
+
 56,1,かいしゃ,会社,kaisha,Perusahaan,reference,mnn
 57,1,かぞく,家族,kazoku,Keluarga,reference,mnn
 58,1,しごと,仕事,shigoto,Pekerjaan,reference,mnn
 59,1,〜ではありません,,~dewa arimasen,Bukan (bentuk sopan dari ~jaa arimasen),info,mnn
 60,1,はい,,hai,Ya,info,mnn
 61,1,いいえ,,iie,"tidak, bukan",info,mnn [[ENTER]]
+
 62,1,はじめまして,,hajimemashite,Perkenalkan. (ucapan salam pada waktu pertama kali berkenalan),info,mnn
 63,1,〜から きました,〜から 来ました,~kara kimashita,"datang dari 〜, Berasal dari 〜",core,mnn
 64,1,[どうぞ] よろしく [おねがいします],[どうぞ] よろしく [お願いします],[douzo] yoroshiku [onegaishimasu],Salam kenal. (ucapan terakhir untuk perkenalan diri),info,mnn
 65,1,しつれいですが,失礼ですが,shitsurei desu ga,"permisi, maaf (digunakan ketika bertanya tentang hal yang pribadi seperti nama,alamat,dan sebagainya)",info,mnn
 66,1,おなまえは?,お名前は?,onamae wa?,Siapa nama Anda?,info,mnn [[ENTER]]
+
 67,1,アメリカ,,amerika,Amerika Serikat,reference,mnn
 68,1,イギリス,,igirisu,Inggris,reference,mnn
 69,1,インド,,indo,India,reference,mnn
@@ -91,1055 +94,1436 @@ id,lesson,kana,kanji,romaji,meaning,category,source
 88,1,マレーシア,,mareeshia,Malaysia,reference,mnn
 89,1,メキシコ,,mekishiko,Meksiko,reference,mnn
 90,1,ロシア,,roshia,Rusia,reference,mnn
-32,1,くに,国,kuni,negara,noun,mnn
-33,1,ひと,人,hito,orang,noun,mnn
-34,1,ことば,言葉,kotoba,kata / bahasa,noun,mnn
-91,1,〜ご,〜語,~go,Bahasa ~ (akhiran untuk bahasa suatu negara. misalnya: "日本語" / nihongo / indoneshiago ),core,mnn
+91,1,くに,国,kuni,Negara,noun,mnn
+92,1,ひと,人,hito,Orang,noun,mnn
+93,1,ことば,言葉,kotoba,Kata / bahasa,noun,mnn
+94,1,〜ご,〜語,~go,Bahasa ~ (akhiran untuk bahasa suatu negara. misalnya: "日本語" / nihongo / indoneshiago ),core,mnn  [[ENTER]]
 
-92,2,これ,,kore,Ini (benda dekat pembicara),core,mnn
-93,2,それ,,sore,Itu (benda dekat lawan bicara),core,mnn
-94,2,あれ,,are,Itu (benda jauh dari keduanya),core,mnn
-95,2,この,,kono,Ini (penunjuk benda),core,mnn
-96,2,その,,sono,Itu (penunjuk benda),core,mnn
-97,2,あの,,ano,Itu (penunjuk benda jauh),core,mnn
-98,2,ほん,本,hon,Buku,core,mnn
-99,2,じしょ,辞書,jisho,Kamus,core,mnn
-100,2,ざっし,雑誌,zasshi,Majalah,core,mnn
-101,2,しんぶん,新聞,shinbun,Koran/surat kabar,core,mnn
-102,2,ノート,,nooto,Buku tulis/buku catatan,core,mnn
-103,2,てちょう,手帳,techou,Buku agenda/catatan kecil,core,mnn
-104,2,めいし,名刺,meishi,Kartu nama,core,mnn
-105,2,カード,,kaado,Kartu,core,mnn
-106,2,テレホンカード,,terehon kaado,Kartu telepon,core,mnn
-107,2,えんぴつ,鉛筆,enpitsu,Pensil,core,mnn
-108,2,ボールペン,,boorupen,Pulpen,core,mnn
-109,2,シャープペンシル,,shaapu penshiru,Pensil mekanik/pensil isi ulang,core,mnn
-110,2,かぎ,鍵,kagi,Kunci,core,mnn
-111,2,とけい,時計,tokei,Jam,core,mnn
-112,2,かさ,傘,kasa,Payung,core,mnn
-113,2,かばん,鞄,kaban,Tas,core,mnn
-114,2,くつ,靴,kutsu,Sepatu,core,mnn
-115,2,くつした,靴下,kutsushita,Kaos kaki,core,mnn
-116,2,テレビ,,terebi,Televisi,core,mnn
-117,2,カメラ,,kamera,Kamera,core,mnn
-118,2,コンピューター,,konpyuutaa,Komputer,core,mnn
-119,2,ラジオ,,rajio,Radio,core,mnn
-120,2,でんわ,電話,denwa,Telepon,core,mnn
-121,2,つくえ,机,tsukue,Meja,core,mnn
-122,2,いす,椅子,isu,Kursi,core,mnn
-123,2,チョコレート,,chokoreeto,Cokelat,core,mnn
-124,2,コーヒー,,koohii,Kopi,core,mnn
-125,2,えいご,英語,eigo,Bahasa Inggris,core,mnn
-126,2,にほんご,日本語,nihongo,Bahasa Jepang,core,mnn
-127,2,〜ご,〜語,~go,Bahasa ~ (akhiran),core,mnn
-128,2,いくら,,ikura,Berapa harganya,core,mnn
-129,2,くるま,車,kuruma,Mobil,core,mnn
-130,2,おみやげ,お土産,omiyage,Oleh-oleh,core,mnn
-131,2,なに,何,nani,Apa,core,mnn
-132,2,そう,,sou,Ya/begitu,core,mnn
-133,2,あのう,,anou,Eee... (ungkapan ragu sebelum berbicara kepada lawan bicara),info,mnn
-134,2,ええ,,ee,Eh (dipakai ketika mendengar sesuatu yang diluar dugaan),info,mnn
-135,2,どうぞ,,douzo,Silakan(digunakan untuk menawarkan sesuatu (barang)),info,mnn
-136,2,どうも,,doumo,Terima kasih (singkat/santai),info,mnn
-137,2,ありがとうございます,,arigatou gozaimasu,Terima kasih (sopan),info,mnn
-138,2,そうですか,,sou desu ka,"oh, begitu / oh, ya",info,mnn
-139,2,ちがいます,,chigaimasu,Bukan/tidak/salah,info,mnn
-140,2,そうです,,sou desu,Ya / benar,info,mnn
-141,2,これからおせわになります,これからお世話になります,korekara osewa ni narimasu,Mulai sekarang saya akan meminta bantuannya,info,mnn
-142,2,こちらこそ[どうぞ]よろしく[おねがいします],こちらこそ[どうぞ]よろしく[お願いします],kochira koso yoroshiku onegaishimasu,Ya sama-sama (balasan sopan),info,mnn
-143,2,さとう,佐藤,satou,Nama keluarga Jepang (paling umum),reference,mnn
-144,2,すずき,鈴木,suzuki,Nama keluarga Jepang,reference,mnn
-145,2,たかはし,高橋,takahashi,Nama keluarga Jepang,reference,mnn
-146,2,たなか,田中,tanaka,Nama keluarga Jepang,reference,mnn
-147,2,わたなべ,渡辺,watanabe,Nama keluarga Jepang,reference,mnn
-148,2,いとう,伊藤,itou,Nama keluarga Jepang,reference,mnn
-149,2,やまもと,山本,yamamoto,Nama keluarga Jepang,reference,mnn
-150,2,なかむら,中村,nakamura,Nama keluarga Jepang,reference,mnn
-151,2,こばやし,小林,kobayashi,Nama keluarga Jepang,reference,mnn
-152,2,かとう,加藤,katou,Nama keluarga Jepang,reference,mnn
-153,2,よしだ,吉田,yoshida,Nama keluarga Jepang,reference,mnn
-154,2,やまだ,山田,yamada,Nama keluarga Jepang,reference,mnn
-155,2,ささき,佐々木,sasaki,Nama keluarga Jepang,reference,mnn
-156,2,やまぐち,山口,yamaguchi,Nama keluarga Jepang,reference,mnn
-157,2,まつもと,松本,matsumoto,Nama keluarga Jepang,reference,mnn
-158,2,いのうえ,井上,inoue,Nama keluarga Jepang,reference,mnn
-159,2,きむら,木村,kimura,Nama keluarga Jepang,reference,mnn
-160,2,はやし,林,hayashi,Nama keluarga Jepang,reference,mnn
-161,2,しみず,清水,shimizu,Nama keluarga Jepang,reference,mnn
-162,2,やまざき,山崎,yamazaki,Nama keluarga Jepang,reference,mnn
+95,2,これ,,kore,Ini (benda dekat pembicara),core,mnn
+96,2,それ,,sore,Itu (benda dekat lawan bicara),core,mnn
+97,2,あれ,,are,Itu (benda jauh dari keduanya),core,mnn
+98,2,この,,kono,Ini (penunjuk benda),core,mnn
+99,2,その,,sono,Itu (penunjuk benda),core,mnn
+100,2,あの,,ano,Itu (penunjuk benda jauh),core,mnn
+101,2,ほん,本,hon,Buku,core,mnn
+102,2,じしょ,辞書,jisho,Kamus,core,mnn
+103,2,ざっし,雑誌,zasshi,Majalah,core,mnn
+104,2,しんぶん,新聞,shinbun,Koran/surat kabar,core,mnn
+105,2,ノート,,nooto,Buku tulis/buku catatan,core,mnn
+106,2,てちょう,手帳,techou,Buku agenda/catatan kecil,core,mnn
+107,2,めいし,名刺,meishi,Kartu nama,core,mnn
+108,2,カード,,kaado,Kartu,core,mnn
+109,2,テレホンカード,,terehon kaado,Kartu telepon,core,mnn
+110,2,えんぴつ,鉛筆,enpitsu,Pensil,core,mnn
+111,2,ボールペン,,boorupen,Pulpen,core,mnn
+112,2,シャープペンシル,,shaapu penshiru,Pensil mekanik/pensil isi ulang,core,mnn
+113,2,かぎ,鍵,kagi,Kunci,core,mnn
+114,2,とけい,時計,tokei,Jam,core,mnn
+115,2,かさ,傘,kasa,Payung,core,mnn
+116,2,かばん,鞄,kaban,Tas,core,mnn
+117,2,くつ,靴,kutsu,Sepatu,core,mnn
+118,2,くつした,靴下,kutsushita,Kaos kaki,core,mnn
+119,2,テレビ,,terebi,Televisi,core,mnn
+120,2,カメラ,,kamera,Kamera,core,mnn
+121,2,コンピューター,,konpyuutaa,Komputer,core,mnn
+122,2,ラジオ,,rajio,Radio,core,mnn
+123,2,でんわ,電話,denwa,Telepon,core,mnn
+124,2,つくえ,机,tsukue,Meja,core,mnn
+125,2,いす,椅子,isu,Kursi,core,mnn
+126,2,チョコレート,,chokoreeto,Cokelat,core,mnn
+127,2,コーヒー,,koohii,Kopi,core,mnn
+128,2,えいご,英語,eigo,Bahasa Inggris,core,mnn
+129,2,にほんご,日本語,nihongo,Bahasa Jepang,core,mnn
+130,2,〜ご,〜語,~go,Bahasa ~ (akhiran),core,mnn
+131,2,いくら,,ikura,Berapa harganya,core,mnn
+132,2,くるま,車,kuruma,Mobil,core,mnn
+133,2,おみやげ,お土産,omiyage,Oleh-oleh,core,mnn
+134,2,なに,何,nani,Apa,core,mnn
+135,2,そう,,sou,Ya/begitu,core,mnn
+136,2,あのう,,anou,Eee... (ungkapan ragu sebelum berbicara kepada lawan bicara),info,mnn
+137,2,ええ,,ee,Eh (dipakai ketika mendengar sesuatu yang diluar dugaan),info,mnn
+138,2,どうぞ,,douzo,Silakan(digunakan untuk menawarkan sesuatu (barang)),info,mnn
+139,2,どうも,,doumo,Terima kasih (singkat/santai),info,mnn
+140,2,ありがとうございます,,arigatou gozaimasu,Terima kasih (sopan),info,mnn
+141,2,そうですか,,sou desu ka,"oh, begitu / oh, ya",info,mnn
+142,2,ちがいます,,chigaimasu,Bukan/tidak/salah,info,mnn
+143,2,そうです,,sou desu,Ya / benar,info,mnn
+144,2,これからおせわになります,これからお世話になります,korekara osewa ni narimasu,Mulai sekarang saya akan meminta bantuannya,info,mnn
+145,2,こちらこそ[どうぞ]よろしく[おねがいします],こちらこそ[どうぞ]よろしく[お願いします],kochira koso yoroshiku onegaishimasu,Ya sama-sama (balasan sopan),info,mnn
+146,2,さとう,佐藤,satou,Nama keluarga Jepang (paling umum),reference,mnn
+147,2,すずき,鈴木,suzuki,Nama keluarga Jepang,reference,mnn
+148,2,たかはし,高橋,takahashi,Nama keluarga Jepang,reference,mnn
+149,2,たなか,田中,tanaka,Nama keluarga Jepang,reference,mnn
+150,2,わたなべ,渡辺,watanabe,Nama keluarga Jepang,reference,mnn
+151,2,いとう,伊藤,itou,Nama keluarga Jepang,reference,mnn
+152,2,やまもと,山本,yamamoto,Nama keluarga Jepang,reference,mnn
+153,2,なかむら,中村,nakamura,Nama keluarga Jepang,reference,mnn
+154,2,こばやし,小林,kobayashi,Nama keluarga Jepang,reference,mnn
+155,2,かとう,加藤,katou,Nama keluarga Jepang,reference,mnn
+156,2,よしだ,吉田,yoshida,Nama keluarga Jepang,reference,mnn
+157,2,やまだ,山田,yamada,Nama keluarga Jepang,reference,mnn
+158,2,ささき,佐々木,sasaki,Nama keluarga Jepang,reference,mnn
+159,2,やまぐち,山口,yamaguchi,Nama keluarga Jepang,reference,mnn
+160,2,まつもと,松本,matsumoto,Nama keluarga Jepang,reference,mnn
+161,2,いのうえ,井上,inoue,Nama keluarga Jepang,reference,mnn
+162,2,きむら,木村,kimura,Nama keluarga Jepang,reference,mnn
+163,2,はやし,林,hayashi,Nama keluarga Jepang,reference,mnn
+164,2,しみず,清水,shimizu,Nama keluarga Jepang,reference,mnn
+165,2,やまざき,山崎,yamazaki,Nama keluarga Jepang,reference,mnn
 
-163,3,ここ,,koko,Di sini (dekat pembicara),core,mnn
-164,3,そこ,,soko,Di situ (dekat lawan bicara),core,mnn
-165,3,あそこ,,asoko,Di sana (jauh dari keduanya),core,mnn
-166,3,どこ,,doko,Di mana,core,mnn
-167,3,きょうしつ,教室,kyoushitsu,Ruang kelas,core,mnn
-168,3,しょくどう,食堂,shokudou,Kantin/ruang makan/rumah makan,core,mnn
-169,3,じむしょ,事務所,jimusho,Kantor,core,mnn
-170,3,かいぎしつ,会議室,kaigishitsu,Ruang rapat,core,mnn
-171,3,うけつけ,受付,uketsuke,Resepsionis/meja penerima tamu,core,mnn
-172,3,ロビー,,robii,Lobi,core,mnn
-173,3,へや,部屋,heya,Kamar/ruangan,core,mnn
-174,3,トイレ,,toire,Toilet,core,mnn
-175,3,かいだん,階段,kaidan,Tangga,core,mnn
-176,3,エレベーター,,erebeetaa,Lift,core,mnn
-177,3,エスカレーター,,esukareetaa,Eskalator,core,mnn
-178,3,じどうはんばいき,自動販売機,jidou hanbaiki,Mesin penjual otomatis,core,mnn
-179,3,でんわ,電話,denwa,Telepon,core,mnn
-180,3,[お]くに,お国,okuni,Negara/negeri,core,mnn
-181,3,かいしゃ,会社,kaisha,Perusahaan,core,mnn
-182,3,うち,,uchi,Rumah (ungkapan sendiri),core,mnn
-183,3,くつ,靴,kutsu,Sepatu,core,mnn
-184,3,ネクタイ,,nekutai,Dasi,core,mnn
-185,3,ワイン,,wain,Anggur/wine,core,mnn
-186,3,うりば,売り場,uriba,Tempat/bagian penjualan/konter,core,mnn
-187,3,ちか,地下,chika,Bawah tanah/lantai bawah,core,mnn
-188,3,なんがい,何階,nankai,Lantai berapa,core,mnn
-189,3,こちら,,kochira,Di sini (bentuk sopan),core,mnn
-190,3,そちら,,sochira,Di situ (bentuk sopan),core,mnn
-191,3,あちら,,achira,Di sana (bentuk sopan),core,mnn
-192,3,どちら,,dochira,Yang mana / di mana (bentuk sopan),core,mnn
-193,3,おてあらい,,otearai,Toilet (ungkapan sopan),core,mnn
-194,3,〜かい,〜階,~kai,Penanda lantai (mis: 3階),core,mnn
-195,3,〜がい,〜階,~gai,Akhiran lantai/bangunan (bacaan alternatif),core,mnn
-196,3,〜がい,〜階,~gai,Lantai ~ (cara baca alternatif),reference,mnn
-197,3,〜えん,〜円,~en,Yen (mata uang Jepang),core,mnn
-198,3,いくら,,ikura,Berapa (harga),core,mnn
-199,3,ひゃく,百,hyaku,Seratus,core,mnn
-200,3,せん,千,sen,Seribu,core,mnn
-201,3,いちまん,一万,ichiman,Sepuluh ribu,core,mnn
-202,3,すみません,,sumimasen,Permisi / maaf,info,mnn
-203,3,どうも,,doumo,Terima kasih (ungkapan ringan/singkat),info,mnn
-204,3,いらっしゃいませ,,irasshaimase,Selamat datang / bisa saya bantu? (ungkapan kepada tamu yang masuk ke toko),info,mnn
-205,3,[〜を]みせてください,[〜を]見せてください,[~ o] misete kudasai,Tolong perlihatkan [~],info,mnn
-206,3,じゃ,,ja,"Baiklah, kalau begitu.",info,mnn
-207,3,[〜を]ください,,[~ o] kudasai,"Minta[~]./Tolong berikan [~]",info,mnn
-208,3,どうぞ,,douzo,Silakan,info,mnn
-209,3,デパート,,depaato,Department store,reference,mnn
-210,3,あゆうえんち,遊園 地,yuuenchi,Tempat hiburan/taman bermain,reference,mnn
-211,3,レストラン,,resutoran,Restoran,reference,mnn
-212,3,えんげきじょう,演劇場,engekijou,Tempat pertunjukan,reference,mnn
-213,3,とけい,時計,tokei,Jam,reference,mnn
-214,3,めがね,眼鏡,megane,Kacamata,reference,mnn
-215,3,スポーツようひん,スポーツ用品,supootsu youhin,Peralatan olahraga,reference,mnn
-216,3,りょこうようひん,旅行用品,ryokou youhin,Peralatan bepergian,reference,mnn
-217,3,こどもふく,子供服,kodomofuku,Pakaian anak,reference,mnn
-218,3,おもちゃ,,omocha,Mainan,reference,mnn
-219,3,ほん,本,hon,Buku,reference,mnn
-220,3,ぶんぼうぐ,文房具,bunbougu,Alat tulis,reference,mnn
-221,3,かていようひん,家庭用品,kateiyouhin,Perlengkapan rumah,reference,mnn
-222,3,しょっき,食器,shokki,Alat makan,reference,mnn
-223,3,でんきせいひん,電気製品,denkiseihin,Barang elektronik,reference,mnn
-224,3,ふく,服,fuku,Pakaian,reference,mnn
-225,3,しんしふく,紳士服,shinshi fuku,Pakaian pria,reference,mnn
-226,3,ふじんふく,婦人服,fujinfuku,Pakaian wanita,reference,mnn
-227,3,くつ,靴,kutsu,Sepatu,reference,mnn
-228,3,かばん,鞄,kaban,Tas,reference,mnn
-229,3,けしょうひん,化粧品,keshouhin,Kosmetik,reference,mnn
-230,3,アクセサリー,,akusesarii,Perhiasan,reference,mnn
-231,3,たべもの,食べ物,tabemono,Makanan,reference,mnn
-232,3,のみもの,飲み物,nomimono,Minuman,reference,mnn
-233,3,ちゅうしゃじょう,駐車場,chuushajou,Tempat parkir,reference,mnn
+166,3,ここ,,koko,Di sini (dekat pembicara),core,mnn
+167,3,そこ,,soko,Di situ (dekat lawan bicara),core,mnn
+168,3,あそこ,,asoko,Di sana (jauh dari keduanya),core,mnn
+169,3,どこ,,doko,Di mana,core,mnn
+170,3,きょうしつ,教室,kyoushitsu,Ruang kelas,core,mnn
+171,3,しょくどう,食堂,shokudou,Kantin/ruang makan/rumah makan,core,mnn
+172,3,じむしょ,事務所,jimusho,Kantor,core,mnn
+173,3,かいぎしつ,会議室,kaigishitsu,Ruang rapat,core,mnn
+174,3,うけつけ,受付,uketsuke,Resepsionis/meja penerima tamu,core,mnn
+175,3,ロビー,,robii,Lobi,core,mnn
+176,3,へや,部屋,heya,Kamar/ruangan,core,mnn
+177,3,トイレ,,toire,Toilet,core,mnn
+178,3,かいだん,階段,kaidan,Tangga,core,mnn
+179,3,エレベーター,,erebeetaa,Lift,core,mnn
+180,3,エスカレーター,,esukareetaa,Eskalator,core,mnn
+181,3,じどうはんばいき,自動販売機,jidou hanbaiki,Mesin penjual otomatis,core,mnn
+182,3,でんわ,電話,denwa,Telepon,core,mnn
+183,3,[お]くに,お国,okuni,Negara/negeri,core,mnn
+184,3,かいしゃ,会社,kaisha,Perusahaan,core,mnn
+185,3,うち,,uchi,Rumah (ungkapan sendiri),core,mnn
+186,3,くつ,靴,kutsu,Sepatu,core,mnn
+187,3,ネクタイ,,nekutai,Dasi,core,mnn
+188,3,ワイン,,wain,Anggur/wine,core,mnn
+189,3,うりば,売り場,uriba,Tempat/bagian penjualan/konter,core,mnn
+190,3,ちか,地下,chika,Bawah tanah/lantai bawah,core,mnn
+191,3,なんがい,何階,nankai,Lantai berapa,core,mnn
+192,3,こちら,,kochira,Di sini (bentuk sopan),core,mnn
+193,3,そちら,,sochira,Di situ (bentuk sopan),core,mnn
+194,3,あちら,,achira,Di sana (bentuk sopan),core,mnn
+195,3,どちら,,dochira,Yang mana / di mana (bentuk sopan),core,mnn
+196,3,おてあらい,,otearai,Toilet (ungkapan sopan),core,mnn
+197,3,〜かい,〜階,~kai,Penanda lantai (mis: 3階),core,mnn
+198,3,〜がい,〜階,~gai,Akhiran lantai/bangunan (bacaan alternatif),core,mnn
+199,3,〜がい,〜階,~gai,Lantai ~ (cara baca alternatif),reference,mnn
+200,3,〜えん,〜円,~en,Yen (mata uang Jepang),core,mnn
+201,3,いくら,,ikura,Berapa (harga),core,mnn
+202,3,ひゃく,百,hyaku,Seratus,core,mnn
+203,3,せん,千,sen,Seribu,core,mnn
+204,3,いちまん,一万,ichiman,Sepuluh ribu,core,mnn
+205,3,すみません,,sumimasen,Permisi / maaf,info,mnn
+206,3,どうも,,doumo,Terima kasih (ungkapan ringan/singkat),info,mnn
+207,3,いらっしゃいませ,,irasshaimase,Selamat datang / bisa saya bantu? (ungkapan kepada tamu yang masuk ke toko),info,mnn
+208,3,[〜を]みせてください,[〜を]見せてください,[~ o] misete kudasai,Tolong perlihatkan [~],info,mnn
+209,3,じゃ,,ja,"Baiklah, kalau begitu.",info,mnn
+210,3,[〜を]ください,,[~ o] kudasai,"Minta[~]./Tolong berikan [~]",info,mnn
+211,3,どうぞ,,douzo,Silakan,info,mnn
+212,3,デパート,,depaato,Department store,reference,mnn
+213,3,あゆうえんち,遊園 地,yuuenchi,Tempat hiburan/taman bermain,reference,mnn
+214,3,レストラン,,resutoran,Restoran,reference,mnn
+215,3,えんげきじょう,演劇場,engekijou,Tempat pertunjukan,reference,mnn
+216,3,とけい,時計,tokei,Jam,reference,mnn
+217,3,めがね,眼鏡,megane,Kacamata,reference,mnn
+218,3,スポーツようひん,スポーツ用品,supootsu youhin,Peralatan olahraga,reference,mnn
+219,3,りょこうようひん,旅行用品,ryokou youhin,Peralatan bepergian,reference,mnn
+220,3,こどもふく,子供服,kodomofuku,Pakaian anak,reference,mnn
+221,3,おもちゃ,,omocha,Mainan,reference,mnn
+222,3,ほん,本,hon,Buku,reference,mnn
+223,3,ぶんぼうぐ,文房具,bunbougu,Alat tulis,reference,mnn
+224,3,かていようひん,家庭用品,kateiyouhin,Perlengkapan rumah,reference,mnn
+225,3,しょっき,食器,shokki,Alat makan,reference,mnn
+226,3,でんきせいひん,電気製品,denkiseihin,Barang elektronik,reference,mnn
+227,3,ふく,服,fuku,Pakaian,reference,mnn
+228,3,しんしふく,紳士服,shinshi fuku,Pakaian pria,reference,mnn
+229,3,ふじんふく,婦人服,fujinfuku,Pakaian wanita,reference,mnn
+230,3,くつ,靴,kutsu,Sepatu,reference,mnn
+231,3,かばん,鞄,kaban,Tas,reference,mnn
+232,3,けしょうひん,化粧品,keshouhin,Kosmetik,reference,mnn
+233,3,アクセサリー,,akusesarii,Perhiasan,reference,mnn
+234,3,たべもの,食べ物,tabemono,Makanan,reference,mnn
+235,3,のみもの,飲み物,nomimono,Minuman,reference,mnn
+236,3,ちゅうしゃじょう,駐車場,chuushajou,Tempat parkir,reference,mnn
 
-234,4,おきます,起きます,okimasu,Bangun (tidur → bangun),core,mnn
-235,4,ねます,寝ます,nemasu,Tidur,core,mnn
-236,4,はたらきます,働きます,hatarakimasu,Bekerja,core,mnn
-237,4,やすみます,休みます,yasumimasu,Beristirahat / libur,core,mnn
-238,4,べんきょうします,勉強します,benkyou shimasu,Belajar,core,mnn
-239,4,おわります,終わります,owarimasu,Selesai,core,mnn
-240,4,デパート,,depaato,Department store,core,mnn
-241,4,ぎんこう,銀行,ginkou,Bank,core,mnn
-242,4,ゆうびんきょく,郵便局,yuubinkyoku,Kantor pos,core,mnn
-243,4,としょかん,図書館,toshokan,Perpustakaan,core,mnn
-244,4,びじゅつかん,美術館,bijutsukan,Gedung seni/museum seni,core,mnn
-245,4,いま,今,ima,Sekarang,core,mnn
-246,4,〜じ,〜時,~ji,Jam ~,core,mnn
-247,4,〜ふん,〜分,~fun,Menit ~,core,mnn
-248,4,はん,半,han,Setengah,core,mnn
-249,4,なんじ,何時,nanji,Jam berapa,core,mnn
-250,4,なんぷん,何分,nanpun,Berapa menit,core,mnn
-251,4,ごぜん,午前,gozen,Pagi (a.m.),core,mnn
-252,4,ごご,午後,gogo,Siang/sore (p.m.),core,mnn
-253,4,あさ,朝,asa,Pagi,core,mnn
-254,4,ひる,昼,hiru,Siang,core,mnn
-255,4,よる,夜,yoru,Malam,core,mnn
-256,4,けさ,今朝,kesa,Pagi ini / tadi pagi,core,mnn
-257,4,こんばん,今晩,konban,Malam ini / nanti malam,core,mnn
-258,4,きのう,昨日,kinou,Kemarin,core,mnn
-259,4,おととい,,ototoi,Dua hari lalu / kemarin lusa,core,mnn
-260,4,きょう,今日,kyou,Hari ini,core,mnn
-261,4,あした,明日,ashita,Besok,core,mnn
-262,4,あさって,,asatte,Lusa,core,mnn
-263,4,やすみ,休み,yasumi,Istirahat / cuti / libur,core,mnn
-264,4,ひるやすみ,昼休み,hiruyasumi,Istirahat siang,core,mnn
-265,4,しけん,試験,shiken,Ujian,core,mnn
-266,4,かいぎ,会議,kaigi,Rapat,core,mnn
-267,4,かいぎをします,会議をします,kaigi o shimasu,Mengadakan rapat,core,mnn
-268,4,えいが,映画,eiga,Film,core,mnn
-269,4,まいあさ,毎朝,maiasa,Setiap pagi,core,mnn
-270,4,まいばん,毎晩,maiban,Setiap malam,core,mnn
-271,4,まいにち,毎日,mainichi,Setiap hari,core,mnn
-272,4,げつようび,月曜日,getsuyoubi,Senin,core,mnn
-273,4,かようび,火曜日,kayoubi,Selasa,core,mnn
-274,4,すいようび,水曜日,suiyoubi,Rabu,core,mnn
-275,4,もくようび,木曜日,mokuyoubi,Kamis,core,mnn
-276,4,きんようび,金曜日,kinyoubi,Jumat,core,mnn
-277,4,どようび,土曜日,doyoubi,Sabtu,core,mnn
-278,4,にちようび,日曜日,nichiyoubi,Minggu,core,mnn
-279,4,なんようび,何曜日,nanyoubi,Hari apa,core,mnn
-280,4,〜から,,~ kara,Dari ~,core,mnn
-281,4,〜まで,,~ made,Sampai ~,core,mnn
-282,4,〜と,,~ to,Dengan / dan (penghubung),core,mnn
-283,4,ばんごう,番号,bangou,Nomor,core,mnn
-284,4,なんばん,何番,nanban,Nomor berapa,core,mnn
-285,4,そこ,,soko,Di situ,core,mnn
-286,4,ニューヨーク,,nyuu yooku,New York,core,mnn
-287,4,ペキン,,pekin,Beijing,core,mnn
-288,4,ベルリン,,berurin,Berlin,core,mnn
-289,4,ロサンゼルス,,rosanzerusu,Los Angeles,core,mnn
-290,4,ロンドン,,rondon,London,core,mnn
-291,4,まいほん,毎週,maihon,Setiap minggu,core,mnn
-292,4,まいねん,毎年,mainen,Setiap tahun,core,mnn
-293,4,まいがく,毎月,maigaku,Setiap bulan,core,mnn
-294,4,たいへんですね,大変ですね,taihen desu ne,O.. berat ya./Susah ya./Pasti melelahkan ya.(ungkapan untuk menyatakan simpati terhadap seseorang yang mengalami kesusahan),core,mnn
-295,4,でんわ,電話,denwa,Telepon,core,mnn
-296,4,てがみ,手紙,tegami,Surat,core,mnn
-297,4,じゅうえん,十円,juu en,10 yen,core,mnn
-298,4,ひゃくえん,百円,hyaku en,100 yen,core,mnn
-299,4,はじめます,始めます,hajimemasu,Mulai / start,core,mnn
-300,4,おします,押します,oshimasu,Menekan (tombol),core,mnn
-301,4,あとで,,ato de,Setelah / nanti,core,mnn
-302,4,けいさつしょ,警察署,keisatsusho,Kantor polisi,core,mnn
-303,4,しょうぼうしょ,消防署,shoubousho,Pemadam kebakaran,core,mnn
-304,4,じかんあんない,時間案内,jikan annai,Pemberitahuan waktu (telepon),core,mnn
-305,4,てんきよほう,天気予報,tenki yohou,Ramalan cuaca,core,mnn
-306,4,でんわばんごうあんない,電話番号案内,denwa bangou annai,Petunjuk nomor telepon,core,mnn
-307,4,ひゃくじゅう,１１０,hyaku juu,Nomor darurat polisi (110),info,mnn
-308,4,ひゃくじゅうきゅう,１１９,hyaku juu kyuu,Nomor darurat pemadam kebakaran & ambulans (119),info,mnn
-309,4,ひゃくじゅうなな,１１７,hyaku juu nana,Layanan pemberitahuan waktu (telepon),info,mnn
-310,4,ひゃくななじゅうなな,１７７,hyaku nana juu nana,Layanan ramalan cuaca (telepon),info,mnn
-311,4,ひゃくよん,１０４,hyaku yon,Layanan informasi nomor telepon,info,mnn
+237,4,おきます,起きます,okimasu,Bangun (tidur → bangun),core,mnn
+238,4,ねます,寝ます,nemasu,Tidur,core,mnn
+239,4,はたらきます,働きます,hatarakimasu,Bekerja,core,mnn
+240,4,やすみます,休みます,yasumimasu,Beristirahat / libur,core,mnn
+241,4,べんきょうします,勉強します,benkyou shimasu,Belajar,core,mnn
+242,4,おわります,終わります,owarimasu,Selesai,core,mnn
+243,4,デパート,,depaato,Department store,core,mnn
+244,4,ぎんこう,銀行,ginkou,Bank,core,mnn
+245,4,ゆうびんきょく,郵便局,yuubinkyoku,Kantor pos,core,mnn
+246,4,としょかん,図書館,toshokan,Perpustakaan,core,mnn
+247,4,びじゅつかん,美術館,bijutsukan,Gedung seni/museum seni,core,mnn
+248,4,いま,今,ima,Sekarang,core,mnn
+249,4,〜じ,〜時,~ji,Jam ~,core,mnn
+250,4,〜ふん,〜分,~fun,Menit ~,core,mnn
+251,4,はん,半,han,Setengah,core,mnn
+252,4,なんじ,何時,nanji,Jam berapa,core,mnn
+253,4,なんぷん,何分,nanpun,Berapa menit,core,mnn
+254,4,ごぜん,午前,gozen,Pagi (a.m.),core,mnn
+255,4,ごご,午後,gogo,Siang/sore (p.m.),core,mnn
+256,4,あさ,朝,asa,Pagi,core,mnn
+257,4,ひる,昼,hiru,Siang,core,mnn
+258,4,よる,夜,yoru,Malam,core,mnn
+259,4,けさ,今朝,kesa,Pagi ini / tadi pagi,core,mnn
+260,4,こんばん,今晩,konban,Malam ini / nanti malam,core,mnn
+261,4,きのう,昨日,kinou,Kemarin,core,mnn
+262,4,おととい,,ototoi,Dua hari lalu / kemarin lusa,core,mnn
+263,4,きょう,今日,kyou,Hari ini,core,mnn
+264,4,あした,明日,ashita,Besok,core,mnn
+265,4,あさって,,asatte,Lusa,core,mnn
+266,4,やすみ,休み,yasumi,Istirahat / cuti / libur,core,mnn
+267,4,ひるやすみ,昼休み,hiruyasumi,Istirahat siang,core,mnn
+268,4,しけん,試験,shiken,Ujian,core,mnn
+269,4,かいぎ,会議,kaigi,Rapat,core,mnn
+270,4,かいぎをします,会議をします,kaigi o shimasu,Mengadakan rapat,core,mnn
+271,4,えいが,映画,eiga,Film,core,mnn
+272,4,まいあさ,毎朝,maiasa,Setiap pagi,core,mnn
+273,4,まいばん,毎晩,maiban,Setiap malam,core,mnn
+274,4,まいにち,毎日,mainichi,Setiap hari,core,mnn
+275,4,げつようび,月曜日,getsuyoubi,Senin,core,mnn
+276,4,かようび,火曜日,kayoubi,Selasa,core,mnn
+277,4,すいようび,水曜日,suiyoubi,Rabu,core,mnn
+278,4,もくようび,木曜日,mokuyoubi,Kamis,core,mnn
+279,4,きんようび,金曜日,kinyoubi,Jumat,core,mnn
+280,4,どようび,土曜日,doyoubi,Sabtu,core,mnn
+281,4,にちようび,日曜日,nichiyoubi,Minggu,core,mnn
+282,4,なんようび,何曜日,nanyoubi,Hari apa,core,mnn
+283,4,〜から,,~ kara,Dari ~,core,mnn
+284,4,〜まで,,~ made,Sampai ~,core,mnn
+285,4,〜と,,~ to,Dengan / dan (penghubung),core,mnn
+286,4,ばんごう,番号,bangou,Nomor,core,mnn
+287,4,なんばん,何番,nanban,Nomor berapa,core,mnn
+288,4,そこ,,soko,Di situ,core,mnn
+289,4,ニューヨーク,,nyuu yooku,New York,core,mnn
+290,4,ペキン,,pekin,Beijing,core,mnn
+291,4,ベルリン,,berurin,Berlin,core,mnn
+292,4,ロサンゼルス,,rosanzerusu,Los Angeles,core,mnn
+293,4,ロンドン,,rondon,London,core,mnn
+294,4,まいほん,毎週,maihon,Setiap minggu,core,mnn
+295,4,まいねん,毎年,mainen,Setiap tahun,core,mnn
+296,4,まいがく,毎月,maigaku,Setiap bulan,core,mnn
+297,4,たいへんですね,大変ですね,taihen desu ne,O.. berat ya./Susah ya./Pasti melelahkan ya.(ungkapan untuk menyatakan simpati terhadap seseorang yang mengalami kesusahan),core,mnn
+298,4,でんわ,電話,denwa,Telepon,core,mnn
+299,4,てがみ,手紙,tegami,Surat,core,mnn
+300,4,じゅうえん,十円,juu en,10 yen,core,mnn
+301,4,ひゃくえん,百円,hyaku en,100 yen,core,mnn
+302,4,はじめます,始めます,hajimemasu,Mulai / start,core,mnn
+303,4,おします,押します,oshimasu,Menekan (tombol),core,mnn
+304,4,あとで,,ato de,Setelah / nanti,core,mnn
+305,4,けいさつしょ,警察署,keisatsusho,Kantor polisi,core,mnn
+306,4,しょうぼうしょ,消防署,shoubousho,Pemadam kebakaran,core,mnn
+307,4,じかんあんない,時間案内,jikan annai,Pemberitahuan waktu (telepon),core,mnn
+308,4,てんきよほう,天気予報,tenki yohou,Ramalan cuaca,core,mnn
+309,4,でんわばんごうあんない,電話番号案内,denwa bangou annai,Petunjuk nomor telepon,core,mnn
+310,4,ひゃくじゅう,１１０,hyaku juu,Nomor darurat polisi (110),info,mnn
+311,4,ひゃくじゅうきゅう,１１９,hyaku juu kyuu,Nomor darurat pemadam kebakaran & ambulans (119),info,mnn
+312,4,ひゃくじゅうなな,１１７,hyaku juu nana,Layanan pemberitahuan waktu (telepon),info,mnn
+313,4,ひゃくななじゅうなな,１７７,hyaku nana juu nana,Layanan ramalan cuaca (telepon),info,mnn
+314,4,ひゃくよん,１０４,hyaku yon,Layanan informasi nomor telepon,info,mnn
 
-312,5,いきます,行きます,ikimasu,Pergi,core,mnn
-313,5,きます,来ます,kimasu,Datang,core,mnn
-314,5,かえります,帰ります,kaerimasu,Pulang,core,mnn
-315,5,がっこう,学校,gakkou,Sekolah,core,mnn
-316,5,スーパー,,suupaa,Supermarket,core,mnn
-317,5,えき,駅,eki,Stasiun,core,mnn
-318,5,ひこうき,飛行機,hikouki,Pesawat terbang,core,mnn
-319,5,でんしゃ,電車,densha,Kereta listrik,core,mnn
-320,5,バス,,basu,Bus,core,mnn
-321,5,タクシー,,takushii,Taksi,core,mnn
-322,5,じてんしゃ,自転車,jitensha,Sepeda,core,mnn
-323,5,あるいて,歩いて,aruite,Jalan kaki,core,mnn
-324,5,ふね,船,fune,Kapal,core,mnn
-325,5,ちかてつ,地下鉄,chikatetsu,Kereta bawah tanah,core,mnn
-326,5,しんかんせん,新幹線,shinkansen,Kereta cepat (Shinkansen),core,mnn
-327,5,バイク,,baiku,Motor,core,mnn
-328,5,くるま,車,kuruma,Mobil,core,mnn
-329,5,ひと,人,hito,Orang,core,mnn
-330,5,ともだち,友達,tomodachi,Teman,core,mnn
-331,5,かれ,彼,kare,Dia (laki-laki),core,mnn
-332,5,かのじょ,彼女,kanojo,Dia (perempuan),core,mnn
-333,5,かぞく,家族,kazoku,Keluarga,core,mnn
-334,5,ひとりで,一人で,hitori de,Sendirian,core,mnn
-335,5,なにで,何で,nani de,Dengan apa (alat transportasi),core,mnn
-336,5,きょう,今日,kyou,Hari ini,core,mnn
-337,5,あした,明日,ashita,Besok,core,mnn
-338,5,あさって,,asatte,Lusa,core,mnn
-339,5,きのう,昨日,kinou,Kemarin,core,mnn
-340,5,おととい,,ototoi,Kemarin lusa,core,mnn
-341,5,こんしゅう,今週,konshuu,Minggu ini,core,mnn
-342,5,らいしゅう,来週,raishuu,Minggu depan,core,mnn
-343,5,せんしゅう,先週,senshuu,Minggu lalu,core,mnn
-344,5,こんげつ,今月,kongetsu,Bulan ini,core,mnn
-345,5,らいげつ,来月,raigetsu,Bulan depan,core,mnn
-346,5,せんげつ,先月,sengetsu,Bulan lalu,core,mnn
-347,5,ことし,今年,kotoshi,Tahun ini,core,mnn
-348,5,らいねん,来年,rainen,Tahun depan,core,mnn
-349,5,きょねん,去年,kyonen,Tahun lalu,core,mnn
-350,5,まいにち,毎日,mainichi,Setiap hari,core,mnn
-351,5,まいあさ,毎朝,maiasa,Setiap pagi,core,mnn
-352,5,まいばん,毎晩,maiban,Setiap malam,core,mnn
-353,5,なんようび,何曜日,nanyoubi,Hari apa,core,mnn
-354,5,げつようび,月曜日,getsuyoubi,Senin,core,mnn
-355,5,かようび,火曜日,kayoubi,Selasa,core,mnn
-356,5,すいようび,水曜日,suiyoubi,Rabu,core,mnn
-357,5,もくようび,木曜日,mokuyoubi,Kamis,core,mnn
-358,5,きんようび,金曜日,kinyoubi,Jumat,core,mnn
-359,5,どようび,土曜日,doyoubi,Sabtu,core,mnn
-360,5,にちようび,日曜日,nichiyoubi,Minggu,core,mnn
-361,5,〜ねん,〜年,~nen,~ tahun,core,mnn
-362,5,なんねん,何年,nannen,Tahun berapa,core,mnn
-363,5,〜がつ,〜月,~gatsu,~ bulan,core,mnn
-364,5,なんがつ,何月,nangatsu,Bulan apa,core,mnn
-365,5,〜にち,〜日,~nichi,~ tanggal,core,mnn
-366,5,なんにち,何日,nannichi,Tanggal berapa / berapa hari,core,mnn
-367,5,ついたち,一日,tsuitachi,Tanggal 1,core,mnn
-368,5,ふつか,二日,futsuka,Tanggal 2,core,mnn
-369,5,みっか,三日,mikka,Tanggal 3,core,mnn
-370,5,よっか,四日,yokka,Tanggal 4,core,mnn
-371,5,いつか,五日,itsuka,Tanggal 5,core,mnn
-372,5,むいか,六日,muika,Tanggal 6,core,mnn
-373,5,なのか,七日,nanoka,Tanggal 7,core,mnn
-374,5,ようか,八日,youka,Tanggal 8,core,mnn
-375,5,ここのか,九日,kokonoka,Tanggal 9,core,mnn
-376,5,とおか,十日,tooka,Tanggal 10,core,mnn
-377,5,じゅういちにち,十一日,juuichinichi,Tanggal 11,core,mnn
-378,5,じゅうににち,十二日,juuninichi,Tanggal 12,core,mnn
-379,5,じゅうさんにち,十三日,juusannichi,Tanggal 13,core,mnn
-380,5,じゅうよっか,十四日,juuyokka,Tanggal 14,core,mnn
-381,5,じゅうごにち,十五日,juugonichi,Tanggal 15,core,mnn
-382,5,じゅうろくにち,十六日,juurokunichi,Tanggal 16,core,mnn
-383,5,じゅうしちにち,十七日,juushichinichi,Tanggal 17,core,mnn
-384,5,じゅうはちにち,十八日,juuhachinichi,Tanggal 18,core,mnn
-385,5,じゅうくにち,十九日,juukunichi,Tanggal 19,core,mnn
-386,5,はつか,二十日,hatsuka,Tanggal 20,core,mnn
-387,5,にじゅういちにち,二十一日,nijuuichinichi,Tanggal 21,core,mnn
-388,5,にじゅうににち,二十二日,nijuuninichi,Tanggal 22,core,mnn
-389,5,にじゅうさんにち,二十三日,nijuusannichi,Tanggal 23,core,mnn
-390,5,にじゅうよっか,二十四日,nijuuyokka,Tanggal 24,core,mnn
-391,5,いつ,,itsu,Kapan,core,mnn
-392,5,たんじょうび,誕生日,tanjoubi,Hari ulang tahun,core,mnn
-393,5,どうもありがとうございました,,doumo arigatou gozaimashita,Terima kasih banyak (lampau / sangat sopan),info,mnn
-394,5,どういたしまして,,dou itashimashite,Sama-sama (jawaban terima kasih),info,mnn
-395,5,〜ばんせん,〜番線,~bansen,Peron nomor ~ / jalur nomor ~,info,mnn
-396,5,つぎ,,tsugi,Yang berikutnya,info,mnn
-397,5,ふつう,普通,futsuu,Biasa (kereta biasa),reference,mnn
-398,5,きゅうこう,急行,kyuukou,Ekspres,reference,mnn
-399,5,とっきゅう,特急,tokkyuu,Super ekspres,reference,mnn
-400,5,こうしえん,,koushien,Kōshien (kota dekat Osaka / stadion baseball terkenal),info,mnn
-401,5,おおさかじょう,大阪城,oosakajou,Benteng Osaka (kastil kuno terkenal di Osaka),info,mnn
-402,5,カレンダー,,karendaa,Kalender,reference,mnn
-403,5,しゅくじつ,祝日,shukujitsu,Hari libur nasional,reference,mnn
-404,5,がんじつ,元日,ganjitsu,Tahun Baru (1 Januari),info,mnn
-405,5,せいじんのひ,成人の日,seijin no hi,Hari Perayaan Menjadi Dewasa (Senin ke-2 Januari),info,mnn
-406,5,けんこくきねんのひ,建国記念の日,kenkoku kinen no hi,Hari Pembangunan Nasional (11 Februari),info,mnn
-407,5,てんのうたんじょうび,天皇誕生日,tennou tanjoubi,Hari Ulang Tahun Kaisar (23 Februari),info,mnn
-408,5,しゅんぶんのひ,春分の日,shunbun no hi,Hari Equinox Musim Semi (sekitar 20–21 Maret),info,mnn
-409,5,しょうわのひ,昭和の日,showa no hi,Hari Showa (29 April),info,mnn
-410,5,けんぽうきねんび,憲法記念日,kenpou kinenbi,Hari Peringatan Konstitusi (3 Mei),info,mnn
-411,5,みどりのひ,みどりの日,midori no hi,Hari Penghijauan (4 Mei),info,mnn
-412,5,こどものひ,子供の日,kodomo no hi,Hari Anak (5 Mei),info,mnn
-413,5,うみのひ,海の日,umi no hi,Hari Bahari (Senin ke-3 Juli),info,mnn
-414,5,やまのひ,山の日,yama no hi,Hari Gunung (11 Agustus),info,mnn
-415,5,けいろうのひ,敬老の日,keirou no hi,Hari Hormat kepada Orang Tua (Senin ke-3 September),info,mnn
-416,5,しゅうぶんのひ,秋分の日,shuubun no hi,Hari Equinox Musim Gugur (sekitar 22–23 September),info,mnn
-417,5,スポーツのひ,,supootsu no hi,Hari Olahraga (Senin ke-2 Oktober),info,mnn
-418,5,ぶんかのひ,文化の日,bunka no hi,Hari Kebudayaan (3 November),info,mnn
-419,5,きんろうかんしゃのひ,勤労感謝の日,kinrou kansha no hi,Hari Bersyukur atas Pekerjaan (23 November),info,mnn
-420,5,いちがつついたち,一月一日,ichigatsu tsuitachi,1 Januari,info,mnn
-421,5,にがつじゅういちにち,二月十一日,nigatsu juuichinichi,11 Februari,info,mnn
-422,5,にがつにじゅうさんにち,二月二十三日,nigatsu nijuu-san nichi,23 Februari,info,mnn
-423,5,さんがつはつか,三月二十日,sangatsu hatsuka,20 Maret,info,mnn
-424,5,さんがつにじゅういちにち,三月二十一日,sangatsu nijuu-ichi nichi,21 Maret,info,mnn
-425,5,よんがつにじゅうくにち,四月二十九日,yongatsu nijuu-ku nichi,29 April,info,mnn
-426,5,ごがつみっか,五月三日,gogatsu mikka,3 Mei,info,mnn
-427,5,ごがつよっか,五月四日,gogatsu yokka,4 Mei,info,mnn
-428,5,ごがついつか,五月五日,gogatsu itsuka,5 Mei,info,mnn
-429,5,しちがつさんしゅうめのげつようび,七月第三月曜日,shichigatsu daisan getsuyoubi,Senin ke-3 bulan Juli,info,mnn
-430,5,はちがつじゅういちにち,八月十一日,hachigatsu juuichinichi,11 Agustus,info,mnn
-431,5,くがつさんしゅうめのげつようび,九月第三月曜日,kugatsu daisan getsuyoubi,Senin ke-3 bulan September,info,mnn
-432,5,くがつにじゅうににち,九月二十二日,kugatsu nijuu-ni nichi,22 September,info,mnn
-433,5,くがつにじゅうさんにち,九月二十三日,kugatsu nijuu-san nichi,23 September,info,mnn
-434,5,じゅうがつにしゅうめのげつようび,十月第二月曜日,juugatsu da-ni getsuyoubi,Senin ke-2 bulan Oktober,info,mnn
-435,5,じゅういちがつみっか,十一月三日,juuichigatsu mikka,3 November,info,mnn
-436,5,じゅういちがつにじゅうさんにち,十一月二十三日,juuichigatsu nijuu-san nichi,23 November,info,mnn
+315,5,いきます,行きます,ikimasu,Pergi,core,mnn
+316,5,きます,来ます,kimasu,Datang,core,mnn
+317,5,かえります,帰ります,kaerimasu,Pulang,core,mnn
+318,5,がっこう,学校,gakkou,Sekolah,core,mnn
+319,5,スーパー,,suupaa,Supermarket,core,mnn
+320,5,えき,駅,eki,Stasiun,core,mnn
+321,5,ひこうき,飛行機,hikouki,Pesawat terbang,core,mnn
+322,5,でんしゃ,電車,densha,Kereta listrik,core,mnn
+323,5,バス,,basu,Bus,core,mnn
+324,5,タクシー,,takushii,Taksi,core,mnn
+325,5,じてんしゃ,自転車,jitensha,Sepeda,core,mnn
+326,5,あるいて,歩いて,aruite,Jalan kaki,core,mnn
+327,5,ふね,船,fune,Kapal,core,mnn
+328,5,ちかてつ,地下鉄,chikatetsu,Kereta bawah tanah,core,mnn
+329,5,しんかんせん,新幹線,shinkansen,Kereta cepat (Shinkansen),core,mnn
+330,5,バイク,,baiku,Motor,core,mnn
+331,5,くるま,車,kuruma,Mobil,core,mnn
+332,5,ひと,人,hito,Orang,core,mnn
+333,5,ともだち,友達,tomodachi,Teman,core,mnn
+334,5,かれ,彼,kare,Dia (laki-laki),core,mnn
+335,5,かのじょ,彼女,kanojo,Dia (perempuan),core,mnn
+336,5,かぞく,家族,kazoku,Keluarga,core,mnn
+337,5,ひとりで,一人で,hitori de,Sendirian,core,mnn
+338,5,なにで,何で,nani de,Dengan apa (alat transportasi),core,mnn
+339,5,きょう,今日,kyou,Hari ini,core,mnn
+340,5,あした,明日,ashita,Besok,core,mnn
+341,5,あさって,,asatte,Lusa,core,mnn
+342,5,きのう,昨日,kinou,Kemarin,core,mnn
+343,5,おととい,,ototoi,Kemarin lusa,core,mnn
+344,5,こんしゅう,今週,konshuu,Minggu ini,core,mnn
+345,5,らいしゅう,来週,raishuu,Minggu depan,core,mnn
+346,5,せんしゅう,先週,senshuu,Minggu lalu,core,mnn
+347,5,こんげつ,今月,kongetsu,Bulan ini,core,mnn
+348,5,らいげつ,来月,raigetsu,Bulan depan,core,mnn
+349,5,せんげつ,先月,sengetsu,Bulan lalu,core,mnn
+350,5,ことし,今年,kotoshi,Tahun ini,core,mnn
+351,5,らいねん,来年,rainen,Tahun depan,core,mnn
+352,5,きょねん,去年,kyonen,Tahun lalu,core,mnn
+353,5,まいにち,毎日,mainichi,Setiap hari,core,mnn
+354,5,まいあさ,毎朝,maiasa,Setiap pagi,core,mnn
+355,5,まいばん,毎晩,maiban,Setiap malam,core,mnn
+356,5,なんようび,何曜日,nanyoubi,Hari apa,core,mnn
+357,5,げつようび,月曜日,getsuyoubi,Senin,core,mnn
+358,5,かようび,火曜日,kayoubi,Selasa,core,mnn
+359,5,すいようび,水曜日,suiyoubi,Rabu,core,mnn
+360,5,もくようび,木曜日,mokuyoubi,Kamis,core,mnn
+361,5,きんようび,金曜日,kinyoubi,Jumat,core,mnn
+362,5,どようび,土曜日,doyoubi,Sabtu,core,mnn
+363,5,にちようび,日曜日,nichiyoubi,Minggu,core,mnn
+364,5,〜ねん,〜年,~nen,~ tahun,core,mnn
+365,5,なんねん,何年,nannen,Tahun berapa,core,mnn
+366,5,〜がつ,〜月,~gatsu,~ bulan,core,mnn
+367,5,なんがつ,何月,nangatsu,Bulan apa,core,mnn
+368,5,〜にち,〜日,~nichi,~ tanggal,core,mnn
+369,5,なんにち,何日,nannichi,Tanggal berapa / berapa hari,core,mnn
+370,5,ついたち,一日,tsuitachi,Tanggal 1,core,mnn
+371,5,ふつか,二日,futsuka,Tanggal 2,core,mnn
+372,5,みっか,三日,mikka,Tanggal 3,core,mnn
+373,5,よっか,四日,yokka,Tanggal 4,core,mnn
+374,5,いつか,五日,itsuka,Tanggal 5,core,mnn
+375,5,むいか,六日,muika,Tanggal 6,core,mnn
+376,5,なのか,七日,nanoka,Tanggal 7,core,mnn
+377,5,ようか,八日,youka,Tanggal 8,core,mnn
+378,5,ここのか,九日,kokonoka,Tanggal 9,core,mnn
+379,5,とおか,十日,tooka,Tanggal 10,core,mnn
+380,5,じゅういちにち,十一日,juuichinichi,Tanggal 11,core,mnn
+381,5,じゅうににち,十二日,juuninichi,Tanggal 12,core,mnn
+382,5,じゅうさんにち,十三日,juusannichi,Tanggal 13,core,mnn
+383,5,じゅうよっか,十四日,juuyokka,Tanggal 14,core,mnn
+384,5,じゅうごにち,十五日,juugonichi,Tanggal 15,core,mnn
+385,5,じゅうろくにち,十六日,juurokunichi,Tanggal 16,core,mnn
+386,5,じゅうしちにち,十七日,juushichinichi,Tanggal 17,core,mnn
+387,5,じゅうはちにち,十八日,juuhachinichi,Tanggal 18,core,mnn
+388,5,じゅうくにち,十九日,juukunichi,Tanggal 19,core,mnn
+389,5,はつか,二十日,hatsuka,Tanggal 20,core,mnn
+390,5,にじゅういちにち,二十一日,nijuuichinichi,Tanggal 21,core,mnn
+391,5,にじゅうににち,二十二日,nijuuninichi,Tanggal 22,core,mnn
+392,5,にじゅうさんにち,二十三日,nijuusannichi,Tanggal 23,core,mnn
+393,5,にじゅうよっか,二十四日,nijuuyokka,Tanggal 24,core,mnn
+394,5,いつ,,itsu,Kapan,core,mnn
+395,5,たんじょうび,誕生日,tanjoubi,Hari ulang tahun,core,mnn
+396,5,どうもありがとうございました,,doumo arigatou gozaimashita,Terima kasih banyak (lampau / sangat sopan),info,mnn
+397,5,どういたしまして,,dou itashimashite,Sama-sama (jawaban terima kasih),info,mnn
+398,5,〜ばんせん,〜番線,~bansen,Peron nomor ~ / jalur nomor ~,info,mnn
+399,5,つぎ,,tsugi,Yang berikutnya,info,mnn
+400,5,ふつう,普通,futsuu,Biasa (kereta biasa),reference,mnn
+401,5,きゅうこう,急行,kyuukou,Ekspres,reference,mnn
+402,5,とっきゅう,特急,tokkyuu,Super ekspres,reference,mnn
+403,5,こうしえん,,koushien,Kōshien (kota dekat Osaka / stadion baseball terkenal),info,mnn
+404,5,おおさかじょう,大阪城,oosakajou,Benteng Osaka (kastil kuno terkenal di Osaka),info,mnn
+405,5,カレンダー,,karendaa,Kalender,reference,mnn
+406,5,しゅくじつ,祝日,shukujitsu,Hari libur nasional,reference,mnn
+407,5,がんじつ,元日,ganjitsu,Tahun Baru (1 Januari),info,mnn
+408,5,せいじんのひ,成人の日,seijin no hi,Hari Perayaan Menjadi Dewasa (Senin ke-2 Januari),info,mnn
+409,5,けんこくきねんのひ,建国記念の日,kenkoku kinen no hi,Hari Pembangunan Nasional (11 Februari),info,mnn
+410,5,てんのうたんじょうび,天皇誕生日,tennou tanjoubi,Hari Ulang Tahun Kaisar (23 Februari),info,mnn
+411,5,しゅんぶんのひ,春分の日,shunbun no hi,Hari Equinox Musim Semi (sekitar 20–21 Maret),info,mnn
+412,5,しょうわのひ,昭和の日,showa no hi,Hari Showa (29 April),info,mnn
+413,5,けんぽうきねんび,憲法記念日,kenpou kinenbi,Hari Peringatan Konstitusi (3 Mei),info,mnn
+414,5,みどりのひ,みどりの日,midori no hi,Hari Penghijauan (4 Mei),info,mnn
+415,5,こどものひ,子供の日,kodomo no hi,Hari Anak (5 Mei),info,mnn
+416,5,うみのひ,海の日,umi no hi,Hari Bahari (Senin ke-3 Juli),info,mnn
+417,5,やまのひ,山の日,yama no hi,Hari Gunung (11 Agustus),info,mnn
+418,5,けいろうのひ,敬老の日,keirou no hi,Hari Hormat kepada Orang Tua (Senin ke-3 September),info,mnn
+419,5,しゅうぶんのひ,秋分の日,shuubun no hi,Hari Equinox Musim Gugur (sekitar 22–23 September),info,mnn
+420,5,スポーツのひ,,supootsu no hi,Hari Olahraga (Senin ke-2 Oktober),info,mnn
+421,5,ぶんかのひ,文化の日,bunka no hi,Hari Kebudayaan (3 November),info,mnn
+422,5,きんろうかんしゃのひ,勤労感謝の日,kinrou kansha no hi,Hari Bersyukur atas Pekerjaan (23 November),info,mnn
+423,5,いちがつついたち,一月一日,ichigatsu tsuitachi,1 Januari,info,mnn
+424,5,にがつじゅういちにち,二月十一日,nigatsu juuichinichi,11 Februari,info,mnn
+425,5,にがつにじゅうさんにち,二月二十三日,nigatsu nijuu-san nichi,23 Februari,info,mnn
+426,5,さんがつはつか,三月二十日,sangatsu hatsuka,20 Maret,info,mnn
+427,5,さんがつにじゅういちにち,三月二十一日,sangatsu nijuu-ichi nichi,21 Maret,info,mnn
+428,5,よんがつにじゅうくにち,四月二十九日,yongatsu nijuu-ku nichi,29 April,info,mnn
+429,5,ごがつみっか,五月三日,gogatsu mikka,3 Mei,info,mnn
+430,5,ごがつよっか,五月四日,gogatsu yokka,4 Mei,info,mnn
+431,5,ごがついつか,五月五日,gogatsu itsuka,5 Mei,info,mnn
+432,5,しちがつさんしゅうめのげつようび,七月第三月曜日,shichigatsu daisan getsuyoubi,Senin ke-3 bulan Juli,info,mnn
+433,5,はちがつじゅういちにち,八月十一日,hachigatsu juuichinichi,11 Agustus,info,mnn
+434,5,くがつさんしゅうめのげつようび,九月第三月曜日,kugatsu daisan getsuyoubi,Senin ke-3 bulan September,info,mnn
+435,5,くがつにじゅうににち,九月二十二日,kugatsu nijuu-ni nichi,22 September,info,mnn
+436,5,くがつにじゅうさんにち,九月二十三日,kugatsu nijuu-san nichi,23 September,info,mnn
+437,5,じゅうがつにしゅうめのげつようび,十月第二月曜日,juugatsu da-ni getsuyoubi,Senin ke-2 bulan Oktober,info,mnn
+438,5,じゅういちがつみっか,十一月三日,juuichigatsu mikka,3 November,info,mnn
+439,5,じゅういちがつにじゅうさんにち,十一月二十三日,juuichigatsu nijuu-san nichi,23 November,info,mnn
 
-437,6,たべます,食べます,tabemasu,Makan,core,mnn
-438,6,のみます,飲みます,nomimasu,Minum,core,mnn
-439,6,すいます,吸います,suimasu,Merokok / menghisap [rokok],core,mnn
-440,6,みます,見ます,mimasu,Melihat / menonton,core,mnn
-441,6,ききます,聞きます,kikimasu,Mendengar,core,mnn
-442,6,よみます,読みます,yomimasu,Membaca,core,mnn
-443,6,かきます,書きます,kakimasu,Menulis/menggambar,core,mnn
-444,6,かいます,買います,kaimasu,Membeli,core,mnn
-445,6,とります,撮ります,torimasu,Mengambil (foto) / memetik,core,mnn
-446,6,します,,shimasu,Melakukan,core,mnn
-447,6,あいます,会います,aimasu,Bertemu,core,mnn
-448,6,ごはん,,gohan,Nasi / makanan,core,mnn
-449,6,あさごはん,朝ごはん,asagohan,Sarapan,core,mnn
-450,6,ひるごはん,昼ごはん,hirugohan,Makan siang,core,mnn
-451,6,ばんごはん,晩ごはん,bangohan,Makan malam,core,mnn
-452,6,パン,,pan,Roti,core,mnn
-453,6,たまご,卵,tamago,Telur,core,mnn
-454,6,にく,肉,niku,Daging,core,mnn
-455,6,さかな,魚,sakana,Ikan,core,mnn
-456,6,やさい,野菜,yasai,Sayur-sayuran,core,mnn
-457,6,くだもの,果物,kudamono,Buah-buahan,core,mnn
-458,6,みず,水,mizu,Air,core,mnn
-459,6,おちゃ,お茶,ocha,Teh/teh jepang/teh hijau,core,mnn
-460,6,こうちゃ,紅茶,koucha,Teh hitam,core,mnn
-461,6,ぎゅうにゅう,牛乳,gyuunyuu,Susu,core,mnn
-462,6,ジュース,,juusu,Jus/sari buah,core,mnn
-463,6,ビール,,biiru,Bir,core,mnn
-464,6,[お]さけ,[お]酒,osake,Minuman keras beralkohol,core,mnn
-465,6,たばこ,,tabako,Rokok,core,mnn
-466,6,ミルク,,miruku,Susu secara umum(termasuk susu formula),core,mnn
-467,6,てがみ,手紙,tegami,Surat,core,mnn
-468,6,レポート,,repooto,Laporan,core,mnn
-469,6,しゃしん,写真,shashin,Foto,core,mnn
-470,6,ビデオ テープ,,bideo teepu,Kaset video / VHS,core,mnn
-471,6,みせ,店,mise,Toko,core,mnn
-472,6,にわ,庭,niwa,Halaman / taman,core,mnn
-473,6,しゅくだい,宿題,shukudai,Pekerjaan rumah / PR,core,mnn
-474,6,しゅくだいをします,宿題をします,shukudai o shimasu,Mengerjakan PR,core,mnn
-475,6,テニス,,tenisu,Tenis,core,mnn
-476,6,テニスをします,,tenisu o shimasu,Bermain tenis,core,mnn
-477,6,サッカー,,sakkaa,Sepak bola,core,mnn
-478,6,サッカーをします,,sakkaa o shimasu,Bermain sepak bola,core,mnn
-479,6,おはなみ,お花見,ohanami,Melihat bunga sakura,core,mnn
-480,6,おはなみをします,お花見,ohanami o shimasu,Melihat dan menikmati bunga sakura,core,mnn
-481,6,なに,何,nani,Apa,core,mnn
-482,6,いっしょに,,issho ni,Bersama-sama,core,mnn
-483,6,ちょっと,,chotto,Sebentar / sedikit,core,mnn
-484,6,いつ,,itsu,Kapan,core,mnn
-485,6,ときどき,,tokidoki,Kadang-kadang,core,mnn
-486,6,いつも,,itsumo,Selalu,core,mnn
-487,6,それから,,sorekara,Setelah itu / kemudian,info,mnn
-488,6,そうですね,,sou desu ne,Ya / benar (ungkapan setuju),info,mnn
-489,6,ええ,,ee,Ya (lebih sopan),info,mnn
-490,6,いいですね,,ii desu ne,Bagus ya / baik ya,info,mnn
-491,6,わかりました,,wakarimashita,Mengerti / baik,info,mnn
-492,6,なんですか,,nan desu ka,Apa?,info,mnn
-493,6,じゃ、また[あした],,ja mata [ashita],Oke sampai jumpa [besok],info,mnn
-494,6,にんじん,人参,ninjin,Wortel,ref,mnn
-495,6,じゃがいも,,jagaimo,Kentang,ref,mnn
-496,6,たまねぎ,玉ねぎ,tamanegi,Bawang,ref,mnn
-497,6,レタス,,retasu,Selada/letas,ref,mnn
-498,6,きゅうり,胡瓜,kyuuri,Timun/mentimun,ref,mnn
-499,6,トマト,,tomato,Tomat,ref,mnn
-500,6,ピーマン,,piiman,Paprika,ref,mnn
-501,6,なす,茄子,nasu,Terong,ref,mnn
-502,6,キャベツ,,kyabetsu,Kubis / kol,ref,mnn
-503,6,ほうれんそう,ほうれん草,hourensou,Bayam,ref,mnn
-504,6,だいこん,大根,daikon,Lobak,ref,mnn
-505,6,かぼちゃ,南瓜,kabocha,Labu,ref,mnn
-506,6,ブロッコリー,,burokkorii,Brokoli,ref,mnn
-507,6,いんげん,,ingen,Kacang panjang / kacang polong,ref,mnn
-508,6,ねぎ,葱,negi,Daun bawang,ref,mnn
-509,6,はくさい,白菜,hakusai,Sawi putih,ref,mnn
-510,6,りんご,,ringo,Apel,ref,mnn
-511,6,みかん,,mikan,Jeruk,ref,mnn
-512,6,バナナ,,banana,Pisang,ref,mnn
-513,6,ぶどう,,budou,Anggur,ref,mnn
-514,6,もも,桃,momo,Persik,ref,mnn
-515,6,すいか,西瓜,suika,Semangka,ref,mnn
-516,6,さくらんぼ,,sakuranbo,Ceri,ref,mnn
-517,6,いちご,,ichigo,Stroberi,ref,mnn
-518,6,なし,梨,nashi,Pir,ref,mnn
-519,6,かき,柿,kaki,Buah kesemek,ref,mnn
-520,6,にく,肉,niku,Daging,ref,mnn
-521,6,ぶたにく,豚肉,butaniku,Daging babi,ref,mnn
-522,6,ぎゅうにく,牛肉,gyuuniku,Daging sapi,ref,mnn
-523,6,とりにく,鶏肉,toriniku,Daging ayam,ref,mnn
-524,6,ソーセージ,,sooseeji,Sosis,ref,mnn
-525,6,ハム,,hamu,Ham,ref,mnn
-526,6,さかな,魚,sakana,Ikan,ref,mnn
-527,6,すずき,鱸,suzuki,Ikan gabus / seabass,ref,mnn
-528,6,あじ,鯵,aji,Ikan horse mackerel / aji,ref,mnn
-529,6,いわし,鰯,iwashi,Ikan sarden,ref,mnn
-530,6,さば,鯖,saba,Ikan kembung / makarel,ref,mnn
-531,6,さんま,秋刀魚,sanma,Ikan sauri pasifik,ref,mnn
-532,6,ままかれい,真鰈,mamaka,Ikan samma,ref,mnn
-533,6,えび,海老,ebi,Udang,ref,mnn
-534,6,かに,蟹,kani,Kepiting,ref,mnn
-535,6,いか,烏賊,ika,Cumi-cumi,ref,mnn
-536,6,たこ,蛸,tako,Gurita,ref,mnn
-537,6,あさり,浅蜊,asari,Kerang,ref,mnn
-538,6,はまぐり,蛤,hamaguri,Kerang,ref,mnn
-539,6,しじみ,蜆,shijimi,Kerang kecil,ref,mnn
-540,6,たまご,卵,tamago,Telur,ref,mnn
-541,6,こめ,米,kome,Beras,ref,mnn
-542,6,まめ,豆,mame,Kacang-kacangan,ref,mnn
+440,6,たべます,食べます,tabemasu,Makan,core,mnn
+441,6,のみます,飲みます,nomimasu,Minum,core,mnn
+442,6,すいます,吸います,suimasu,Merokok / menghisap [rokok],core,mnn
+443,6,みます,見ます,mimasu,Melihat / menonton,core,mnn
+444,6,ききます,聞きます,kikimasu,Mendengar,core,mnn
+445,6,よみます,読みます,yomimasu,Membaca,core,mnn
+446,6,かきます,書きます,kakimasu,Menulis/menggambar,core,mnn
+447,6,かいます,買います,kaimasu,Membeli,core,mnn
+448,6,とります,撮ります,torimasu,Mengambil (foto) / memetik,core,mnn
+449,6,します,,shimasu,Melakukan,core,mnn
+450,6,あいます,会います,aimasu,Bertemu,core,mnn
+451,6,ごはん,,gohan,Nasi / makanan,core,mnn
+452,6,あさごはん,朝ごはん,asagohan,Sarapan,core,mnn
+453,6,ひるごはん,昼ごはん,hirugohan,Makan siang,core,mnn
+454,6,ばんごはん,晩ごはん,bangohan,Makan malam,core,mnn
+455,6,パン,,pan,Roti,core,mnn
+456,6,たまご,卵,tamago,Telur,core,mnn
+457,6,にく,肉,niku,Daging,core,mnn
+458,6,さかな,魚,sakana,Ikan,core,mnn
+459,6,やさい,野菜,yasai,Sayur-sayuran,core,mnn
+460,6,くだもの,果物,kudamono,Buah-buahan,core,mnn
+461,6,みず,水,mizu,Air,core,mnn
+462,6,おちゃ,お茶,ocha,Teh/teh jepang/teh hijau,core,mnn
+463,6,こうちゃ,紅茶,koucha,Teh hitam,core,mnn
+464,6,ぎゅうにゅう,牛乳,gyuunyuu,Susu,core,mnn
+465,6,ジュース,,juusu,Jus/sari buah,core,mnn
+466,6,ビール,,biiru,Bir,core,mnn
+467,6,[お]さけ,[お]酒,osake,Minuman keras beralkohol,core,mnn
+468,6,たばこ,,tabako,Rokok,core,mnn
+469,6,ミルク,,miruku,Susu secara umum(termasuk susu formula),core,mnn
+470,6,てがみ,手紙,tegami,Surat,core,mnn
+471,6,レポート,,repooto,Laporan,core,mnn
+472,6,しゃしん,写真,shashin,Foto,core,mnn
+473,6,ビデオ テープ,,bideo teepu,Kaset video / VHS,core,mnn
+474,6,みせ,店,mise,Toko,core,mnn
+475,6,にわ,庭,niwa,Halaman / taman,core,mnn
+476,6,しゅくだい,宿題,shukudai,Pekerjaan rumah / PR,core,mnn
+477,6,しゅくだいをします,宿題をします,shukudai o shimasu,Mengerjakan PR,core,mnn
+478,6,テニス,,tenisu,Tenis,core,mnn
+479,6,テニスをします,,tenisu o shimasu,Bermain tenis,core,mnn
+480,6,サッカー,,sakkaa,Sepak bola,core,mnn
+481,6,サッカーをします,,sakkaa o shimasu,Bermain sepak bola,core,mnn
+482,6,おはなみ,お花見,ohanami,Melihat bunga sakura,core,mnn
+483,6,おはなみをします,お花見,ohanami o shimasu,Melihat dan menikmati bunga sakura,core,mnn
+484,6,なに,何,nani,Apa,core,mnn
+485,6,いっしょに,,issho ni,Bersama-sama,core,mnn
+486,6,ちょっと,,chotto,Sebentar / sedikit,core,mnn
+487,6,いつ,,itsu,Kapan,core,mnn
+488,6,ときどき,,tokidoki,Kadang-kadang,core,mnn
+489,6,いつも,,itsumo,Selalu,core,mnn
+490,6,それから,,sorekara,Setelah itu / kemudian,info,mnn
+491,6,そうですね,,sou desu ne,Ya / benar (ungkapan setuju),info,mnn
+492,6,ええ,,ee,Ya (lebih sopan),info,mnn
+493,6,いいですね,,ii desu ne,Bagus ya / baik ya,info,mnn
+494,6,わかりました,,wakarimashita,Mengerti / baik,info,mnn
+495,6,なんですか,,nan desu ka,Apa?,info,mnn
+496,6,じゃ、また[あした],,ja mata [ashita],Oke sampai jumpa [besok],info,mnn
+497,6,にんじん,人参,ninjin,Wortel,ref,mnn
+498,6,じゃがいも,,jagaimo,Kentang,ref,mnn
+499,6,たまねぎ,玉ねぎ,tamanegi,Bawang,ref,mnn
+500,6,レタス,,retasu,Selada/letas,ref,mnn
+501,6,きゅうり,胡瓜,kyuuri,Timun/mentimun,ref,mnn
+502,6,トマト,,tomato,Tomat,ref,mnn
+503,6,ピーマン,,piiman,Paprika,ref,mnn
+504,6,なす,茄子,nasu,Terong,ref,mnn
+505,6,キャベツ,,kyabetsu,Kubis / kol,ref,mnn
+506,6,ほうれんそう,ほうれん草,hourensou,Bayam,ref,mnn
+507,6,だいこん,大根,daikon,Lobak,ref,mnn
+508,6,かぼちゃ,南瓜,kabocha,Labu,ref,mnn
+509,6,ブロッコリー,,burokkorii,Brokoli,ref,mnn
+510,6,いんげん,,ingen,Kacang panjang / kacang polong,ref,mnn
+511,6,ねぎ,葱,negi,Daun bawang,ref,mnn
+512,6,はくさい,白菜,hakusai,Sawi putih,ref,mnn
+513,6,りんご,,ringo,Apel,ref,mnn
+514,6,みかん,,mikan,Jeruk,ref,mnn
+515,6,バナナ,,banana,Pisang,ref,mnn
+516,6,ぶどう,,budou,Anggur,ref,mnn
+517,6,もも,桃,momo,Persik,ref,mnn
+518,6,すいか,西瓜,suika,Semangka,ref,mnn
+519,6,さくらんぼ,,sakuranbo,Ceri,ref,mnn
+520,6,いちご,,ichigo,Stroberi,ref,mnn
+521,6,なし,梨,nashi,Pir,ref,mnn
+522,6,かき,柿,kaki,Buah kesemek,ref,mnn
+523,6,にく,肉,niku,Daging,ref,mnn
+524,6,ぶたにく,豚肉,butaniku,Daging babi,ref,mnn
+525,6,ぎゅうにく,牛肉,gyuuniku,Daging sapi,ref,mnn
+526,6,とりにく,鶏肉,toriniku,Daging ayam,ref,mnn
+527,6,ソーセージ,,sooseeji,Sosis,ref,mnn
+528,6,ハム,,hamu,Ham,ref,mnn
+529,6,さかな,魚,sakana,Ikan,ref,mnn
+530,6,すずき,鱸,suzuki,Ikan gabus / seabass,ref,mnn
+531,6,あじ,鯵,aji,Ikan horse mackerel / aji,ref,mnn
+532,6,いわし,鰯,iwashi,Ikan sarden,ref,mnn
+533,6,さば,鯖,saba,Ikan kembung / makarel,ref,mnn
+534,6,さんま,秋刀魚,sanma,Ikan sauri pasifik,ref,mnn
+535,6,ままかれい,真鰈,mamaka,Ikan samma,ref,mnn
+536,6,えび,海老,ebi,Udang,ref,mnn
+537,6,かに,蟹,kani,Kepiting,ref,mnn
+538,6,いか,烏賊,ika,Cumi-cumi,ref,mnn
+539,6,たこ,蛸,tako,Gurita,ref,mnn
+540,6,あさり,浅蜊,asari,Kerang,ref,mnn
+541,6,はまぐり,蛤,hamaguri,Kerang,ref,mnn
+542,6,しじみ,蜆,shijimi,Kerang kecil,ref,mnn
+543,6,たまご,卵,tamago,Telur,ref,mnn
+544,6,こめ,米,kome,Beras,ref,mnn
+545,6,まめ,豆,mame,Kacang-kacangan,ref,mnn
 
-543,7,きります,切ります,kirimasu,Memotong/menggunting,core,mnn
-544,7,おくります,送ります,okurimasu,Mengirim (surat / paket),core,mnn
-545,7,もらいます,,moraimasu,Mendapatkan/menerima,core,mnn
-546,7,あげます,,agemasu,Memberi/memberikan,core,mnn
-547,7,かします,貸します,kashimasu,Meminjamkan/menyewakan,core,mnn
-548,7,かります,借ります,karimasu,Meminjam/menyewa,core,mnn
-549,7,ならいます,習います,naraimasu,Belajar (dari seseorang),core,mnn
-550,7,かけます,,kakemasu,Menelepon,core,mnn
-551,7,あいます,会います,aimasu,Bertemu (dengan teman / orang),core,mnn
-552,7,でんわをかけます,電話をかけます,denwa o kakemasu,Menelepon (dengan teman / orang),core,mnn
-553,7,て,手,te,Tangan,core,mnn
-554,7,はし,箸,hashi,Sumpit,core,mnn
-555,7,スプーン,,supuun,Sendok,core,mnn
-556,7,ナイフ,,naifu,Pisau,core,mnn
-557,7,フォーク,,fooku,Garpu,core,mnn
-558,7,ハサミ,,hasami,Gunting,core,mnn
-559,7,コンピューター,,konpyuutaa,Komputer / PC,core,mnn
-560,7,ケータイ,携帯,keitai,HP / ponsel,core,mnn
-561,7,メール,,meeru,E-mail,core,mnn
-562,7,ねんがじょう,年賀状,nengajou,Kartu tahun baru,core,mnn
-563,7,パンチ,,panchi,Pelubang kertas,core,mnn
-564,7,ホッチキス,,hotchikisu,Stapler,core,mnn
-565,7,セロテープ,,seroteepu,Selotip,core,mnn
-566,7,けしゴム,消しゴム,keshigomu,Penghapus karet,core,mnn
-567,7,かみ,紙,kami,Kertas,core,mnn
-568,7,はな,花,hana,Bunga,core,mnn
-569,7,シャツ,,shatsu,Kemeja,core,mnn
-570,7,プレゼント,,purezento,Kado / hadiah,core,mnn
-571,7,もの,物,mono,Barang / benda,core,mnn
-572,7,おかね,お金,okane,Uang,core,mnn
-573,7,きっぷ,切符,kippu,Karcis,core,mnn
-574,7,クリスマス,,kurisumasu,Natal,core,mnn
-575,7,おとうさん,お父さん,otousan,Bapak / ayah kandung / ayah orang lain,core,mnn
-576,7,おかあさん,お母さん,okaasan,Ibu kandung / ibu orang lain,core,mnn
-577,7,もう,,mou,Sudah,info,mnn
-578,7,まだ,,mada,Belum,info,mnn
-579,7,これから,,korekara, mulai dari sekarang,info,mnn
-580,7,ちち,父,chichi,Bapak,core,mnn
-581,7,はは,母,haha,Ibu,core,mnn
-582,7,いいですね,,ii desu ne,[~] bagus ya./[~] indah ya.,info,mnn
-583,7,[~,] すてきですね,"[~,] sutekidesune","[~] bagus ya./[~] indah ya.",info,mnn
-584,7,いらっしゃいませ,,irasshaimase,Selamat datang,info,mnn
-585,7,どうぞおはいりください,,douzo ohairi kudasai, silakan masuk,info,mnn
-586,7,どうぞおあがりください,,douzo oagari kudasai,Silakan masuk,info,mnn
-587,7,しつれいします,,shitsurei shimasu,Permisi,info,mnn
-588,7,[~は] いかがですか,,[~wa] ikagadesuka,"bagaimana [~]? (digunakan saat menawarkan sesuatu kepada orang)",info,mnn
-589,7,どうぞめしあがってください,,douzo meshiagatte kudasai,Selamat makan (diucapkan sebelum minum/makan),info,mnn
-590,7,いただきます,,itadakimasu,Selamat makan (diucapkan sebelum minum/makan makanan),info,mnn
-591,7,ごちそうさまでした,,gochisousama deshita,Terimakasih atas hidangannya (diucapkan setelah makan),info,mnn
-592,7,スペイン,,supein,Spanyol,core,mnn
-593,7,かぞく,家族,kazoku,Keluarga,ref,mnn
-594,7,わたしのかぞく,私の家族,watashi no kazoku,Keluarga saya,ref,mnn
-595,7,そぼ,祖母,sobo,Nenek,ref,mnn
-596,7,そふ,祖父,sofu,Kakek,ref,mnn
-597,7,そふぼ,祖父母,sofubo,Kakek nenek,ref,mnn
-598,7,りょうしん,両親,ryoushin,Orang tua,ref,mnn
-599,7,いもうと,妹,imouto,Adik perempuan,ref,mnn
-600,7,おとうと,弟,otouto,Adik laki-laki,ref,mnn
-601,7,あね,姉,ane,Kakak perempuan,ref,mnn
-602,7,あに,兄,ani,Kakak laki-laki,ref,mnn
-603,7,きょうだい,兄弟,kyoudai,Saudara,ref,mnn
-604,7,つま,妻,tsuma,Istri,ref,mnn
-605,7,おっと,夫,otto,Suami,ref,mnn
-606,7,わたし,私,watashi,Saya,ref,mnn
-607,7,ふうふ,夫婦,fuufu,Pasangan suami istri,ref,mnn
-608,7,むすめ,娘,musume,Anak perempuan,ref,mnn
-609,7,むすこ,息子,musuko,Anak laki-laki,ref,mnn
-610,7,こども,子ども,kodomo,Anak,ref,mnn
+546,7,きります,切ります,kirimasu,Memotong/menggunting,core,mnn
+547,7,おくります,送ります,okurimasu,Mengirim (surat / paket),core,mnn
+548,7,もらいます,,moraimasu,Mendapatkan/menerima,core,mnn
+549,7,あげます,,agemasu,Memberi/memberikan,core,mnn
+550,7,かします,貸します,kashimasu,Meminjamkan/menyewakan,core,mnn
+551,7,かります,借ります,karimasu,Meminjam/menyewa,core,mnn
+552,7,ならいます,習います,naraimasu,Belajar (dari seseorang),core,mnn
+553,7,かけます,,kakemasu,Menelepon,core,mnn
+554,7,あいます,会います,aimasu,Bertemu (dengan teman / orang),core,mnn
+555,7,でんわをかけます,電話をかけます,denwa o kakemasu,Menelepon (dengan teman / orang),core,mnn
+556,7,て,手,te,Tangan,core,mnn
+557,7,はし,箸,hashi,Sumpit,core,mnn
+558,7,スプーン,,supuun,Sendok,core,mnn
+559,7,ナイフ,,naifu,Pisau,core,mnn
+560,7,フォーク,,fooku,Garpu,core,mnn
+561,7,ハサミ,,hasami,Gunting,core,mnn
+562,7,コンピューター,,konpyuutaa,Komputer / PC,core,mnn
+563,7,ケータイ,携帯,keitai,HP / ponsel,core,mnn
+564,7,メール,,meeru,E-mail,core,mnn
+565,7,ねんがじょう,年賀状,nengajou,Kartu tahun baru,core,mnn
+566,7,パンチ,,panchi,Pelubang kertas,core,mnn
+567,7,ホッチキス,,hotchikisu,Stapler,core,mnn
+568,7,セロテープ,,seroteepu,Selotip,core,mnn
+569,7,けしゴム,消しゴム,keshigomu,Penghapus karet,core,mnn
+570,7,かみ,紙,kami,Kertas,core,mnn
+571,7,はな,花,hana,Bunga,core,mnn
+572,7,シャツ,,shatsu,Kemeja,core,mnn
+573,7,プレゼント,,purezento,Kado / hadiah,core,mnn
+574,7,もの,物,mono,Barang / benda,core,mnn
+575,7,おかね,お金,okane,Uang,core,mnn
+576,7,きっぷ,切符,kippu,Karcis,core,mnn
+577,7,クリスマス,,kurisumasu,Natal,core,mnn
+578,7,おとうさん,お父さん,otousan,Bapak / ayah kandung / ayah orang lain,core,mnn
+579,7,おかあさん,お母さん,okaasan,Ibu kandung / ibu orang lain,core,mnn
+580,7,もう,,mou,Sudah,info,mnn
+581,7,まだ,,mada,Belum,info,mnn
+582,7,これから,,korekara, mulai dari sekarang,info,mnn
+583,7,ちち,父,chichi,Bapak,core,mnn
+584,7,はは,母,haha,Ibu,core,mnn
+585,7,いいですね,,ii desu ne,[~] bagus ya./[~] indah ya.,info,mnn
+586,7,[~,] すてきですね,"[~,] sutekidesune","[~] bagus ya./[~] indah ya.",info,mnn
+587,7,いらっしゃいませ,,irasshaimase,Selamat datang,info,mnn
+588,7,どうぞおはいりください,,douzo ohairi kudasai, silakan masuk,info,mnn
+589,7,どうぞおあがりください,,douzo oagari kudasai,Silakan masuk,info,mnn
+590,7,しつれいします,,shitsurei shimasu,Permisi,info,mnn
+591,7,[~は] いかがですか,,[~wa] ikagadesuka,"bagaimana [~]? (digunakan saat menawarkan sesuatu kepada orang)",info,mnn
+592,7,どうぞめしあがってください,,douzo meshiagatte kudasai,Selamat makan (diucapkan sebelum minum/makan),info,mnn
+593,7,いただきます,,itadakimasu,Selamat makan (diucapkan sebelum minum/makan makanan),info,mnn
+594,7,ごちそうさまでした,,gochisousama deshita,Terimakasih atas hidangannya (diucapkan setelah makan),info,mnn
+595,7,スペイン,,supein,Spanyol,core,mnn
+596,7,かぞく,家族,kazoku,Keluarga,ref,mnn
+597,7,わたしのかぞく,私の家族,watashi no kazoku,Keluarga saya,ref,mnn
+598,7,そぼ,祖母,sobo,Nenek,ref,mnn
+599,7,そふ,祖父,sofu,Kakek,ref,mnn
+600,7,そふぼ,祖父母,sofubo,Kakek nenek,ref,mnn
+601,7,りょうしん,両親,ryoushin,Orang tua,ref,mnn
+602,7,いもうと,妹,imouto,Adik perempuan,ref,mnn
+603,7,おとうと,弟,otouto,Adik laki-laki,ref,mnn
+604,7,あね,姉,ane,Kakak perempuan,ref,mnn
+605,7,あに,兄,ani,Kakak laki-laki,ref,mnn
+606,7,きょうだい,兄弟,kyoudai,Saudara,ref,mnn
+607,7,つま,妻,tsuma,Istri,ref,mnn
+608,7,おっと,夫,otto,Suami,ref,mnn
+609,7,わたし,私,watashi,Saya,ref,mnn
+610,7,ふうふ,夫婦,fuufu,Pasangan suami istri,ref,mnn
+611,7,むすめ,娘,musume,Anak perempuan,ref,mnn
+612,7,むすこ,息子,musuko,Anak laki-laki,ref,mnn
+613,7,こども,子ども,kodomo,Anak,ref,mnn
 
-611,8,ハンサム[な],,hansamu,Tampan / gagah / ganteng,adjective-na,mnn
-612,8,きれい[な],,kirei,Cantik / bersih,adjective-na,mnn
-613,8,しずか[な],静か[な],shizuka,Sunyi / tenang,adjective-na,mnn
-614,8,にぎやか[な],賑やか[な],nigiyaka,Ramai,adjective-na,mnn
-615,8,ゆうめい[な],有名[な],yuumei,Terkenal,adjective-na,mnn
-616,8,しんせつ[な],親切[な],shinsetsu,Baik hati (tidak untuk keluarga sendiri),adjective-na,mnn
-617,8,げんき[な],元気[な],genki,Sehat walafiat,adjective-na,mnn
-618,8,ひま[な],暇[な],hima,Senggang / tidak sibuk,adjective-na,mnn
-619,8,べんり[な],便利[な],benri,Praktis,adjective-na,mnn
-620,8,すてき[な],,suteki,Bagus / indah / keren,adjective-na,mnn
-621,8,おおきい[い],大きい[い],ookii,Besar,adjective-i,mnn
-622,8,ちいさい[い],小さい[い],chiisai,Kecil,adjective-i,mnn
-623,8,あたらしい[い],新しい[い],atarashii,Baru,adjective-i,mnn
-624,8,ふるい[い],古い[い],furui,Lama / tua (barang),adjective-i,mnn
-625,8,いい[い],,ii,Bagus,adjective-i,mnn
-626,8,わるい[い],悪い[い],warui,Buruk / jelek,adjective-i,mnn
-627,8,あつい[い],暑い[い],atsui,Panas (cuaca),adjective-i,mnn
-628,8,さむい[い],寒い[い],samui,Dingin (cuaca),adjective-i,mnn
-629,8,つめたい[い],冷たい[い],tsumetai,Dingin (sentuhan / rasa benda),adjective-i,mnn
-630,8,むずかしい[い],難しい[い],muzukashii,Sulit / susah,adjective-i,mnn
-631,8,やさしい[い],易しい[い],yasashii,Mudah / gampang,adjective-i,mnn
-632,8,たかい[い],高い[い],takai,Mahal / tinggi,adjective-i,mnn
-633,8,やすい[い],安い[い],yasui,Murah,adjective-i,mnn
-634,8,ひくい[い],低い[い],hikui,Pendek / rendah,adjective-i,mnn
-635,8,おもしろい[い],,omoshiroi,Menarik,adjective-i,mnn
-636,8,おいしい[い],,oishii,Enak,adjective-i,mnn
-637,8,いそがしい[い],忙しい[い],isogashii,Sibuk,adjective-i,mnn
-638,8,たのしい[い],楽しい[い],tanoshii,Senang,adjective-i,mnn
-639,8,いろ,色,iro,Warna,noun,mnn
-640,8,しろい[い],白い[い],shiroi,Putih,adjective-i,mnn
-641,8,くろい[い],黒い[い],kuroi,Hitam,adjective-i,mnn
-642,8,あかい[い],赤い[い],akai,Merah,adjective-i,mnn
-643,8,あおい[い],青い[い],aoi,Biru,adjective-i,mnn
-644,8,みどり,緑,midori,Hijau,noun,mnn
-645,8,むらさき,紫,murasaki,Ungu,noun,mnn
-646,8,きいろ,黄色,kiiro,Kuning,noun,mnn
-647,8,ちゃいろ,茶色,chairo,Coklat,noun,mnn
-648,8,ピンク,,pinku,Merah muda,noun,mnn
-649,8,オレンジ,,orenji,Oranye,noun,mnn
-650,8,グレー,,guree,Abu-abu,noun,mnn
-651,8,クリーム,,kuriimu,Krem,noun,mnn
-652,8,あじ,味,aji,Rasa,noun,mnn
-653,8,あまい[い],甘い[い],amai,Manis,adjective-i,mnn
-654,8,からい[い],辛い[い],karai,Pedas,adjective-i,mnn
-655,8,にがい[い],苦い[い],nigai,Pahit,adjective-i,mnn
-656,8,しょっぱい[い],しょっぱい[い],shoppai,Asin,adjective-i,mnn
-657,8,すっぱい[い],すっぱい[い],suppai,Asam,adjective-i,mnn
-658,8,こい[い],濃い[い],koi,Kental / pekat,adjective-i,mnn
-659,8,うすい[い],薄い[い],usui,Tawar / encer,adjective-i,mnn
-660,8,さくら,桜,sakura,Bunga sakura,noun,mnn
-661,8,やま,山,yama,Gunung,noun,mnn
-662,8,まち,町,machi,Kota,noun,mnn
-663,8,たべもの,食べ物,tabemono,Makanan,noun,mnn
-664,8,ところ,所,tokoro,Tempat,noun,mnn
-665,8,りょう,寮,ryou,Asrama,noun,mnn
-666,8,レストラン,,resutoran,Restoran,noun,mnn
-667,8,せいかつ,生活,seikatsu,Kehidupan,noun,mnn
-668,8,しごと,仕事,shigoto,Pekerjaan,noun,mnn
-669,8,はたらきます,働きます,hatarakimasu,Bekerja,verb,mnn
-670,8,どう,,dou,Bagaimana,expression,mnn
-671,8,どんな,,donna,Yang bagaimana ~,expression,mnn
-672,8,とても,,totemo,Sangat,adverb,mnn
-673,8,〜ね,,~ne,~sekali (penegasan),particle,mnn
-674,8,あまり〜ません,,amari ~masen,Kurang begitu ~ / tidak begitu ~,grammar,mnn
-675,8,そして,,soshite,Kemudian / dan,conjunction,mnn
-676,8,でも,,demo,Tetapi,conjunction,mnn
-677,8,おげんきですか,お元気ですか,ogenki desu ka,Apa kabar?,expression,mnn
-678,8,どうしましょうか,,dou shimashou ka,Bagaimana ya?,expression,mnn
-679,8,もういっぱいどうですか,,mou ippai dou desu ka,Mau tambah secangkir lagi?,expression,mnn
-680,8,"いいえ、けっこうです",,"iie, kekkou desu","[Tidak,] terima kasih, saya sudah cukup",expression,mnn
-681,8,もう〜ました,,mou ~mashita,Sudah ~ [ya],grammar,mnn
-682,8,しつれいします,,shitsurei shimasu,"maaf, saya mau pamit dulu",expression,mnn
-683,8,どういたしまして,,dou itashimashite,Sama-sama,expression,mnn
-684,8,またいらっしゃってください,,mata irasshatte kudasai,Silakan datang lagi,expression,mnn
-685,8,さくら,桜,sakura,Bunga sakura,noun,mnn
-686,8,やま,山,yama,Gunung,noun,mnn
-687,8,まち,町,machi,Kota,noun,mnn
-688,8,たべもの,食べ物,tabemono,Makanan,noun,mnn
-689,8,ところ,所,tokoro,Tempat,noun,mnn
-690,8,りょう,寮,ryou,Asrama,noun,mnn
-691,8,レストラン,,resutoran,Restoran,noun,mnn
-692,8,せいかつ,生活,seikatsu,Kehidupan,noun,mnn
-693,8,しごと,仕事,shigoto,Pekerjaan,noun,mnn
-694,8,はたらきます,働きます,hatarakimasu,Bekerja,verb,mnn
-695,8,しごとをします,仕事をします,shigoto o shimasu,Bekerja,verb,mnn
-696,8,どう,,dou,Bagaimana,expression,mnn
-697,8,どんな,,donna,Yang bagaimana ~,expression,mnn
-698,8,とても,,totemo,Sangat,adverb,mnn
-699,8,〜ね,,~ne,~sekali (penegasan),particle,mnn
-700,8,あまり〜ません,,amari ~masen,Kurang begitu ~ / tidak begitu ~,grammar,mnn
-701,8,そして,,soshite,Kemudian / dan,conjunction,mnn
-702,8,~が~,,~ga~,Tetapi / namun (penghubung kalimat),particle,mnn
-703,8,おげんきですか,お元気ですか,ogenki desu ka,Apa kabar?,expression,mnn
-704,8,どうしましょうか,,dou shimashou ka,Bagaimana ya?,expression,mnn
-705,8,もういっぱいどうですか,,mou ippai dou desu ka,Mau tambah secangkir lagi?,expression,mnn
-706,8,いいえ、けっこうです,,"iie, kekkou desu","[Tidak,] terima kasih, saya sudah cukup",expression,mnn
-707,8,もう〜ました,,mou ~mashita,Sudah ~ [ya],grammar,mnn
-708,8,しつれいします,,shitsurei shimasu,"maaf, saya mau pamit dulu",expression,mnn
-709,8,どういたしまして,,dou itashimashite,Sama-sama,expression,mnn
-710,8,またいらっしゃってください,,mata irasshatte kudasai,Silakan datang lagi,expression,mnn
-711,8,シャンハイ,上海,shanhai,Kota Shanghai,proper-noun,mnn
-712,8,きんかくじ,金閣寺,kinkakuji,Kuil Kinkakuji,proper-noun,mnn
-713,8,ならこうえん,奈良公園,nara kouen,Taman Nara,proper-noun,mnn
-714,8,ふじさん,富士山,fujisan,Gunung Fuji (gunung tertinggi di Jepang),proper-noun,mnn
-715,8,しちにんのさむらい,七人の侍,shichinin no samurai,Tujuh Orang Samurai (film lama Akira Kurosawa),proper-noun,mnn
-716,8,はる,春,haru,Musim semi,noun,mnn
-717,8,なつ,夏,natsu,Musim panas,noun,mnn
-718,8,あき,秋,aki,Musim gugur,noun,mnn
-719,8,ふゆ,冬,fuyu,Musim dingin,noun,mnn
+614,8,ハンサム[な],,hansamu,Tampan / gagah / ganteng,adjective-na,mnn
+615,8,きれい[な],,kirei,Cantik / bersih,adjective-na,mnn
+616,8,しずか[な],静か[な],shizuka,Sunyi / tenang,adjective-na,mnn
+617,8,にぎやか[な],賑やか[な],nigiyaka,Ramai,adjective-na,mnn
+618,8,ゆうめい[な],有名[な],yuumei,Terkenal,adjective-na,mnn
+619,8,しんせつ[な],親切[な],shinsetsu,Baik hati (tidak untuk keluarga sendiri),adjective-na,mnn
+620,8,げんき[な],元気[な],genki,Sehat walafiat,adjective-na,mnn
+621,8,ひま[な],暇[な],hima,Senggang / tidak sibuk,adjective-na,mnn
+622,8,べんり[な],便利[な],benri,Praktis,adjective-na,mnn
+623,8,すてき[な],,suteki,Bagus / indah / keren,adjective-na,mnn
+624,8,おおきい[い],大きい[い],ookii,Besar,adjective-i,mnn
+625,8,ちいさい[い],小さい[い],chiisai,Kecil,adjective-i,mnn
+626,8,あたらしい[い],新しい[い],atarashii,Baru,adjective-i,mnn
+627,8,ふるい[い],古い[い],furui,Lama / tua (barang),adjective-i,mnn
+628,8,いい[い],,ii,Bagus,adjective-i,mnn
+629,8,わるい[い],悪い[い],warui,Buruk / jelek,adjective-i,mnn
+630,8,あつい[い],暑い[い],atsui,Panas (cuaca),adjective-i,mnn
+631,8,さむい[い],寒い[い],samui,Dingin (cuaca),adjective-i,mnn
+632,8,つめたい[い],冷たい[い],tsumetai,Dingin (sentuhan / rasa benda),adjective-i,mnn
+633,8,むずかしい[い],難しい[い],muzukashii,Sulit / susah,adjective-i,mnn
+634,8,やさしい[い],易しい[い],yasashii,Mudah / gampang,adjective-i,mnn
+635,8,たかい[い],高い[い],takai,Mahal / tinggi,adjective-i,mnn
+636,8,やすい[い],安い[い],yasui,Murah,adjective-i,mnn
+637,8,ひくい[い],低い[い],hikui,Pendek / rendah,adjective-i,mnn
+638,8,おもしろい[い],,omoshiroi,Menarik,adjective-i,mnn
+639,8,おいしい[い],,oishii,Enak,adjective-i,mnn
+640,8,いそがしい[い],忙しい[い],isogashii,Sibuk,adjective-i,mnn
+641,8,たのしい[い],楽しい[い],tanoshii,Senang,adjective-i,mnn
+642,8,いろ,色,iro,Warna,noun,mnn
+643,8,しろい[い],白い[い],shiroi,Putih,adjective-i,mnn
+644,8,くろい[い],黒い[い],kuroi,Hitam,adjective-i,mnn
+645,8,あかい[い],赤い[い],akai,Merah,adjective-i,mnn
+646,8,あおい[い],青い[い],aoi,Biru,adjective-i,mnn
+647,8,みどり,緑,midori,Hijau,noun,mnn
+648,8,むらさき,紫,murasaki,Ungu,noun,mnn
+649,8,きいろ,黄色,kiiro,Kuning,noun,mnn
+650,8,ちゃいろ,茶色,chairo,Coklat,noun,mnn
+651,8,ピンク,,pinku,Merah muda,noun,mnn
+652,8,オレンジ,,orenji,Oranye,noun,mnn
+653,8,グレー,,guree,Abu-abu,noun,mnn
+654,8,クリーム,,kuriimu,Krem,noun,mnn
+655,8,あじ,味,aji,Rasa,noun,mnn
+656,8,あまい[い],甘い[い],amai,Manis,adjective-i,mnn
+657,8,からい[い],辛い[い],karai,Pedas,adjective-i,mnn
+658,8,にがい[い],苦い[い],nigai,Pahit,adjective-i,mnn
+659,8,しょっぱい[い],しょっぱい[い],shoppai,Asin,adjective-i,mnn
+660,8,すっぱい[い],すっぱい[い],suppai,Asam,adjective-i,mnn
+661,8,こい[い],濃い[い],koi,Kental / pekat,adjective-i,mnn
+662,8,うすい[い],薄い[い],usui,Tawar / encer,adjective-i,mnn
+663,8,さくら,桜,sakura,Bunga sakura,noun,mnn
+664,8,やま,山,yama,Gunung,noun,mnn
+665,8,まち,町,machi,Kota,noun,mnn
+666,8,たべもの,食べ物,tabemono,Makanan,noun,mnn
+667,8,ところ,所,tokoro,Tempat,noun,mnn
+668,8,りょう,寮,ryou,Asrama,noun,mnn
+669,8,レストラン,,resutoran,Restoran,noun,mnn
+670,8,せいかつ,生活,seikatsu,Kehidupan,noun,mnn
+671,8,しごと,仕事,shigoto,Pekerjaan,noun,mnn
+672,8,はたらきます,働きます,hatarakimasu,Bekerja,verb,mnn
+673,8,どう,,dou,Bagaimana,expression,mnn
+674,8,どんな,,donna,Yang bagaimana ~,expression,mnn
+675,8,とても,,totemo,Sangat,adverb,mnn
+676,8,〜ね,,~ne,~sekali (penegasan),particle,mnn
+677,8,あまり〜ません,,amari ~masen,Kurang begitu ~ / tidak begitu ~,grammar,mnn
+678,8,そして,,soshite,Kemudian / dan,conjunction,mnn
+679,8,でも,,demo,Tetapi,conjunction,mnn
+680,8,おげんきですか,お元気ですか,ogenki desu ka,Apa kabar?,expression,mnn
+681,8,どうしましょうか,,dou shimashou ka,Bagaimana ya?,expression,mnn
+682,8,もういっぱいどうですか,,mou ippai dou desu ka,Mau tambah secangkir lagi?,expression,mnn
+683,8,"いいえ、けっこうです",,"iie, kekkou desu","[Tidak,] terima kasih, saya sudah cukup",expression,mnn
+684,8,もう〜ました,,mou ~mashita,Sudah ~ [ya],grammar,mnn
+685,8,しつれいします,,shitsurei shimasu,"maaf, saya mau pamit dulu",expression,mnn
+686,8,どういたしまして,,dou itashimashite,Sama-sama,expression,mnn
+687,8,またいらっしゃってください,,mata irasshatte kudasai,Silakan datang lagi,expression,mnn
+688,8,さくら,桜,sakura,Bunga sakura,noun,mnn
+689,8,やま,山,yama,Gunung,noun,mnn
+690,8,まち,町,machi,Kota,noun,mnn
+691,8,たべもの,食べ物,tabemono,Makanan,noun,mnn
+692,8,ところ,所,tokoro,Tempat,noun,mnn
+693,8,りょう,寮,ryou,Asrama,noun,mnn
+694,8,レストラン,,resutoran,Restoran,noun,mnn
+695,8,せいかつ,生活,seikatsu,Kehidupan,noun,mnn
+696,8,しごと,仕事,shigoto,Pekerjaan,noun,mnn
+697,8,はたらきます,働きます,hatarakimasu,Bekerja,verb,mnn
+698,8,しごとをします,仕事をします,shigoto o shimasu,Bekerja,verb,mnn
+699,8,どう,,dou,Bagaimana,expression,mnn
+700,8,どんな,,donna,Yang bagaimana ~,expression,mnn
+701,8,とても,,totemo,Sangat,adverb,mnn
+702,8,〜ね,,~ne,~sekali (penegasan),particle,mnn
+703,8,あまり〜ません,,amari ~masen,Kurang begitu ~ / tidak begitu ~,grammar,mnn
+704,8,そして,,soshite,Kemudian / dan,conjunction,mnn
+705,8,~が~,,~ga~,Tetapi / namun (penghubung kalimat),particle,mnn
+706,8,おげんきですか,お元気ですか,ogenki desu ka,Apa kabar?,expression,mnn
+707,8,どうしましょうか,,dou shimashou ka,Bagaimana ya?,expression,mnn
+708,8,もういっぱいどうですか,,mou ippai dou desu ka,Mau tambah secangkir lagi?,expression,mnn
+709,8,いいえ、けっこうです,,"iie, kekkou desu","[Tidak,] terima kasih, saya sudah cukup",expression,mnn
+710,8,もう〜ました,,mou ~mashita,Sudah ~ [ya],grammar,mnn
+711,8,しつれいします,,shitsurei shimasu,"maaf, saya mau pamit dulu",expression,mnn
+712,8,どういたしまして,,dou itashimashite,Sama-sama,expression,mnn
+713,8,またいらっしゃってください,,mata irasshatte kudasai,Silakan datang lagi,expression,mnn
+714,8,シャンハイ,上海,shanhai,Kota Shanghai,proper-noun,mnn
+715,8,きんかくじ,金閣寺,kinkakuji,Kuil Kinkakuji,proper-noun,mnn
+716,8,ならこうえん,奈良公園,nara kouen,Taman Nara,proper-noun,mnn
+717,8,ふじさん,富士山,fujisan,Gunung Fuji (gunung tertinggi di Jepang),proper-noun,mnn
+718,8,しちにんのさむらい,七人の侍,shichinin no samurai,Tujuh Orang Samurai (film lama Akira Kurosawa),proper-noun,mnn
+719,8,はる,春,haru,Musim semi,noun,mnn
+720,8,なつ,夏,natsu,Musim panas,noun,mnn
+721,8,あき,秋,aki,Musim gugur,noun,mnn
+722,8,ふゆ,冬,fuyu,Musim dingin,noun,mnn
 
-720,9,わかります,,wakarimasu,Mengerti / paham,verb,mnn
-721,9,あります,,arimasu,Ada (benda mati) / mempunyai,verb,mnn
-722,9,すき[な],好き[な],suki,"suka, gemar",adjective-na,mnn
-723,9,きらい[な],嫌い[な],kirai,Tidak suka,adjective-na,mnn
-724,9,じょうず[な],上手[な],jouzu,Pandai / pintar / mahir,adjective-na,mnn
-725,9,へた[な],下手[な],heta,Tidak pandai / tidak pintar,adjective-na,mnn
-726,9,のみもの,飲み物,nomimono,Minuman,noun,mnn
-727,9,りょうり,料理,ryouri,Masakan,noun,mnn
-728,9,りょうりをします,,ryouri o shimasu,Memasak,verb,mnn
-729,9,スポーツ,,supootsu,Olahraga,noun,mnn
-730,9,スポーツをします,,supootsu o shimasu,Berolahraga,verb,mnn
-731,9,やきゅう,野球,yakyuu,Baseball,noun,mnn
-732,9,やきゅうをします,野球をします,yakyuu o shimasu,Bermain baseball,verb,mnn
-733,9,ダンス,,dansu,Dansa / tari / dance,noun,mnn
-734,9,ダンスをします,,dansu o shimasu,Berdansa,verb,mnn
-735,9,りょこう,旅行,ryokou,Tamasya / perjalanan,noun,mnn
-736,9,りょこうをします,旅行をします,ryokou o shimasu,Bertamasya / melakukan perjalanan,verb,mnn
-737,9,おんがく,音楽,ongaku,Musik,noun,mnn
-738,9,うた,歌,uta,Lagu,noun,mnn
-739,9,クラシック,,kurashikku,Klasik,noun,mnn
-740,9,ジャズ,,jazu,Jazz,noun,mnn
-741,9,コンサート,,konsaato,Konser,noun,mnn
-742,9,カラオケ,,karaoke,Karaoke,noun,mnn
-743,9,かぶき,歌舞伎,kabuki,Kabuki (salah satu drama tradisional Jepang),noun,mnn
-744,9,え,絵,e,Gambar,noun,mnn
-745,9,じ,字,ji,Huruf,noun,mnn
-746,9,かんじ,漢字,kanji,Kanji,noun,mnn
-747,9,ひらがな,,hiragana,Hiragana,noun,mnn
-748,9,カタカナ,,katakana,Katakana,noun,mnn
-749,9,ローマじ,ローマ字,roomaji,Huruf latin,noun,mnn
-750,9,おかね,お金,okane,Uang kecil / receh,noun,mnn
-751,9,きっぷ,切符,kippu,Tiket,noun,mnn
-752,9,じかん,時間,jikan,Jam / waktu,noun,mnn
-753,9,ようじ,用事,youji,Urusan,noun,mnn
-754,9,やくそく,約束,yakusoku,Janji,noun,mnn
-755,9,やくそくをします,約束をします,yakusoku o shimasu,Membuat janji,verb,mnn
-756,9,アルバイト,,arubaito,Kerja paruh waktu,noun,mnn
-757,9,アルバイトをします,,arubaito o shimasu,Bekerja paruh waktu,verb,mnn
-758,9,ごしゅじん,ご主人,goshujin,Suami (digunakan untuk menyebutkan suami orang lain),noun,mnn
-759,9,おくさん,奥さん,okusan,Istri (digunakan untuk menyebutkan istri orang lain),noun,mnn
-760,9,おっと,夫,otto / shujin,Suami,noun,mnn
-761,9,つま,妻,tsuma / kanai,Istri,noun,mnn
-762,9,こども,子ども,kodomo,Anak,noun,mnn
-763,9,よく,,yoku,Dengan baik,adverb,mnn
-764,9,だいたい,,daitai,Kira-kira,adverb,mnn
-765,9,たくさん,,takusan,Banyak,adverb,mnn
-766,9,すこし,少し,sukoshi,Sedikit,adverb,mnn
-767,9,ぜんぜん,全然,zenzen,Sama sekali (diikuti kalimat negatif),adverb,mnn
-768,9,はやく,早く,hayaku,Dengan cepat / cepatlah,adverb,mnn
-769,9,〜から,,~ kara,Karena 〜 / sebab 〜,expression,mnn
-770,9,どうして,,doushite,Kenapa,expression,mnn
-771,9,かして ください,貸してください,kashite kudasai,Tolong pinjamkan,expression,mnn
-772,9,いいですよ,,ii desu yo,Boleh,expression,mnn
-773,9,ざんねんですね,残念ですね,zannen desu ne,Sayang sekali,expression,mnn
-774,9,ああ／あっ,,aa / a,Ah / oh,expression,mnn
-775,9,いっしょに いかがですか,一緒にいかがですか,issho ni ikaga desu ka,Bagaimana kalau bersama-sama?,expression,mnn
-776,9,すみません。[〜は] ちょっと…,,sumimasen. ~ wa chotto...,"Maaf ya, saya tidak bisa [〜]. (ungkapan menolak secara tidak langsung)",expression,mnn
-777,9,だめですか,,dame desu ka,Tidak bisa ya? / Tidak boleh ya?,expression,mnn
-778,9,また こんど おねがいします,また今度お願いします,mata kondo onegaishimasu,"Maaf, lain kali saja. (menolak dengan menjaga perasaan)",expression,mnn
-779,9,ポップス,,poppusu,Musik pop,noun,mnn
-780,9,ロック,,rokku,Musik rock,noun,mnn
-781,9,ジャズ,,jazu,Musik jazz,noun,mnn
-782,9,ラテンおんがく,ラテン音楽,raten ongaku,Musik latin,noun,mnn
-783,9,クラシック,,kurashikku,Musik klasik,noun,mnn
-784,9,みんよう,民謡,minyou,Musik rakyat / nyanyian daerah,noun,mnn
-785,9,えんか,演歌,enka,Lagu tradisional Jepang populer,noun,mnn
-786,9,ミュージカル,,myuujikaru,Drama musikal,noun,mnn
-787,9,オペラ,,opera,Opera,noun,mnn
-788,9,エスエフえいが,SF映画,esu-efu eiga,Film fiksi ilmiah,noun,mnn
-789,9,ホラーえいが,ホラー映画,horaa eiga,Film horor,noun,mnn
-790,9,アニメ,,anime,Film kartun / animasi,noun,mnn
-791,9,ドキュメンタリー,,dokyumentarii,Film dokumentasi,noun,mnn
-792,9,れんあいえいが,恋愛映画,renai eiga,Film percintaan,noun,mnn
-793,9,ミステリーえいが,ミステリー映画,misuterii eiga,Film misteri,noun,mnn
-794,9,ぶんがくえいが,文学映画,bungaku eiga,Film kesusastraan,noun,mnn
-795,9,せんそうえいが,戦争映画,sensou eiga,Film peperangan,noun,mnn
-796,9,アクションえいが,アクション映画,akushon eiga,Film action,noun,mnn
-797,9,きげき,喜劇,kigeki,Film komedi,noun,mnn
-798,9,ソフトボール,,sofutobooru,Softball,noun,mnn
-799,9,サッカー,,sakkaa,Sepak bola,noun,mnn
-800,9,ラグビー,,ragubii,Rugby,noun,mnn
-801,9,バレーボール,,bareebo-ru,Voli,noun,mnn
-802,9,バスケットボール,,basukettobooru,Basket,noun,mnn
-803,9,テニス,,tenisu,Tenis,noun,mnn
-804,9,ボーリング,,booringu,Bowling,noun,mnn
-805,9,スキー,,sukii,Ski,noun,mnn
-806,9,スケート,,sukeeto,Skate,noun,mnn
-807,9,やきゅう,野球,yakyuu,Baseball,noun,mnn
-808,9,たっきゅう,卓球,takkyuu,Ping-pong / tenis meja,noun,mnn
-809,9,すもう,相撲,sumou,Sumo (gulat tradisional Jepang),noun,mnn
-810,9,じゅうどう,柔道,juudou,Judo (olahraga tradisional Jepang),noun,mnn
-811,9,けんどう,剣道,kendou,Kendo (olahraga tradisional Jepang),noun,mnn
-812,9,すいえい,水泳,suiei,Renang,noun,mnn
+723,9,わかります,,wakarimasu,Mengerti / paham,verb,mnn
+724,9,あります,,arimasu,Ada (benda mati) / mempunyai,verb,mnn
+725,9,すき[な],好き[な],suki,"suka, gemar",adjective-na,mnn
+726,9,きらい[な],嫌い[な],kirai,Tidak suka,adjective-na,mnn
+727,9,じょうず[な],上手[な],jouzu,Pandai / pintar / mahir,adjective-na,mnn
+728,9,へた[な],下手[な],heta,Tidak pandai / tidak pintar,adjective-na,mnn
+729,9,のみもの,飲み物,nomimono,Minuman,noun,mnn
+730,9,りょうり,料理,ryouri,Masakan,noun,mnn
+731,9,りょうりをします,,ryouri o shimasu,Memasak,verb,mnn
+732,9,スポーツ,,supootsu,Olahraga,noun,mnn
+733,9,スポーツをします,,supootsu o shimasu,Berolahraga,verb,mnn
+734,9,やきゅう,野球,yakyuu,Baseball,noun,mnn
+735,9,やきゅうをします,野球をします,yakyuu o shimasu,Bermain baseball,verb,mnn
+736,9,ダンス,,dansu,Dansa / tari / dance,noun,mnn
+737,9,ダンスをします,,dansu o shimasu,Berdansa,verb,mnn
+738,9,りょこう,旅行,ryokou,Tamasya / perjalanan,noun,mnn
+739,9,りょこうをします,旅行をします,ryokou o shimasu,Bertamasya / melakukan perjalanan,verb,mnn
+740,9,おんがく,音楽,ongaku,Musik,noun,mnn
+741,9,うた,歌,uta,Lagu,noun,mnn
+742,9,クラシック,,kurashikku,Klasik,noun,mnn
+743,9,ジャズ,,jazu,Jazz,noun,mnn
+744,9,コンサート,,konsaato,Konser,noun,mnn
+745,9,カラオケ,,karaoke,Karaoke,noun,mnn
+746,9,かぶき,歌舞伎,kabuki,Kabuki (salah satu drama tradisional Jepang),noun,mnn
+747,9,え,絵,e,Gambar,noun,mnn
+748,9,じ,字,ji,Huruf,noun,mnn
+749,9,かんじ,漢字,kanji,Kanji,noun,mnn
+750,9,ひらがな,,hiragana,Hiragana,noun,mnn
+751,9,カタカナ,,katakana,Katakana,noun,mnn
+752,9,ローマじ,ローマ字,roomaji,Huruf latin,noun,mnn
+753,9,おかね,お金,okane,Uang kecil / receh,noun,mnn
+754,9,きっぷ,切符,kippu,Tiket,noun,mnn
+755,9,じかん,時間,jikan,Jam / waktu,noun,mnn
+756,9,ようじ,用事,youji,Urusan,noun,mnn
+757,9,やくそく,約束,yakusoku,Janji,noun,mnn
+758,9,やくそくをします,約束をします,yakusoku o shimasu,Membuat janji,verb,mnn
+759,9,アルバイト,,arubaito,Kerja paruh waktu,noun,mnn
+760,9,アルバイトをします,,arubaito o shimasu,Bekerja paruh waktu,verb,mnn
+761,9,ごしゅじん,ご主人,goshujin,Suami (digunakan untuk menyebutkan suami orang lain),noun,mnn
+762,9,おくさん,奥さん,okusan,Istri (digunakan untuk menyebutkan istri orang lain),noun,mnn
+763,9,おっと,夫,otto / shujin,Suami,noun,mnn
+764,9,つま,妻,tsuma / kanai,Istri,noun,mnn
+765,9,こども,子ども,kodomo,Anak,noun,mnn
+766,9,よく,,yoku,Dengan baik,adverb,mnn
+767,9,だいたい,,daitai,Kira-kira,adverb,mnn
+768,9,たくさん,,takusan,Banyak,adverb,mnn
+769,9,すこし,少し,sukoshi,Sedikit,adverb,mnn
+770,9,ぜんぜん,全然,zenzen,Sama sekali (diikuti kalimat negatif),adverb,mnn
+771,9,はやく,早く,hayaku,Dengan cepat / cepatlah,adverb,mnn
+772,9,〜から,,~ kara,Karena 〜 / sebab 〜,expression,mnn
+773,9,どうして,,doushite,Kenapa,expression,mnn
+774,9,かして ください,貸してください,kashite kudasai,Tolong pinjamkan,expression,mnn
+775,9,いいですよ,,ii desu yo,Boleh,expression,mnn
+776,9,ざんねんですね,残念ですね,zannen desu ne,Sayang sekali,expression,mnn
+777,9,ああ／あっ,,aa / a,Ah / oh,expression,mnn
+778,9,いっしょに いかがですか,一緒にいかがですか,issho ni ikaga desu ka,Bagaimana kalau bersama-sama?,expression,mnn
+779,9,すみません。[〜は] ちょっと…,,sumimasen. ~ wa chotto...,"Maaf ya, saya tidak bisa [〜]. (ungkapan menolak secara tidak langsung)",expression,mnn
+780,9,だめですか,,dame desu ka,Tidak bisa ya? / Tidak boleh ya?,expression,mnn
+781,9,また こんど おねがいします,また今度お願いします,mata kondo onegaishimasu,"Maaf, lain kali saja. (menolak dengan menjaga perasaan)",expression,mnn
+782,9,ポップス,,poppusu,Musik pop,noun,mnn
+783,9,ロック,,rokku,Musik rock,noun,mnn
+784,9,ジャズ,,jazu,Musik jazz,noun,mnn
+785,9,ラテンおんがく,ラテン音楽,raten ongaku,Musik latin,noun,mnn
+786,9,クラシック,,kurashikku,Musik klasik,noun,mnn
+787,9,みんよう,民謡,minyou,Musik rakyat / nyanyian daerah,noun,mnn
+788,9,えんか,演歌,enka,Lagu tradisional Jepang populer,noun,mnn
+789,9,ミュージカル,,myuujikaru,Drama musikal,noun,mnn
+790,9,オペラ,,opera,Opera,noun,mnn
+791,9,エスエフえいが,SF映画,esu-efu eiga,Film fiksi ilmiah,noun,mnn
+792,9,ホラーえいが,ホラー映画,horaa eiga,Film horor,noun,mnn
+793,9,アニメ,,anime,Film kartun / animasi,noun,mnn
+794,9,ドキュメンタリー,,dokyumentarii,Film dokumentasi,noun,mnn
+795,9,れんあいえいが,恋愛映画,renai eiga,Film percintaan,noun,mnn
+796,9,ミステリーえいが,ミステリー映画,misuterii eiga,Film misteri,noun,mnn
+797,9,ぶんがくえいが,文学映画,bungaku eiga,Film kesusastraan,noun,mnn
+798,9,せんそうえいが,戦争映画,sensou eiga,Film peperangan,noun,mnn
+799,9,アクションえいが,アクション映画,akushon eiga,Film action,noun,mnn
+800,9,きげき,喜劇,kigeki,Film komedi,noun,mnn
+801,9,ソフトボール,,sofutobooru,Softball,noun,mnn
+802,9,サッカー,,sakkaa,Sepak bola,noun,mnn
+803,9,ラグビー,,ragubii,Rugby,noun,mnn
+804,9,バレーボール,,bareebo-ru,Voli,noun,mnn
+805,9,バスケットボール,,basukettobooru,Basket,noun,mnn
+806,9,テニス,,tenisu,Tenis,noun,mnn
+807,9,ボーリング,,booringu,Bowling,noun,mnn
+808,9,スキー,,sukii,Ski,noun,mnn
+809,9,スケート,,sukeeto,Skate,noun,mnn
+810,9,やきゅう,野球,yakyuu,Baseball,noun,mnn
+811,9,たっきゅう,卓球,takkyuu,Ping-pong / tenis meja,noun,mnn
+812,9,すもう,相撲,sumou,Sumo (gulat tradisional Jepang),noun,mnn
+813,9,じゅうどう,柔道,juudou,Judo (olahraga tradisional Jepang),noun,mnn
+814,9,けんどう,剣道,kendou,Kendo (olahraga tradisional Jepang),noun,mnn
+815,9,すいえい,水泳,suiei,Renang,noun,mnn
 
-813,10,あります,,arimasu,"ada (digunakan untuk benda mati, termasuk tumbuhan juga disini masuknya benda mati karena dia tidak bergerak)",verb,mnn
-814,10,います,,imasu,Ada (digunakan untuk makhluk hidup: orang / hewan),verb,mnn
-815,10,いろいろ[な],,iroiro [na],Berbagai,adjective-na,mnn
-816,10,おとこのひと,男の人,otoko no hito,Orang laki-laki,noun,mnn
-817,10,おんなのひと,女の人,onna no hito,Orang perempuan,noun,mnn
-818,10,おとこのこ,男の子,otoko no ko,Anak laki-laki,noun,mnn
-819,10,おんなのこ,女の子,onna no ko,Anak perempuan,noun,mnn
-820,10,いぬ,犬,inu,Anjing,noun,mnn
-821,10,ねこ,猫,neko,Kucing,noun,mnn
-822,10,パンダ,,panda,Panda,noun,mnn
-823,10,ぞう,象,zou,Gajah,noun,mnn
-824,10,き,木,ki,Pohon,noun,mnn
-825,10,もの,物,mono,Barang / benda,noun,mnn
-826,10,でんち,電池,denchi,Baterai,noun,mnn
-827,10,はこ,箱,hako,Kotak,noun,mnn
-828,10,スイッチ,,suicchi,Tombol / sakelar,noun,mnn
-829,10,れいぞうこ,冷蔵庫,reizouko,Kulkas / lemari es,noun,mnn
-830,10,テーブル,,teeburu,Meja makan,noun,mnn
-831,10,ベッド,,beddo,Tempat tidur,noun,mnn
-832,10,たんす,,tansu,Lemari,noun,mnn
-833,10,ドア,,doa,Pintu,noun,mnn
-834,10,まど,窓,mado,Jendela,noun,mnn
-835,10,ポスト,,posuto,Kotak surat,noun,mnn
-836,10,ビル,,biru,Gedung,noun,mnn
-837,10,エーティーエム,ATM,eetiiemu,ATM / anjungan tunai mandiri,noun,mnn
-838,10,コンビニ,,konbini,Minimarket/toko 24 jam,noun,mnn
-839,10,こうえん,公園,kouen,Taman,noun,mnn
-840,10,きっさてん,喫茶店,kissaten,Coffee shop,noun,mnn
-841,10,〜や,,~ ya,Toko 〜,suffix,mnn
-842,10,のりば,乗り場,noriba,Tempat naik,noun,mnn
-843,10,けん,県,ken,Prefektur,noun,mnn
-844,10,うえ,上,ue,Atas,noun,mnn
-845,10,した,下,shita,Bawah,noun,mnn
-846,10,まえ,前,mae,Depan / muka,noun,mnn
-847,10,うしろ,後ろ,ushiro,Belakang,noun,mnn
-848,10,みぎ,右,migi,Kanan,noun,mnn
-849,10,ひだり,左,hidari,Kiri,noun,mnn
-850,10,なか,中,naka,Dalam,noun,mnn
-851,10,そと,外,soto,Luar,noun,mnn
-852,10,となり,隣,tonari,Sebelah,noun,mnn
-853,10,ちかく,近く,chikaku,Dekat,noun,mnn
-854,10,あいだ,間,aida,Antara,noun,mnn
-855,10,とおい,遠い,tooi,Jauh,adjective-i,mnn
-856,10,〜と 〜[など],,~ to ~ [nado],〜 dan 〜 [dan lain-lain],expression,mnn
-857,10,[どうも] すみません,,[doumo] sumimasen,Terima kasih [banyak],expression,mnn
-858,10,ナンプラー,,nam puraa,Kecap ikan,noun,mnn
-859,10,うりば,売り場,uriba,Tempat / bagian penjualan,noun,mnn
-860,10,いちばん した,,ichiban shita,Paling bawah,expression,mnn
-861,10,いちばん うえ,,ichiban ue,Paling atas,expression,mnn
-862,10,はし,端,hashi,Paling ujung,noun,mnn
-863,10,いちばん ひだり,,ichiban hidari,Paling kiri,expression,mnn
-864,10,いちばん みぎ,,ichiban migi,Paling kanan,expression,mnn
-865,10,いちばん まえ,,ichiban mae,Paling depan,expression,mnn
-866,10,いちばん うしろ,,ichiban ushiro,Paling belakang,expression,mnn
-867,10,とうきょうディズニーランド,東京ディズニーランド,toukyou dizunii rando,Tokyo Disneyland,proper-noun,mnn
-868,10,スーパー,,suupaa,Pasar swalayan (fiksi),noun,mnn
-869,10,うち,家,uchi,Rumah,noun,mnn
-870,10,うちのなか,家の中,uchi no naka,Di dalam rumah,expression,mnn
-871,10,げんかん,玄関,genkan,Pintu masuk,noun,mnn
-872,10,トイレ,,toire,Toilet,noun,mnn
-873,10,おふろ,お風呂,ofuro,Kamar mandi,noun,mnn
-874,10,せんめんじょ,洗面所,senmenjo,Tempat cuci tangan,noun,mnn
-875,10,だいどころ,台所,daidokoro,Dapur,noun,mnn
-876,10,しょくどう,食堂,shokudou,Ruang makan,noun,mnn
-877,10,いま,居間,ima,Ruang tamu,noun,mnn
-878,10,しんしつ,寝室,shinshitsu,Kamar tidur,noun,mnn
-879,10,ろうか,廊下,rouka,Koridor,noun,mnn
-880,10,ベランダ,,beranda,Teras,noun,mnn
-881,10,しょさい,書斎,shosai,Ruang kerja,noun,mnn
-882,10,リビング,,ribingu,Ruang santai,noun,mnn
-883,10,ガレージ,,gareeji,Garasi,noun,mnn
-884,10,ばしょ,場所,basho,Tempat,noun,mnn
-885,10,いけ,池,ike,Kolam,noun,mnn
-886,10,こうえん,公園,kouen,Taman,noun,mnn
-887,10,きっさてん,喫茶店,kissaten,Kedai kopi,noun,mnn
-888,10,ほんや,本屋,honya,Toko buku,noun,mnn
-889,10,〜や,,ya,Toko ~,suffix,mnn
+816,10,あります,,arimasu,"ada (digunakan untuk benda mati, termasuk tumbuhan juga disini masuknya benda mati karena dia tidak bergerak)",verb,mnn
+817,10,います,,imasu,Ada (digunakan untuk makhluk hidup: orang / hewan),verb,mnn
+818,10,いろいろ[な],,iroiro [na],Berbagai,adjective-na,mnn
+819,10,おとこのひと,男の人,otoko no hito,Orang laki-laki,noun,mnn
+820,10,おんなのひと,女の人,onna no hito,Orang perempuan,noun,mnn
+821,10,おとこのこ,男の子,otoko no ko,Anak laki-laki,noun,mnn
+822,10,おんなのこ,女の子,onna no ko,Anak perempuan,noun,mnn
+823,10,いぬ,犬,inu,Anjing,noun,mnn
+824,10,ねこ,猫,neko,Kucing,noun,mnn
+825,10,パンダ,,panda,Panda,noun,mnn
+826,10,ぞう,象,zou,Gajah,noun,mnn
+827,10,き,木,ki,Pohon,noun,mnn
+828,10,もの,物,mono,Barang / benda,noun,mnn
+829,10,でんち,電池,denchi,Baterai,noun,mnn
+830,10,はこ,箱,hako,Kotak,noun,mnn
+831,10,スイッチ,,suicchi,Tombol / sakelar,noun,mnn
+832,10,れいぞうこ,冷蔵庫,reizouko,Kulkas / lemari es,noun,mnn
+833,10,テーブル,,teeburu,Meja makan,noun,mnn
+834,10,ベッド,,beddo,Tempat tidur,noun,mnn
+835,10,たんす,,tansu,Lemari,noun,mnn
+836,10,ドア,,doa,Pintu,noun,mnn
+837,10,まど,窓,mado,Jendela,noun,mnn
+838,10,ポスト,,posuto,Kotak surat,noun,mnn
+839,10,ビル,,biru,Gedung,noun,mnn
+840,10,エーティーエム,ATM,eetiiemu,ATM / anjungan tunai mandiri,noun,mnn
+841,10,コンビニ,,konbini,Minimarket/toko 24 jam,noun,mnn
+842,10,こうえん,公園,kouen,Taman,noun,mnn
+843,10,きっさてん,喫茶店,kissaten,Coffee shop,noun,mnn
+844,10,〜や,,~ ya,Toko 〜,suffix,mnn
+845,10,のりば,乗り場,noriba,Tempat naik,noun,mnn
+846,10,けん,県,ken,Prefektur,noun,mnn
+847,10,うえ,上,ue,Atas,noun,mnn
+848,10,した,下,shita,Bawah,noun,mnn
+849,10,まえ,前,mae,Depan / muka,noun,mnn
+850,10,うしろ,後ろ,ushiro,Belakang,noun,mnn
+851,10,みぎ,右,migi,Kanan,noun,mnn
+852,10,ひだり,左,hidari,Kiri,noun,mnn
+853,10,なか,中,naka,Dalam,noun,mnn
+854,10,そと,外,soto,Luar,noun,mnn
+855,10,となり,隣,tonari,Sebelah,noun,mnn
+856,10,ちかく,近く,chikaku,Dekat,noun,mnn
+857,10,あいだ,間,aida,Antara,noun,mnn
+858,10,とおい,遠い,tooi,Jauh,adjective-i,mnn
+859,10,〜と 〜[など],,~ to ~ [nado],〜 dan 〜 [dan lain-lain],expression,mnn
+860,10,[どうも] すみません,,[doumo] sumimasen,Terima kasih [banyak],expression,mnn
+861,10,ナンプラー,,nam puraa,Kecap ikan,noun,mnn
+862,10,うりば,売り場,uriba,Tempat / bagian penjualan,noun,mnn
+863,10,いちばん した,,ichiban shita,Paling bawah,expression,mnn
+864,10,いちばん うえ,,ichiban ue,Paling atas,expression,mnn
+865,10,はし,端,hashi,Paling ujung,noun,mnn
+866,10,いちばん ひだり,,ichiban hidari,Paling kiri,expression,mnn
+867,10,いちばん みぎ,,ichiban migi,Paling kanan,expression,mnn
+868,10,いちばん まえ,,ichiban mae,Paling depan,expression,mnn
+869,10,いちばん うしろ,,ichiban ushiro,Paling belakang,expression,mnn
+870,10,とうきょうディズニーランド,東京ディズニーランド,toukyou dizunii rando,Tokyo Disneyland,proper-noun,mnn
+871,10,スーパー,,suupaa,Pasar swalayan (fiksi),noun,mnn
+872,10,うち,家,uchi,Rumah,noun,mnn
+873,10,うちのなか,家の中,uchi no naka,Di dalam rumah,expression,mnn
+874,10,げんかん,玄関,genkan,Pintu masuk,noun,mnn
+875,10,トイレ,,toire,Toilet,noun,mnn
+876,10,おふろ,お風呂,ofuro,Kamar mandi,noun,mnn
+877,10,せんめんじょ,洗面所,senmenjo,Tempat cuci tangan,noun,mnn
+878,10,だいどころ,台所,daidokoro,Dapur,noun,mnn
+879,10,しょくどう,食堂,shokudou,Ruang makan,noun,mnn
+880,10,いま,居間,ima,Ruang tamu,noun,mnn
+881,10,しんしつ,寝室,shinshitsu,Kamar tidur,noun,mnn
+882,10,ろうか,廊下,rouka,Koridor,noun,mnn
+883,10,ベランダ,,beranda,Teras,noun,mnn
+884,10,しょさい,書斎,shosai,Ruang kerja,noun,mnn
+885,10,リビング,,ribingu,Ruang santai,noun,mnn
+886,10,ガレージ,,gareeji,Garasi,noun,mnn
+887,10,ばしょ,場所,basho,Tempat,noun,mnn
+888,10,いけ,池,ike,Kolam,noun,mnn
+889,10,こうえん,公園,kouen,Taman,noun,mnn
+890,10,きっさてん,喫茶店,kissaten,Kedai kopi,noun,mnn
+891,10,ほんや,本屋,honya,Toko buku,noun,mnn
+892,10,〜や,,ya,Toko ~,suffix,mnn
 
-890,11,います [こどもが〜],います [子どもが〜],imasu [kodomo ga ~],"ada, mempunyai [anak]",expression,mnn
-891,11,います [にほんに〜],います [日本に〜],imasu [nihon ni ~],Ada [di Jepang],expression,mnn
-892,11,たべます,食べます,tabemasu,Memakan,verb,mnn
-893,11,かかります,,kakarimasu,"memakan, perlu (digunakan untuk waktu dan uang)",verb,mnn
-894,11,やすみます [かいしゃを〜],休みます [会社を〜],yasumimasu [kaisha o ~],Tidak masuk [kerja],verb,mnn
-895,11,ひとつ,1つ,hitotsu,Satu (kata bantu bilangan yang digunakan untuk menghitung barang),counter,mnn
-896,11,ふたつ,2つ,futatsu,Dua,counter,mnn
-897,11,みっつ,3つ,mittsu,Tiga,counter,mnn
-898,11,よっつ,4つ,yottsu,Empat,counter,mnn
-899,11,いつつ,5つ,itsutsu,Lima,counter,mnn
-900,11,むっつ,6つ,muttsu,Enam,counter,mnn
-901,11,ななつ,7つ,nanatsu,Tujuh,counter,mnn
-902,11,やっつ,8つ,yattsu,Delapan,counter,mnn
-903,11,ここのつ,9つ,kokonotsu,Sembilan,counter,mnn
-904,11,とお,10,too,Sepuluh,counter,mnn
-905,11,いくつ,,ikutsu,Berapa,counter,mnn
-906,11,ひとり,1人,hitori,Seorang,counter,mnn
-907,11,ふたり,2人,futari,Dua orang,counter,mnn
-908,11,一にん,一人,一nin,一 orang,counter,mnn
-909,11,一だい,一台,一dai,"buah (kata bantu bilangan yang digunakan untuk menghitung mesin, mobil atau kendaraan)",counter,mnn
-910,11,一まい,一枚,一mai,Lembar / helai (kata bantu bilangan yang digunakan untuk menghitung kertas dan perangko),counter,mnn
-911,11,一かい,一回,一kai,一 kali,counter,mnn
-912,11,りんご,,ringo,Apel,noun,mnn
-913,11,みかん,,mikan,Jeruk,noun,mnn
-914,11,サンドイッチ,,sandoicchi,Sandwich,noun,mnn
-915,11,カレー[ライス],,karee [raisu],[nasi dan] kare,noun,mnn
-916,11,アイスクリーム,,aisu kuriimu,Es krim,noun,mnn
-917,11,きって,切手,kitte,Perangko,noun,mnn
-918,11,はがき,,hagaki,Kartu pos,noun,mnn
-919,11,ふうとう,封筒,fuutou,Amplop,noun,mnn
-920,11,りょうしん,両親,ryoushin,Orang tua,noun,mnn
-921,11,きょうだい,兄弟,kyoudai,Saudara / saudari,noun,mnn
-922,11,あに,兄,ani,Kakak laki-laki (kakak sendiri),noun,mnn
-923,11,おにいさん,,oniisan,Kakak laki-laki (orang lain),noun,mnn
-924,11,あね,姉,ane,Kakak perempuan (kakak sendiri),noun,mnn
-925,11,おねえさん,,oneesan,Kakak perempuan (orang lain),noun,mnn
-926,11,おとうと,弟,otouto,Adik laki-laki (adik sendiri),noun,mnn
-927,11,おとうとさん,,otouto-san,Adik laki-laki (orang lain),noun,mnn
-928,11,いもうと,妹,imouto,Adik perempuan (adik sendiri),noun,mnn
-929,11,いもうとさん,,imouto-san,Adik perempuan (orang lain),noun,mnn
-930,11,がいこく,外国,gaikoku,Luar negeri,noun,mnn
-931,11,りゅうがくせい,留学生,ryuugakusei,Pelajar asing,noun,mnn
-932,11,クラス,,kurasu,Kelas,noun,mnn
-933,11,一ふん,一分,一fun,一 menit,counter,mnn
-934,11,一じかん,一時間,一jikan,一 jam,counter,mnn
-935,11,いちにち,一日,ichinichi,"一 hari (Sama dengan membaca tanggal, tetapi 1日 tidak dibaca ついたち melainkan いちにち.)",counter,mnn
-936,11,一しゅうかん,一週間,一shuukan,一 minggu,counter,mnn
-937,11,一かげつ,一か月,一kagetsu,一 bulan,counter,mnn
-938,11,一ねん,一年,一nen,一 tahun,counter,mnn
-939,11,〜ぐらい,,gurai,Kira-kira 〜,expression,mnn
-940,11,どのくらい,,dono kurai,Berapa lama,expression,mnn
-941,11,ぜんぶ,,zenbu,Semuanya,noun,mnn
-942,11,みんな,,minna,Semua,noun,mnn
-943,11,〜だけ,,~dake,Hanya 〜 / 〜 saja,expression,mnn
-944,11,かしこまりました,,kashikomarimashita,Baik (mengerti / siap melaksanakan),expression,mnn
-945,11,いい [お]てんきですね,いい [お]天気ですね,ii otenki desu ne,Cuacanya bagus ya,expression,mnn
-946,11,[お]でかけますか,[お]出かけますか,[o]dekakemasu ka,Mau keluar?,expression,mnn
-947,11,ちょっと 〜まで,,chotto ~ made,Ke ~ sebentar,expression,mnn
-948,11,いってらっしゃい,行ってらっしゃい,itte rasshai,Hati-hati,expression,mnn
-949,11,いってきます,行ってきます,itte kimasu,Saya berangkat,expression,mnn
-950,11,ふなびん,船便,funabin,Pos laut,noun,mnn
-951,11,こうくうびん,航空便,koukuubin,Pos udara,noun,mnn
-952,11,おねがいします,お願いします,onegaishimasu,Tolong,expression,mnn
-953,11,オーストラリア,,oosutoraria,Australia,noun,mnn
-954,11,メニュー,,menyuu,Menu,noun,mnn
-955,11,ていしょく,定食,teishoku,Makanan paket,noun,mnn
-956,11,ひるごはん,昼ごはん,hirugohan,Paket makan siang,noun,mnn
-957,11,てんどん,天丼,tendon,Semangkuk nasi dengan tempura dan sayuran di atasnya,noun,mnn
-958,11,おやこどん,親子丼,oyakodon,Semangkuk nasi dengan daging ayam dan telur di atasnya,noun,mnn
-959,11,ぎゅうどん,牛丼,gyuudon,Semangkuk nasi dengan daging sapi di atasnya,noun,mnn
-960,11,やきにく,焼き肉,yakiniku,Daging panggang,noun,mnn
-961,11,やさいいため,野菜炒め,yasai itame,Sayur goreng,noun,mnn
-962,11,つけもの,漬物,tsukemono,Asinan,noun,mnn
-963,11,みそしる,みそ汁,misoshiru,Sup miso,noun,mnn
-964,11,おにぎり,,onigiri,Nasi bola (nasi kepal),noun,mnn
-965,11,てんぷら,天ぷら,tempura,Tempura,noun,mnn
-966,11,すし,寿司,sushi,Nasi yang dicampur cuka dan diberi ikan mentah,noun,mnn
-967,11,うどん,,udon,Mie Jepang dari tepung terigu (ukuran besar),noun,mnn
-968,11,そば,,soba,Mie Jepang berwarna agak kehitaman,noun,mnn
-969,11,ラーメン,,raamen,Mie Jepang dari tepung terigu dan telur,noun,mnn
-970,11,やきそば,焼きそば,yakisoba,Mie goreng Jepang,noun,mnn
-971,11,おこのみやき,お好み焼き,okonomiyaki,Makanan gorengan tepung dimasak di atas loyang,noun,mnn
-972,11,カレーライス,,karee raisu,Nasi kare,noun,mnn
-973,11,ハンバーグ,,hanbaagu,Hamburg,noun,mnn
-974,11,コロッケ,,korokke,Kroket,noun,mnn
-975,11,エビフライ,,ebifurai,Udang goreng tepung roti,noun,mnn
-976,11,からあげ,,karaage,Ayam goreng,noun,mnn
-977,11,サラダ,,sarada,Salad,noun,mnn
-978,11,スープ,,suupu,Sup,noun,mnn
-979,11,スパゲッティ,,supagetti,Spaghetti,noun,mnn
-980,11,ピザ,,piza,Pizza,noun,mnn
-981,11,ハンバーガー,,hanbaagaa,Burger,noun,mnn
-982,11,サンドイッチ,,sandoitchi,Sandwich,noun,mnn
-983,11,トースト,,toosuto,Roti panggang,noun,mnn
-984,11,コーヒー,,koohii,Kopi,noun,mnn
-985,11,おちゃ,お茶,ocha,Teh/teh Jepang/teh hijau,noun,mnn
-986,11,こうちゃ,紅茶,koucha,Teh hitam,noun,mnn
-987,11,りょくちゃ,緑茶,ryokucha,Teh hijau,noun,mnn
-988,11,ココア,,kokoa,Minuman coklat,noun,mnn
-989,11,ジュース,,juusu,Jus,noun,mnn
-990,11,コーラ,,koora,Coca cola,noun,mnn
+893,11,います [こどもが〜],います [子どもが〜],imasu [kodomo ga ~],"ada, mempunyai [anak]",expression,mnn
+894,11,います [にほんに〜],います [日本に〜],imasu [nihon ni ~],Ada [di Jepang],expression,mnn
+895,11,たべます,食べます,tabemasu,Memakan,verb,mnn
+896,11,かかります,,kakarimasu,"memakan, perlu (digunakan untuk waktu dan uang)",verb,mnn
+897,11,やすみます [かいしゃを〜],休みます [会社を〜],yasumimasu [kaisha o ~],Tidak masuk [kerja],verb,mnn
+898,11,ひとつ,1つ,hitotsu,Satu (kata bantu bilangan yang digunakan untuk menghitung barang),counter,mnn
+899,11,ふたつ,2つ,futatsu,Dua,counter,mnn
+900,11,みっつ,3つ,mittsu,Tiga,counter,mnn
+901,11,よっつ,4つ,yottsu,Empat,counter,mnn
+902,11,いつつ,5つ,itsutsu,Lima,counter,mnn
+903,11,むっつ,6つ,muttsu,Enam,counter,mnn
+904,11,ななつ,7つ,nanatsu,Tujuh,counter,mnn
+905,11,やっつ,8つ,yattsu,Delapan,counter,mnn
+906,11,ここのつ,9つ,kokonotsu,Sembilan,counter,mnn
+907,11,とお,10,too,Sepuluh,counter,mnn
+908,11,いくつ,,ikutsu,Berapa,counter,mnn
+909,11,ひとり,1人,hitori,Seorang,counter,mnn
+910,11,ふたり,2人,futari,Dua orang,counter,mnn
+911,11,一にん,一人,一nin,一 orang,counter,mnn
+912,11,一だい,一台,一dai,"buah (kata bantu bilangan yang digunakan untuk menghitung mesin, mobil atau kendaraan)",counter,mnn
+913,11,一まい,一枚,一mai,Lembar / helai (kata bantu bilangan yang digunakan untuk menghitung kertas dan perangko),counter,mnn
+914,11,一かい,一回,一kai,一 kali,counter,mnn
+915,11,りんご,,ringo,Apel,noun,mnn
+916,11,みかん,,mikan,Jeruk,noun,mnn
+917,11,サンドイッチ,,sandoicchi,Sandwich,noun,mnn
+918,11,カレー[ライス],,karee [raisu],[nasi dan] kare,noun,mnn
+919,11,アイスクリーム,,aisu kuriimu,Es krim,noun,mnn
+920,11,きって,切手,kitte,Perangko,noun,mnn
+921,11,はがき,,hagaki,Kartu pos,noun,mnn
+922,11,ふうとう,封筒,fuutou,Amplop,noun,mnn
+923,11,りょうしん,両親,ryoushin,Orang tua,noun,mnn
+924,11,きょうだい,兄弟,kyoudai,Saudara / saudari,noun,mnn
+925,11,あに,兄,ani,Kakak laki-laki (kakak sendiri),noun,mnn
+926,11,おにいさん,,oniisan,Kakak laki-laki (orang lain),noun,mnn
+927,11,あね,姉,ane,Kakak perempuan (kakak sendiri),noun,mnn
+928,11,おねえさん,,oneesan,Kakak perempuan (orang lain),noun,mnn
+929,11,おとうと,弟,otouto,Adik laki-laki (adik sendiri),noun,mnn
+930,11,おとうとさん,,otouto-san,Adik laki-laki (orang lain),noun,mnn
+931,11,いもうと,妹,imouto,Adik perempuan (adik sendiri),noun,mnn
+932,11,いもうとさん,,imouto-san,Adik perempuan (orang lain),noun,mnn
+933,11,がいこく,外国,gaikoku,Luar negeri,noun,mnn
+934,11,りゅうがくせい,留学生,ryuugakusei,Pelajar asing,noun,mnn
+935,11,クラス,,kurasu,Kelas,noun,mnn
+936,11,一ふん,一分,一fun,一 menit,counter,mnn
+937,11,一じかん,一時間,一jikan,一 jam,counter,mnn
+938,11,いちにち,一日,ichinichi,"一 hari (Sama dengan membaca tanggal, tetapi 1日 tidak dibaca ついたち melainkan いちにち.)",counter,mnn
+939,11,一しゅうかん,一週間,一shuukan,一 minggu,counter,mnn
+940,11,一かげつ,一か月,一kagetsu,一 bulan,counter,mnn
+941,11,一ねん,一年,一nen,一 tahun,counter,mnn
+942,11,〜ぐらい,,gurai,Kira-kira 〜,expression,mnn
+943,11,どのくらい,,dono kurai,Berapa lama,expression,mnn
+944,11,ぜんぶ,,zenbu,Semuanya,noun,mnn
+945,11,みんな,,minna,Semua,noun,mnn
+946,11,〜だけ,,~dake,Hanya 〜 / 〜 saja,expression,mnn
+947,11,かしこまりました,,kashikomarimashita,Baik (mengerti / siap melaksanakan),expression,mnn
+948,11,いい [お]てんきですね,いい [お]天気ですね,ii otenki desu ne,Cuacanya bagus ya,expression,mnn
+949,11,[お]でかけますか,[お]出かけますか,[o]dekakemasu ka,Mau keluar?,expression,mnn
+950,11,ちょっと 〜まで,,chotto ~ made,Ke ~ sebentar,expression,mnn
+951,11,いってらっしゃい,行ってらっしゃい,itte rasshai,Hati-hati,expression,mnn
+952,11,いってきます,行ってきます,itte kimasu,Saya berangkat,expression,mnn
+953,11,ふなびん,船便,funabin,Pos laut,noun,mnn
+954,11,こうくうびん,航空便,koukuubin,Pos udara,noun,mnn
+955,11,おねがいします,お願いします,onegaishimasu,Tolong,expression,mnn
+956,11,オーストラリア,,oosutoraria,Australia,noun,mnn
+957,11,メニュー,,menyuu,Menu,noun,mnn
+958,11,ていしょく,定食,teishoku,Makanan paket,noun,mnn
+959,11,ひるごはん,昼ごはん,hirugohan,Paket makan siang,noun,mnn
+960,11,てんどん,天丼,tendon,Semangkuk nasi dengan tempura dan sayuran di atasnya,noun,mnn
+961,11,おやこどん,親子丼,oyakodon,Semangkuk nasi dengan daging ayam dan telur di atasnya,noun,mnn
+962,11,ぎゅうどん,牛丼,gyuudon,Semangkuk nasi dengan daging sapi di atasnya,noun,mnn
+963,11,やきにく,焼き肉,yakiniku,Daging panggang,noun,mnn
+964,11,やさいいため,野菜炒め,yasai itame,Sayur goreng,noun,mnn
+965,11,つけもの,漬物,tsukemono,Asinan,noun,mnn
+966,11,みそしる,みそ汁,misoshiru,Sup miso,noun,mnn
+967,11,おにぎり,,onigiri,Nasi bola (nasi kepal),noun,mnn
+968,11,てんぷら,天ぷら,tempura,Tempura,noun,mnn
+969,11,すし,寿司,sushi,Nasi yang dicampur cuka dan diberi ikan mentah,noun,mnn
+970,11,うどん,,udon,Mie Jepang dari tepung terigu (ukuran besar),noun,mnn
+971,11,そば,,soba,Mie Jepang berwarna agak kehitaman,noun,mnn
+972,11,ラーメン,,raamen,Mie Jepang dari tepung terigu dan telur,noun,mnn
+973,11,やきそば,焼きそば,yakisoba,Mie goreng Jepang,noun,mnn
+974,11,おこのみやき,お好み焼き,okonomiyaki,Makanan gorengan tepung dimasak di atas loyang,noun,mnn
+975,11,カレーライス,,karee raisu,Nasi kare,noun,mnn
+976,11,ハンバーグ,,hanbaagu,Hamburg,noun,mnn
+977,11,コロッケ,,korokke,Kroket,noun,mnn
+978,11,エビフライ,,ebifurai,Udang goreng tepung roti,noun,mnn
+979,11,からあげ,,karaage,Ayam goreng,noun,mnn
+980,11,サラダ,,sarada,Salad,noun,mnn
+981,11,スープ,,suupu,Sup,noun,mnn
+982,11,スパゲッティ,,supagetti,Spaghetti,noun,mnn
+983,11,ピザ,,piza,Pizza,noun,mnn
+984,11,ハンバーガー,,hanbaagaa,Burger,noun,mnn
+985,11,サンドイッチ,,sandoitchi,Sandwich,noun,mnn
+986,11,トースト,,toosuto,Roti panggang,noun,mnn
+987,11,コーヒー,,koohii,Kopi,noun,mnn
+988,11,おちゃ,お茶,ocha,Teh/teh Jepang/teh hijau,noun,mnn
+989,11,こうちゃ,紅茶,koucha,Teh hitam,noun,mnn
+990,11,りょくちゃ,緑茶,ryokucha,Teh hijau,noun,mnn
+991,11,ココア,,kokoa,Minuman coklat,noun,mnn
+992,11,ジュース,,juusu,Jus,noun,mnn
+993,11,コーラ,,koora,Coca cola,noun,mnn
 
-991,12,かんたん[な],簡単[な],kantan [na],Mudah / gampang,adjective-na,mnn
-992,12,ちかい,近い,chikai,Dekat,adjective-i,mnn
-993,12,とおい,遠い,tooi,Jauh,adjective-i,mnn
-994,12,はやい,"速い / 早い",hayai,Cepat,adjective-i,mnn
-995,12,おそい,遅い,osoi,Lambat,adjective-i,mnn
-996,12,おおい [ひとが〜],多い [人が〜],ooi [hito ga ~],Banyak (orang),adjective-i,mnn
-997,12,すくない [ひとが〜],少ない [人が〜],sukunai [hito ga ~],Sedikit (orang),adjective-i,mnn
-998,12,あたたかい,"暖かい / 温かい",atatakai,Hangat,adjective-i,mnn
-999,12,すずしい,涼しい,suzushii,Sejuk,adjective-i,mnn
-1000,12,あまい,甘い,amai,Manis,adjective-i,mnn
-1001,12,からい,辛い,karai,Pedas,adjective-i,mnn
-1002,12,おもい,重い,omoi,Berat,adjective-i,mnn
-1003,12,かるい,軽い,karui,Ringan,adjective-i,mnn
-1004,12,いい [コーヒーが〜],いい [コーヒーが〜],ii [koohii ga ~],Lebih baik [kopi],expression,mnn
-1005,12,きせつ,季節,kisetsu,Musim,noun,mnn
-1006,12,はる,春,haru,Musim semi,noun,mnn
-1007,12,なつ,夏,natsu,Musim panas,noun,mnn
-1008,12,あき,秋,aki,Musim gugur,noun,mnn
-1009,12,ふゆ,冬,fuyu,Musim dingin,noun,mnn
-1010,12,てんき,天気,tenki,Cuaca,noun,mnn
-1011,12,あめ,雨,ame,Hujan,noun,mnn
-1012,12,ゆき,雪,yuki,Salju,noun,mnn
-1013,12,くもり,曇り,kumori,Mendung,noun,mnn
-1014,12,ホテル,,hoteru,Hotel,noun,mnn
-1015,12,くうこう,空港,kuukou,Bandara,noun,mnn
-1016,12,うみ,海,umi,Laut,noun,mnn
-1017,12,せかい,世界,sekai,Dunia,noun,mnn
-1018,12,パーティー,,paatii,Pesta,noun,mnn
-1019,12,パーティーをします,パーティーをします,paatii o shimasu,Berpesta / mengadakan pesta,verb,mnn
-1020,12,[お]まつり,[お]祭り,[o]matsuri,Perayaan,noun,mnn
-1021,12,めいしょ,名所,meisho,Tempat terkenal,noun,mnn
-1022,12,すきやき,すき焼き,sukiyaki,Sukiyaki (masakan daging sapi dan sayur dimasak dalam panci),noun,mnn
-1023,12,さしみ,刺身,sashimi,Sashimi (ikan mentah yang dipotong tipis),noun,mnn
-1024,12,すし,寿司,sushi,Sushi (nasi dicampur cuka dengan ikan mentah di atasnya),noun,mnn
-1025,12,てんぷら,天ぷら,tempura,Tempura (gorengan sari laut dan sayur dengan tepung terigu),noun,mnn
-1026,12,ぶたにく,豚肉,butaniku,Daging babi,noun,mnn
-1027,12,とりにく,鶏肉,toriniku,Daging ayam,noun,mnn
-1028,12,ぎゅうにく,牛肉,gyuuniku,Daging sapi,noun,mnn
-1029,12,レモン,,remon,Lemon,noun,mnn
-1030,12,いけばな,生け花,ikebana,Seni merangkai bunga,noun,mnn
-1031,12,いけばなをします,生け花をします,ikebana o shimasu,Merangkai bunga,verb,mnn
-1032,12,もみじ,紅葉,momiji,"maple, daun yang berubah warna menjadi merah",noun,mnn
-1033,12,どちら,,dochira,Yang mana,expression,mnn
-1034,12,どちらも,,dochiramo,Dua-duanya / yang mana juga,expression,mnn
-1035,12,いちばん,,ichiban,Paling,adverb,mnn
-1036,12,ずっと,,zutto,Jauh lebih,adverb,mnn
-1037,12,はじめて,初めて,hajimete,Untuk pertama kali,adverb,mnn
-1038,12,ただいま,,tadaima,Saya kembali / saya pulang,expression,mnn
-1039,12,おかえりなさい,,okaerinasai,Sudah pulang ya,expression,mnn
-1040,12,"わあ、すごい ひとですね","わあ、すごい 人ですね","waa, sugoi hito desu ne","Wah, banyak orang.",expression,mnn
-1041,12,つかれました,疲れました,tsukaremashita,Lelah,expression,mnn
-1042,12,ぎおんまつり,祇園祭,Gion Matsuri,Perayaan Gion (Kyoto),noun,mnn
-1043,12,ホンコン,,honkon,Hongkong,noun,mnn
-1044,12,シンガポール,,shingapooru,Singapura,noun,mnn
-1045,12,スーパー,,suupaa,Pasar swalayan,noun,mnn
-1046,12,ぎおんまつり,祇園祭,Gion Matsuri,Perayaan Gion (Kyoto),noun,mnn
-1047,12,さっぽろ ゆきまつり,札幌雪祭り,Sapporo Yuki Matsuri,Festival salju Sapporo,noun,mnn
-1048,12,ねぶたまつり,ねぶた祭り,Nebuta Matsuri,Festival Nebuta,noun,mnn
-1049,12,とうきょうディズニーランド,,Tokyo Disneyland,Tokyo Disneyland,noun,mnn
-1050,12,きょうと,京都,Kyouto,Kyoto,noun,mnn
-1051,12,なら,奈良,Nara,Nara,noun,mnn
-1052,12,ふじさん,富士山,Fujisan,Gunung Fuji,noun,mnn
-1053,12,おおさかじょう,大阪城,Oosaka-jou,Kastil Osaka,noun,mnn
-1054,12,ぎんざ,銀座,Ginza,Ginza,noun,mnn
-1055,12,あさくさ,浅草,Asakusa,Asakusa,noun,mnn
+994,12,かんたん[な],簡単[な],kantan [na],Mudah / gampang,adjective-na,mnn
+995,12,ちかい,近い,chikai,Dekat,adjective-i,mnn
+996,12,とおい,遠い,tooi,Jauh,adjective-i,mnn
+997,12,はやい,"速い / 早い",hayai,Cepat,adjective-i,mnn
+998,12,おそい,遅い,osoi,Lambat,adjective-i,mnn
+999,12,おおい [ひとが〜],多い [人が〜],ooi [hito ga ~],Banyak (orang),adjective-i,mnn
+1000,12,すくない [ひとが〜],少ない [人が〜],sukunai [hito ga ~],Sedikit (orang),adjective-i,mnn
+1001,12,あたたかい,"暖かい / 温かい",atatakai,Hangat,adjective-i,mnn
+1002,12,すずしい,涼しい,suzushii,Sejuk,adjective-i,mnn
+1003,12,あまい,甘い,amai,Manis,adjective-i,mnn
+1004,12,からい,辛い,karai,Pedas,adjective-i,mnn
+1005,12,おもい,重い,omoi,Berat,adjective-i,mnn
+1006,12,かるい,軽い,karui,Ringan,adjective-i,mnn
+1007,12,いい [コーヒーが〜],いい [コーヒーが〜],ii [koohii ga ~],Lebih baik [kopi],expression,mnn
+1008,12,きせつ,季節,kisetsu,Musim,noun,mnn
+1009,12,はる,春,haru,Musim semi,noun,mnn
+1010,12,なつ,夏,natsu,Musim panas,noun,mnn
+1011,12,あき,秋,aki,Musim gugur,noun,mnn
+1012,12,ふゆ,冬,fuyu,Musim dingin,noun,mnn
+1013,12,てんき,天気,tenki,Cuaca,noun,mnn
+1014,12,あめ,雨,ame,Hujan,noun,mnn
+1015,12,ゆき,雪,yuki,Salju,noun,mnn
+1016,12,くもり,曇り,kumori,Mendung,noun,mnn
+1017,12,ホテル,,hoteru,Hotel,noun,mnn
+1018,12,くうこう,空港,kuukou,Bandara,noun,mnn
+1019,12,うみ,海,umi,Laut,noun,mnn
+1020,12,せかい,世界,sekai,Dunia,noun,mnn
+1021,12,パーティー,,paatii,Pesta,noun,mnn
+1022,12,パーティーをします,パーティーをします,paatii o shimasu,Berpesta / mengadakan pesta,verb,mnn
+1023,12,[お]まつり,[お]祭り,[o]matsuri,Perayaan,noun,mnn
+1024,12,めいしょ,名所,meisho,Tempat terkenal,noun,mnn
+1025,12,すきやき,すき焼き,sukiyaki,Sukiyaki (masakan daging sapi dan sayur dimasak dalam panci),noun,mnn
+1026,12,さしみ,刺身,sashimi,Sashimi (ikan mentah yang dipotong tipis),noun,mnn
+1027,12,すし,寿司,sushi,Sushi (nasi dicampur cuka dengan ikan mentah di atasnya),noun,mnn
+1028,12,てんぷら,天ぷら,tempura,Tempura (gorengan sari laut dan sayur dengan tepung terigu),noun,mnn
+1029,12,ぶたにく,豚肉,butaniku,Daging babi,noun,mnn
+1030,12,とりにく,鶏肉,toriniku,Daging ayam,noun,mnn
+1031,12,ぎゅうにく,牛肉,gyuuniku,Daging sapi,noun,mnn
+1032,12,レモン,,remon,Lemon,noun,mnn
+1033,12,いけばな,生け花,ikebana,Seni merangkai bunga,noun,mnn
+1034,12,いけばなをします,生け花をします,ikebana o shimasu,Merangkai bunga,verb,mnn
+1035,12,もみじ,紅葉,momiji,"maple, daun yang berubah warna menjadi merah",noun,mnn
+1036,12,どちら,,dochira,Yang mana,expression,mnn
+1037,12,どちらも,,dochiramo,Dua-duanya / yang mana juga,expression,mnn
+1038,12,いちばん,,ichiban,Paling,adverb,mnn
+1039,12,ずっと,,zutto,Jauh lebih,adverb,mnn
+1040,12,はじめて,初めて,hajimete,Untuk pertama kali,adverb,mnn
+1041,12,ただいま,,tadaima,Saya kembali / saya pulang,expression,mnn
+1042,12,おかえりなさい,,okaerinasai,Sudah pulang ya,expression,mnn
+1043,12,"わあ、すごい ひとですね","わあ、すごい 人ですね","waa, sugoi hito desu ne","Wah, banyak orang.",expression,mnn
+1044,12,つかれました,疲れました,tsukaremashita,Lelah,expression,mnn
+1045,12,ぎおんまつり,祇園祭,Gion Matsuri,Perayaan Gion (Kyoto),noun,mnn
+1046,12,ホンコン,,honkon,Hongkong,noun,mnn
+1047,12,シンガポール,,shingapooru,Singapura,noun,mnn
+1048,12,スーパー,,suupaa,Pasar swalayan,noun,mnn
+1049,12,ぎおんまつり,祇園祭,Gion Matsuri,Perayaan Gion (Kyoto),noun,mnn
+1050,12,さっぽろ ゆきまつり,札幌雪祭り,Sapporo Yuki Matsuri,Festival salju Sapporo,noun,mnn
+1051,12,ねぶたまつり,ねぶた祭り,Nebuta Matsuri,Festival Nebuta,noun,mnn
+1052,12,とうきょうディズニーランド,,Tokyo Disneyland,Tokyo Disneyland,noun,mnn
+1053,12,きょうと,京都,Kyouto,Kyoto,noun,mnn
+1054,12,なら,奈良,Nara,Nara,noun,mnn
+1055,12,ふじさん,富士山,Fujisan,Gunung Fuji,noun,mnn
+1056,12,おおさかじょう,大阪城,Oosaka-jou,Kastil Osaka,noun,mnn
+1057,12,ぎんざ,銀座,Ginza,Ginza,noun,mnn
+1058,12,あさくさ,浅草,Asakusa,Asakusa,noun,mnn 
 
-1056,13,あそびます,遊びます,asobimasu,Bermain,verb,mnn
-1057,13,およぎます,泳ぎます,oyogimasu,Berenang,verb,mnn
-1058,13,むかえます,迎えます,mukaemasu,Menjemput,verb,mnn
-1059,13,つかれました,疲れました,tsukaremashita,"lelah (jika menyatakan keadaanlelah, digunakan bentuk た seperti つかれました)",expression,mnn
-1060,13,けっこんします,結婚します,kekkon shimasu,Menikah,verb,mnn
-1061,13,かいものします,買い物します,kaimono shimasu,Berbelanja,verb,mnn
-1062,13,しょくじします,食事します,shokuji shimasu,Makan,verb,mnn
-1063,13,"さんぽします [こうえんを〜]",散歩します [公園を〜],sanpo shimasu [kouen o ~],Berjalan-jalan [di taman],verb,mnn
-1064,13,たいへん[な],大変[な],taihen[na],Berat / susah,adjective-na,mnn
-1065,13,ほしい,欲しい,hoshii,Ingin / mau,adjective-i,mnn
-1066,13,ひろい,広い,hiroi,Luas,adjective-i,mnn
-1067,13,せまい,狭い,semai,Sempit,adjective-i,mnn
-1068,13,プール,,puuru,Kolam renang,noun,mnn
-1069,13,かわ,川,kawa,Sungai,noun,mnn
-1070,13,びじゅつ,美術,bijutsu,Seni,noun,mnn
-1071,13,つり,釣り,tsuri,Memancing,noun,mnn
-1072,13,つりをします,釣りをします,tsuri o shimasu,Memancing,verb,mnn
-1073,13,スキー,,sukii,Ski,noun,mnn
-1074,13,スキーをします,,sukii o shimasu,Bermain ski,verb,mnn
-1075,13,しゅうまつ,週末,shuumatsu,Akhir pekan,noun,mnn
-1076,13,おしょうがつ,お正月,oshougatsu,Tahun baru,noun,mnn
-1077,13,～ごろ,,~goro,Sekitar / kira-kira,suffix,mnn
-1078,13,なにか,,nanika,Sesuatu,pronoun,mnn
-1079,13,どこか,,dokoka,Suatu tempat,pronoun,mnn
-1080,13,のどがかわきました,喉が渇きました,nodo ga kawakimashita,Haus (keadaan),expression,mnn
-1081,13,おなかがすきました,お腹が空きました,onaka ga sukimashita,Lapar (keadaan),expression,mnn
-1082,13,そうですね。,そうですね。,sou desu ne,"Ya, mari. (menyetujui)",expression,mnn
-1083,13,なににしますか,,nani ni shimasu ka,Mau pesan apa?,expression,mnn
-1084,13,ていしょく,定食,teishoku,Menu paket,noun,mnn
-1085,13,ぎゅうどん,牛丼,gyuudon,Gyudon,noun,mnn
-1086,13,ちょっとまってください,ちょっと待ってください,chotto matte kudasai,Tunggu sebentar,expression,mnn
-1087,13,でございます,,de gozaimasu,(bentuk halus dari desu),expression,mnn
-1088,13,べつべつに,別々に,betsubetsu ni,Sendiri-sendiri / masing-masing,adverb,mnn
-1089,13,IMC,,IMC,Perusahaan fiksi,noun,mnn
-1090,13,レポーター,,repootaa,Acara televisi fiksi,noun,mnn
-1091,13,まち,町,machi,Kota,noun,mnn
-1092,13,まちのなか,町の中,machi no naka,Di kota,expression,mnn
-1093,13,びじゅつかん,美術館,bijutsukan,Museum,noun,mnn
-1094,13,かんげいじょう,観芸場,kan-geijou,Gedung kesenian,noun,mnn
-1095,13,としょかん,図書館,toshokan,Perpustakaan,noun,mnn
-1096,13,えいがかん,映画館,eigakan,Gedung bioskop,noun,mnn
-1097,13,どうぶつえん,動物園,doubutsuen,Kebun binatang,noun,mnn
-1098,13,しょくぶつえん,植物園,shokubutsuen,Kebun raya,noun,mnn
-1099,13,ゆうえんち,遊園地,yuuenchi,Taman bermain,noun,mnn
-1100,13,おてら,お寺,otera,Kuil/Wihara (Buddha),noun,mnn
-1101,13,じんじゃ,神社,jinja,Kuil (Shinto),noun,mnn
-1102,13,きょうかい,教会,kyoukai,Gereja,noun,mnn
-1103,13,モスク,,mosuku,Masjid,noun,mnn
-1104,13,たいいくかん,体育館,taiikukan,Gedung olahraga,noun,mnn
-1105,13,プール,,puuru,Kolam renang,noun,mnn
-1106,13,こうえん,公園,kooen,Taman,noun,mnn
-1107,13,たいしかん,大使館,taishikan,Kedutaan besar,noun,mnn
-1108,13,にゅうこくかんりきょく,入国管理局,nyuukoku kanri-kyoku,Kantor imigrasi,noun,mnn
-1109,13,しやくしょ,市役所,shiyakusho,Kantor balai kota,noun,mnn
-1110,13,けいさつしょ,警察署,keisatsusho,Kantor polisi,noun,mnn
-1111,13,こうばん,交番,kouban,Pos polisi,noun,mnn
-1112,13,しょうぼうしょ,消防署,shoubousho,Kantor pemadam kebakaran,noun,mnn
-1113,13,ちゅうしゃじょう,駐車場,chuushajou,Tempat parkir,noun,mnn
-1114,13,だいがく,大学,daigaku,Universitas,noun,mnn
-1115,13,こうこう,高校,koukou,SMA,noun,mnn
-1116,13,ちゅうがっこう,中学校,chuugakkou,SMP,noun,mnn
-1117,13,しょうがっこう,小学校,shougakkou,SD,noun,mnn
-1118,13,ようちえん,幼稚園,youchien,TK,noun,mnn
-1119,13,にくや,肉屋,nikuya,Toko daging,noun,mnn
-1120,13,ぱんや,パン屋,panya,Toko roti,noun,mnn
-1121,13,さかなや,魚屋,sakanaya,Toko ikan,noun,mnn
-1122,13,さけや,酒屋,sakeya,Toko minuman keras,noun,mnn
-1123,13,やおや,八百屋,yaoya,Toko sayur,noun,mnn
-1124,13,きっさてん,喫茶店,kissaten,Coffee shop,noun,mnn
-1125,13,コンビニ,,konbini,Toko 24 jam,noun,mnn
-1126,13,スーパー,,suupaa,Supermarket / pasar swalayan,noun,mnn
-1127,13,デパート,,depaato,Toko serba ada,noun,mnn
+1059,13,あそびます,遊びます,asobimasu,Bermain,verb,mnn
+1060,13,およぎます,泳ぎます,oyogimasu,Berenang,verb,mnn
+1061,13,むかえます,迎えます,mukaemasu,Menjemput,verb,mnn
+1062,13,つかれました,疲れました,tsukaremashita,"lelah (jika menyatakan keadaanlelah, digunakan bentuk た seperti つかれました)",expression,mnn
+1063,13,けっこんします,結婚します,kekkon shimasu,Menikah,verb,mnn
+1064,13,かいものします,買い物します,kaimono shimasu,Berbelanja,verb,mnn
+1065,13,しょくじします,食事します,shokuji shimasu,Makan,verb,mnn
+1066,13,"さんぽします [こうえんを〜]",散歩します [公園を〜],sanpo shimasu [kouen o ~],Berjalan-jalan [di taman],verb,mnn
+1067,13,たいへん[な],大変[な],taihen[na],Berat / susah,adjective-na,mnn
+1068,13,ほしい,欲しい,hoshii,Ingin / mau,adjective-i,mnn
+1069,13,ひろい,広い,hiroi,Luas,adjective-i,mnn
+1070,13,せまい,狭い,semai,Sempit,adjective-i,mnn
+1071,13,プール,,puuru,Kolam renang,noun,mnn
+1072,13,かわ,川,kawa,Sungai,noun,mnn
+1073,13,びじゅつ,美術,bijutsu,Seni,noun,mnn
+1074,13,つり,釣り,tsuri,Memancing,noun,mnn
+1075,13,つりをします,釣りをします,tsuri o shimasu,Memancing,verb,mnn
+1076,13,スキー,,sukii,Ski,noun,mnn
+1077,13,スキーをします,,sukii o shimasu,Bermain ski,verb,mnn
+1078,13,しゅうまつ,週末,shuumatsu,Akhir pekan,noun,mnn
+1079,13,おしょうがつ,お正月,oshougatsu,Tahun baru,noun,mnn
+1080,13,〜ごろ,,~goro,Sekitar / kira-kira,suffix,mnn
+1081,13,なにか,,nanika,Sesuatu,pronoun,mnn
+1082,13,どこか,,dokoka,Suatu tempat,pronoun,mnn
+1083,13,のどがかわきました,喉が渇きました,nodo ga kawakimashita,Haus (keadaan),expression,mnn
+1084,13,おなかがすきました,お腹が空きました,onaka ga sukimashita,Lapar (keadaan),expression,mnn
+1085,13,そうですね。,そうですね。,sou desu ne,"Ya, mari. (menyetujui)",expression,mnn
+1086,13,なににしますか,,nani ni shimasu ka,Mau pesan apa?,expression,mnn
+1087,13,ていしょく,定食,teishoku,Menu paket,noun,mnn
+1088,13,ぎゅうどん,牛丼,gyuudon,Gyudon,noun,mnn
+1089,13,ちょっとまってください,ちょっと待ってください,chotto matte kudasai,Tunggu sebentar,expression,mnn
+1090,13,でございます,,de gozaimasu,(bentuk halus dari desu),expression,mnn
+1091,13,べつべつに,別々に,betsubetsu ni,Sendiri-sendiri / masing-masing,adverb,mnn
+1092,13,IMC,,IMC,Perusahaan fiksi,noun,mnn
+1093,13,レポーター,,repootaa,Acara televisi fiksi,noun,mnn
+1094,13,まち,町,machi,Kota,noun,mnn
+1095,13,まちのなか,町の中,machi no naka,Di kota,expression,mnn
+1096,13,びじゅつかん,美術館,bijutsukan,Museum,noun,mnn
+1097,13,かんげいじょう,観芸場,kan-geijou,Gedung kesenian,noun,mnn
+1098,13,としょかん,図書館,toshokan,Perpustakaan,noun,mnn
+1099,13,えいがかん,映画館,eigakan,Gedung bioskop,noun,mnn
+1100,13,どうぶつえん,動物園,doubutsuen,Kebun binatang,noun,mnn
+1101,13,しょくぶつえん,植物園,shokubutsuen,Kebun raya,noun,mnn
+1102,13,ゆうえんち,遊園地,yuuenchi,Taman bermain,noun,mnn
+1103,13,おてら,お寺,otera,Kuil/Wihara (Buddha),noun,mnn
+1104,13,じんじゃ,神社,jinja,Kuil (Shinto),noun,mnn
+1105,13,きょうかい,教会,kyoukai,Gereja,noun,mnn
+1106,13,モスク,,mosuku,Masjid,noun,mnn
+1107,13,たいいくかん,体育館,taiikukan,Gedung olahraga,noun,mnn
+1108,13,プール,,puuru,Kolam renang,noun,mnn
+1109,13,こうえん,公園,kooen,Taman,noun,mnn
+1110,13,たいしかん,大使館,taishikan,Kedutaan besar,noun,mnn
+1111,13,にゅうこくかんりきょく,入国管理局,nyuukoku kanri-kyoku,Kantor imigrasi,noun,mnn
+1112,13,しやくしょ,市役所,shiyakusho,Kantor balai kota,noun,mnn
+1113,13,けいさつしょ,警察署,keisatsusho,Kantor polisi,noun,mnn
+1114,13,こうばん,交番,kouban,Pos polisi,noun,mnn
+1115,13,しょうぼうしょ,消防署,shoubousho,Kantor pemadam kebakaran,noun,mnn
+1116,13,ちゅうしゃじょう,駐車場,chuushajou,Tempat parkir,noun,mnn
+1117,13,だいがく,大学,daigaku,Universitas,noun,mnn
+1118,13,こうこう,高校,koukou,SMA,noun,mnn
+1119,13,ちゅうがっこう,中学校,chuugakkou,SMP,noun,mnn
+1120,13,しょうがっこう,小学校,shougakkou,SD,noun,mnn
+1121,13,ようちえん,幼稚園,youchien,TK,noun,mnn
+1122,13,にくや,肉屋,nikuya,Toko daging,noun,mnn
+1123,13,ぱんや,パン屋,panya,Toko roti,noun,mnn
+1124,13,さかなや,魚屋,sakanaya,Toko ikan,noun,mnn
+1125,13,さけや,酒屋,sakeya,Toko minuman keras,noun,mnn
+1126,13,やおや,八百屋,yaoya,Toko sayur,noun,mnn
+1127,13,きっさてん,喫茶店,kissaten,Coffee shop,noun,mnn
+1128,13,コンビニ,,konbini,Toko 24 jam,noun,mnn
+1129,13,スーパー,,suupaa,Supermarket / pasar swalayan,noun,mnn
+1130,13,デパート,,depaato,Toko serba ada,noun,mnn
+
+1131,14,つけます,点けます,tsukemasu,"menyalakan,memasang,menghidupkan",verb,mnn
+1132,14,けします,消します,keshimasu,"mematikan,memadamkan",verb,mnn
+1133,14,あけます,開けます,akemasu,Membuka,verb,mnn
+1134,14,しめます,閉めます,shimemasu,Menutup,verb,mnn [[ENTER]]
+
+1135,14,いそぎます,急ぎます,isogimasu,Buru-buru,verb,mnn
+1136,14,まちます,待ちます,machimasu,Menunggu,verb,mnn
+1137,14,もってきます,持って来ます,mochimasu,Membawa,verb,mnn
+1138,14,とります,取ります,torimasu,Mengambil,verb,mnn
+1139,14,てつだいます,手伝います,tetsudaimasu,Membantu,verb,mnn
+1140,14,よびます,呼びます,yobimasu,Memanggil,verb,mnn
+1141,14,はなします,話します,hanashimasu,Berbicara,verb,mnn
+1142,14,つかいます,使います,tsukaimasu,Memakai,verb,mnn
+1143,14,とめます,止めます,tomemasu,"menghentikan,memarkir",verb,mnn
+1144,14,みせます,見せます,misemasu,Memperlihatkan,verb,mnn
+1145,14,おしえます [じゅうしょを〜],教えます [住所を〜],oshiemasu [juusho o ~],Memberitahukan [alamat],verb,mnn [[ENTER]]
+
+1146,14,すわります,座ります,suwarimasu,Duduk,verb,mnn
+1147,14,たちます,立ちます,tachimasu,Berdiri,verb,mnn
+1148,14,はいります [きっさてんに〜],入ります [喫茶店に〜],hairimasu [kissaten ni ~],Masuk [ke coffee shop],verb,mnn
+1149,14,でます [きっさてんを〜],出ます [喫茶店を〜],demasu [kissaten o ~],Keluar [dari coffee shop],verb,mnn
+1150,14,ふります [あめが〜],降ります [雨が〜],furimasu [ame ga ~],Turun [hujan],verb,mnn
+1151,14,コピーします,,kopii shimasu,Memfotokopi,verb,mnn
+1152,14,でんき,電気,denki,"listrik,lampu",noun,mnn
+1153,14,エアコン,,eakon,AC,noun,mnn
+1154,14,パスポート,,pasupooto,Paspor,noun,mnn
+1155,14,なまえ,名前,namae,Nama,noun,mnn
+1156,14,じゅうしょ,住所,juusho,Alamat,noun,mnn
+1157,14,ちず,地図,chizu,Peta,noun,mnn [[ENTER]]
+
+1158,14,しお,塩,shio,Garam,noun,mnn
+1159,14,さとう,砂糖,satou,Gula,noun,mnn [[ENTER]]
+
+1160,14,もんだい,問題,mondai,"masalah,soal",noun,mnn
+1161,14,こたえ,答え,kotae,Jawaban,noun,mnn
+1162,14,よみかた,読み方,yomikata,Cara membaca,noun,mnn
+1163,14,〜かた,〜方,~kata,Cara 〜,expression,mnn [[ENTER]]
+
+1164,14,まっすぐ,,massugu,Lurus,adverb,mnn
+1165,14,ゆっくり,,yukkuri,"pelan-pelan,istirahat dengan baik",adverb,mnn
+1166,14,すぐ,,sugu,"segera,langsung",adverb,mnn
+1167,14,また,,mata,Lagi,adverb,mnn
+1168,14,あとで,,ato de,Nanti,adverb,mnn
+1169,14,もうすこし,もう少し,mou sukoshi,Sedikit lagi,adverb,mnn
+1170,14,〜もう,,~ mou,〜 lagi,expression,mnn
+1171,14,さあ, ,saa,Mari mari (digunakan ketika mengajak atau menyuruh sesuatu kepada lawan bicara),expression,mnn
+1172,14,あれ?, ,are?,Ah? (digunakan ketika heran atau merasa aneh),expression,mnn
+1173,14,しんごうをみぎへまがってください,信号を右へ曲がってください,shingou o migi e magatte kudasai,Tolong belok ke kanan di lampu lalu lintas.,expression,mnn
+1174,14,これでおねがいします, ,kore de onegaishimasu,Minta dengan ini.,expression,mnn
+1175,14,おつり,お釣り,otsuri,Uang kembalian,noun,mnn [[ENTER]]
+
+1176,14,えき,駅,eki,Stasiun,noun,mnn
+1177,14,きっぷうりば,切符売り場,kippuuriba,Loket penjualan karcis,noun,mnn
+1178,14,じどうけんばいき,自動券売機,jidou kenbaiki,Mesin karcis otomatis,noun,mnn
+1179,14,せいさんき,精算機,seisanki,Alat penghitung otomatis,noun,mnn
+1180,14,かいさつぐち,改札口,kaisatsuguchi,Pintu pemeriksaan karcis,noun,mnn
+1181,14,でぐち,出口,deguchi,Pintu keluar,noun,mnn
+1182,14,いりぐち,入口,iriguchi,Pintu masuk,noun,mnn
+1183,14,ひがしぐち,東口,higashiguchi,Pintu timur,noun,mnn
+1184,14,にしぐち,西口,nishiguchi,Pintu barat,noun,mnn
+1185,14,みなみぐち,南口,minamiguchi,Pintu selatan,noun,mnn
+1186,14,きたぐち,北口,kitaguchi,Pintu utara,noun,mnn
+1187,14,ちゅうおうぐち,中央口,chuuouguchi,Pintu tengah,noun,mnn [[ENTER]]
+
+1188,14,のりば,乗り場,noriba,Peron,noun,mnn
+1189,14,こうばん / みせ,交番 / 店,kouban / mise,"kios,kedai",noun,mnn
+1190,14,コインロッカー, ,koin rokkā,Loker,noun,mnn
+1191,14,たくのりば,タクシー乗り場,takushii noriba,Tempat naik taksi,noun,mnn
+1192,14,バスターミナル, ,basu taaminaru,Terminal bis,noun,mnn
+1193,14,バスてい,バス停,basutei,Halte bis,noun,mnn [[ENTER]]
+
+1194,14,とっきゅう,特急,tokkyuu,Kereta api super cepat,noun,mnn
+1195,14,きゅうこう,急行,kyuukou,Kereta api cepat,noun,mnn
+1196,14,かいそく,快速,kaisoku,Kereta api cepat yang melewati pinggiran kota,noun,mnn
+1197,14,じゅんきゅう,準急,junkyuu,Kereta semi cepat,noun,mnn
+1198,14,ふつう,普通,futsuu,Kereta api biasa,noun,mnn
+1199,14,じこくひょう,時刻表,jikokuhyou,Jadwal keberangkatan kereta api/bis/dll,noun,mnn
+1200,14,〜はつ,〜発,〜hatsu,"berangkat dari 〜 ,berangkat pukul 〜",expression,mnn
+1201,14,[とうきょう]いき,[東京]行き,[toukyou]iki,Berangkat ke/tujuan [Tokyo],expression,mnn
+1202,14,ていきけん,定期券,teikiken,Kartu langganan berjangka,noun,mnn
+1203,14,かいすうけん,回数券,Kaisuuken,Karcis kupon,noun,mnn
+1204,14,かたみち,片道,katamichi,Sekali jalan,noun,mnn
+1205,14,おうふく,往復,oufuku,Pulang pergi,noun,mnn
+
+1206,15,おきます,置きます,okimasu,meletakkan/menaruh,verb,mnn
+1207,15,つくります,作ります/造ります,tsukurimasu,membuat/membangun/memproduksi,verb,mnn
+1208,15,うります,売ります,urimasu,menjual,verb,mnn
+1209,15,しります,知ります,shirimasu,mengetahui/mengenal,verb,mnn
+1210,15,すみます,住みます,sumimasu,tinggal,verb,mnn
+1211,15,けんきゅうします,研究します,kenkyuu shimasu,meneliti,verb,mnn   [[ENTER]]
+
+1212,15,しりょう,資料,shiryou,data/bahan,noun,mnn
+1213,15,カタログ,,katarogu,katalog,noun,mnn
+1214,15,じこくひょう,時刻表,jikokuhyou,jadwal,noun,mnn
+1215,15,ふく,服,fuku,baju,noun,mnn
+1216,15,せいひん,製品,seihin,produk,noun,mnn
+1217,15,ソフト / ソフトウェア,,sofuto / sofutouea,perangkat lunak / software,noun,mnn
+1218,15,でんしじしょ,電子辞書,denshi jisho,kamus elektronik,noun,mnn
+1219,15,けいざい,経済,keizai,ekonomi,noun,mnn
+1220,15,しやくしょ,市役所,shiyakusho,kantor walikota,noun,mnn
+1221,15,こうこう,高校,koukou,SMA,noun,mnn
+1222,15,はいしゃ,歯医者,haisha,dokter gigi,noun,mnn
+1223,15,どくしん,独身,dokushin,bujangan/belum berkeluarga,noun,mnn
+1224,15,すみません,,sumimasen,maaf,expression,mnn
+1225,15,みなさん,,minasan,semua/bapak-bapak & ibu-ibu sekalian,expression,mnn
+1226,15,おもいだします,思い出します,omoidashimasu,teringat,verb,mnn
+1227,15,いらっしゃいます,irasshaimasu,irasshaimasu,bentuk hormat dari imasu,verb,mnn
+1228,15,にほんばし,日本橋,nihonbashi,nama daerah perbelanjaan di Osaka,noun,mnn
+1229,15,テレビばんぐみ,,terebi bangumi,acara televisi fiksi,noun,mnn [[ENTER]]
+
+1230,15,かいしゃいん,会社員,kaishain,pegawai perusahaan,noun,mnn
+1231,15,こうむいん,公務員,koumuin,pegawai negeri,noun,mnn
+1232,15,えきいん,駅員,ekiin,pegawai stasiun,noun,mnn
+1233,15,ぎんこういん,銀行員,ginkouin,pegawai bank,noun,mnn
+1234,15,ゆうびんきょくいん,郵便局員,yuubinkyokuin,pegawai kantor pos,noun,mnn
+1235,15,てんいん,店員,tenin,pegawai toko,noun,mnn
+1236,15,ちょうりし,調理師,chourishi,tukang masak,noun,mnn
+1237,15,りようし,理容師,riyoushi,tukang potong rambut,noun,mnn
+1238,15,びようし,美容師,biyoushi,ahli kecantikan,noun,mnn
+1239,15,きょうし,教師,kyoushi,guru,noun,mnn
+1240,15,べんごし,弁護士,bengoshi,pengacara,noun,mnn
+1241,15,けんきゅうしゃ,研究者,kenkyuusha,peneliti,noun,mnn
+1242,15,いしゃ,医者,isha,dokter,noun,mnn
+1243,15,かんごし,看護師,kangoshi,perawat,noun,mnn
+1244,15,うんてんしゅ,運転手,untenshu,sopir,noun,mnn
+1245,15,けいさつかん,警察官,keisatsukan,polisi,noun,mnn
+1246,15,がいこうかん,外交官,gaikoukan,diplomat,noun,mnn
+1247,15,せいじか,政治家,seijika,politikus,noun,mnn
+1248,15,がか,画家,gaka,pelukis,noun,mnn
+1249,15,さっか,作家,sakka,pengarang,noun,mnn
+1250,15,おんがくか,音楽家,ongakuka,musisi,noun,mnn
+1251,15,けんちくか,建築家,kenchikuka,arsitek,noun,mnn
+1252,15,エンジニア,,enginia,insinyur,noun,mnn
+1253,15,ファッション デザイナー,,fasshon dezainaa,perancang busana,noun,mnn
+1254,15,ジャーナリスト,,jaanarisuto,wartawan,noun,mnn
+1255,15,かしゅ,歌手,kashu,penyanyi,noun,mnn
+1256,15,はいゆう/じょゆう,俳優/女優,haiyuu/joyuu,aktor/aktris,noun,mnn
+1257,15,スポーツせんしゅ,,supootsu senshu,olahragawan,noun,mnn
+
+1258,16,のります [でんしゃに〜],乗ります [電車に〜],norimasu [densha ni〜],naik [kereta rel listrik],verb,mnn
+1259,16,おります [でんしゃを〜],降ります [電車を〜],orimasu [densha o〜],turun [kereta rel listrik],verb,mnn
+1260,16,のりかえます,乗り換えます,norikaemasu,"ganti,pindah",verb,mnn
+1261,16,あびます [シャワーを〜],浴びます,abimasu [shawaa o 〜],mandi,verb,mnn
+1262,16,いれます,入れます,iremasu,memasukan,verb,mnn
+1263,16,だします,出します,dashimasu,"mengeluarkan,menyerahkan,mengirim",verb,mnn
+1264,16,だします [おかねを〜],出します [お金を〜],dashimasu [okane o〜],mengeluarkan/mengambil [uang],verb,mnn
+1265,16,はいります [だいがくに〜],入ります [大学に〜],hairimasu [daigaku ni〜],masuk [universitas],verb,mnn
+1266,16,でます [だいがくを〜],出ます [大学を〜],demasu [daigaku o〜],tamat [dari universitas],verb,mnn
+1267,16,おします,押します,oshimasu,menekan,verb,mnn
+1268,16,のみます,飲みます,nomimasu,minum (minuman keras),verb,mnn
+1269,16,はじめます,始めます,hajimemasu,mulai,verb,mnn
+1270,16,けんがくします,見学します,kengakushimasu,mengunjungi,verb,mnn
+
+1271,16,でんわします,電話します,denwa shimasu,menelepon,verb,mnn
+1272,16,わかい,若い,wakai,muda,adjective-i,mnn
+
+1273,16,ながい,長い,nagai,panjang,adjective-i,mnn
+1274,16,みじかい,短い,mijikai,pendek,adjective-i,mnn
+1275,16,あかるい,明るい,akarui,terang,adjective-i,mnn
+1276,16,くらい,暗い,kurai,gelap,adjective-i,mnn
+
+1277,16,からだ,体,karada,badan,noun,mnn
+1278,16,あたま,頭,atama,kepala,noun,mnn
+1279,16,かみ,髪, kami,rambut,noun,mnn
+1280,16,かお,顔,kao,muka,noun,mnn
+1281,16,め,目,me,mata,noun,mnn
+1282,16,みみ,耳,mimi,telinga,noun,mnn
+1283,16,はな,鼻,hana,hidung,noun,mnn
+1284,16,くち,口,kuchi,mulut,noun,mnn
+1285,16,は,歯,ha,gigi,noun,mnn
+1286,16,おなか,お腹,onaka,perut,noun,mnn
+1287,16,あし,足,ashi,kaki,noun,mnn
+1288,16,せなか,背中,senaka,punggung,noun,mnn
+1289,16,サービス, ,saabisu,pelayanan,noun,mnn
+1290,16,ジョギング, ,jogingu,"joging, lari pelan-pelan (〜を します : berlari pelan-pelan)",verb,mnn
+1291,16,シャワー, ,shawaa,shower,noun,mnn
+1292,16,みどり,緑,midori,"hijau,tumbuhan hijau",noun,mnn
+1293,16,[お]てら,[お]寺,otera,wihara,noun,mnn
+1294,16,じんじゃ,神社,jinja,kuil shinto,noun,mnn
+1295,16,ーばん, ,ーban,nomorー,expression,mnn
+
+1296,16,どうやって, ,douyatte,dengan cara bagaimana,expression,mnn
+1297,16,どの, ,dono~,~yang mana (mengungkapkan lebih dari tiga barang),expression,mnn
+1298,16,どれ, ,dore,mana (mengungkapkan lebih dari tiga barang),expression,mnn [[ENTER]]
+
+1299,16,すごいですね,,sugoi desu ne,hebat.,expression,mnn
+1300,16,"[いいえ]、まだまだです",,"[iie], madamada desu","[Tidak], belum memuaskan.",expression,mnn
+1301,16,おひきだしですか,お引き出しですか,ohikidashi desu ka,mau menarik uang?,expression,mnn
+1302,16,まず,,mazu,"pertama-tama,terlebih dahulu",adverb,mnn
+1303,16,つぎに,次に,tsugi ni,kemudian,adverb,mnn
+1304,16,キャッシュカード,,kyasshu kaado,kartu ATM,noun,mnn
+1305,16,あんしょうばんごう,暗証番号,anshou bangou,PIN,noun,mnn
+1306,16,きんがく,金額,kingaku,jumlah uang,noun,mnn
+1307,16,かくにんします,確認します,kakunin shimasu,mengecek/memastikan,verb,mnn [[ENTER]]
+
+1308,16,ボタン,,botan,tombol,noun,mnn
+1309,16,ゆきまつり,雪祭り,yuki matsuri,pesta salju,noun,mnn
+1310,16,バンドン,,Bandung,Bandung (Indonesia),proper noun,mnn
+1311,16,フランケン,,Furanken,Franken (Jerman),proper noun,mnn
+1312,16,ベラクルス,,Berakurusu,Veracruz (Meksiko),proper noun,mnn
+1313,16,うめだ,梅田,Umeda (Osaka),proper noun,mnn
+1314,16,バスてい,,basu tei,halte bis,noun,mnn   [[ENTER]]
+
+1315,16,ATMのつかいかた,,ATM no tsukaikata,Cara Menggunakan ATM,expression,mnn
+1316,16,おあずけいれ,お預け入れ,oazuke ire,menambahkan saldo,noun,mnn
+1317,16,おふりこみ,お振り込み,ofurikomi,pembayaran,noun,mnn
+1318,16,おふりかえ,お振り替え,ofurikae,pengiriman (transfer),noun,mnn
+1319,16,おひきだし,お引き出し,ohikidashi,penarikan uang,noun,mnn
+1320,16,つうちょうきにゅう,通帳記入,tsuuchou kinyuu,pembaharuan buku catatan bank,noun,mnn
+1321,16,かくにん,確認,kakunin,cek / memastikan,noun,mnn
+1322,16,ざんだかしょうかい,残高照会,zandaka shoukai,cek saldo,noun,mnn
+1323,16,えん,円,en,yen (mata uang Jepang),noun,mnn
+
+1324,17,おぼえます,覚えます,oboemasu,"mengingat,menghafal",verb,mnn
+1325,17,わすれます,忘れます,wasuremasu,lupa,verb,mnn
+1326,17,なくします,,nakushimasu,kehilangan,verb,mnn
+1327,17,はらいます,払います,haraimasu,membayar,verb,mnn
+1328,17,かえします,返します,kaeshimasu,mengembalikan,verb,mnn
+1329,17,でかけます,出かけます,dekakemasu,"pergi,keluar,berangkat",verb,mnn
+1330,17,ぬぎます,脱ぎます,nugimasu,buka (baju/sepatu dan lain-lain),verb,mnn
+1331,17,もっていきます,持って行きます,motte ikimasu,membawa pergi,verb,mnn
+1332,17,もってきます,持って来ます,motte kimasu,membawa datang,verb,mnn
+1333,17,しんぱいします,心配します,shinpai shimasu,mengkhawatirkan,verb,mnn
+1334,17,ざんぎょうします,残業します,zangyou shimasu,lembur / melembur,verb,mnn
+1335,17,しゅっちょうします,出張します,shucchou shimasu,dinas/perjalanan dinas,verb,mnn
+1336,17,のみます [くすりを〜],飲みます [薬を〜],kusuri [o nomimasu],minum [obat],expression,mnn
+1337,17,おふろにはいります,お風呂に入ります,ofuro ni hairimasu,mandi/masuk [ofuro],expression,mnn [[ENTER]]
+
+1338,17,たいせつ,大切,taisetsu,"penting,bernilai,berharga",adjective-na,mnn
+1339,17,だいじょうぶ[な],大丈夫[な],daijoubu[na],"tidak apa-apa,tidak masalah",adjective-na,mnn
+1340,17,あぶない,危ない,abunai,berbahaya,adjective-i,mnn
+1341,17,きんえん,禁煙,kin'en,dilarang merokok,noun,mnn
+1342,17,[けんこう] ほけんしょう,[健康] 保険証,[kenkou] hokenshou,kartu asuransi [kesehatan],noun,mnn
+1343,17,ねつ,熱,netsu,demam,noun,mnn
+1344,17,びょうき,病気,byouki,sakit,noun,mnn
+1345,17,くすり,薬,kusuri,obat,noun,mnn
+1346,17,"２、３にち","2、3日",ni san nichi,dua atau tiga hari,expression,mnn
+1347,17,"２、３〜","2、3〜",ni san ~,dua atau tiga (digunakan kata bilangan di bagian 〜),expression,mnn
+1348,17,〜までに,,madeni,sampai dengan (menyatakan batas waktu),particle,mnn
+1349,17,ですから,,desu kara,oleh karena itu,conjunction,mnn [[ENTER]]
+
+1350,17,どうしましたか,,dou shimashita ka,Kenapa?/Ada masalah apa?,expression,mnn
+1351,17,のど,,nodo,kerongkongan,noun,mnn
+1352,17,[〜が] いたいです,,[〜ga] itaidesu,[〜] sakit,expression,mnn
+1353,17,かぜ,風邪,kaze,masuk angin, noun,mnn
+1354,17,それから,,sorekara,"dan, kemudian",conjunction,mnn
+1355,17,おだいじに,お大事に,odaiji ni,semoga lekas sembuh. (ekspresi yang diucapkan kepada orang yang sedang sakit),expression,mnn
+
+1356,17,からだ,体,karada,badan,noun,mnn
+1357,17,びょうき,病気,byouki,penyakit,noun,mnn
+1358,17,なぜ,,naze,kenapa?,adverb,mnn
+1359,17,どうして,,doushite,kenapa?/ada masalah apa?,adverb,mnn
+
+1360,17,あたまがいたい,頭が痛い,atama ga itai,sakit kepala,expression,mnn
+1361,17,おなかがいたい,お腹が痛い,onaka ga itai,sakit perut,expression,mnn
+1362,17,はがいたい,歯が痛い,ha ga itai,sakit gigi,expression,mnn
+1363,17,ねつがあります,熱があります,netsu ga arimasu,demam,expression,mnn
+1364,17,せきがでます,咳が出ます,seki ga demasu,batuk,expression,mnn
+1365,17,はなみずがでます,鼻水が出ます,hanamizu ga demasu,pilek,expression,mnn
+1366,17,ちがでます,血が出ます,chi ga demasu,berdarah,expression,mnn
+1367,17,はきけがします,吐き気がします,hakike ga shimasu,"mual, mau muntah",expression,mnn
+1368,17,さむけがします,寒気がします,samuke ga shimasu,kedinginan,expression,mnn
+1369,17,めまいがします,,memai ga shimasu,"pening, pusing",expression,mnn
+1370,17,げりをします,下痢をします,geri o shimasu,diare,expression,mnn
+1371,17,べんぴをします,便秘をします,benpi o shimasu,sembelit,expression,mnn
+1372,17,けがを します,,kega o shimasu,terluka,expression,mnn
+1373,17,やけどを します,,yakedo o shimasu,terbakar,expression,mnn
+1374,17,しょくよくがありません,食欲がありません,shokuyoku ga arimasen,tidak nafsu makan,expression,mnn
+1375,17,かたがこります,肩が凝ります,kata ga korimasu,bahu pegal,expression,mnn
+1376,17,からだがだるい,体がだるい,karada ga darui,badan lemas,expression,mnn
+1377,17,かゆい,,kayui,gatal,i-adjective,mnn
+1378,17,かぜ,風邪,kaze,masuk angin,noun,mnn
+1379,17,インフルエンザ,,infuruenza,flu / influenza,noun,mnn
+1380,17,もうちょうえん,盲腸炎,mouchouen,usus buntu,noun,mnn
+1381,17,ぎっくりごし,ぎっくり腰,gikkuri goshi,sakit pinggang,noun,mnn
+1382,17,ねんざ,,nenza,keseleo,noun,mnn
+1383,17,こっせつ,骨折,kossetsu,patah tulang,noun,mnn
+1384,17,ふつかよい,二日酔い,futsuka yoi,efek sesudah makan,noun,mnn [[ENTER]]
+
+1385,17,かお,顔,kao,wajah,noun,mnn
+1386,17,あたま,頭,atama,kepala,noun,mnn
+1387,17,はな,鼻,hana,hidung,noun,mnn
+1388,17,くち,口,kuchi,mulut,noun,mnn
+1389,17,め,目,me,mata,noun,mnn
+1390,17,かみ,髪,kami,rambut,noun,mnn
+1391,17,みみ,耳,mimi,telinga,noun,mnn
+1392,17,あご,顎,ago,dagu, noun,mnn
+1393,17,のど,喉,nodo,tenggorokan,noun,mnn
+1394,17,むね,胸,mune,dada,noun,mnn
+1395,17,くび,首,kubi,leher,noun,mnn
+1396,17,かた,肩,kata,bahu,noun,mnn
+1397,17,うで,腕,ude,lengan,noun,mnn
+1398,17,ひじ,肘,hiji,siku,noun,mnn
+1399,17,て,手,te,tangan,noun,mnn
+1400,17,つめ,爪,tsume,kuku,noun,mnn
+1401,17,ゆび,指,yubi,jari,noun,mnn
+1402,17,せなか,背中,senaka,punggung,noun,mnn
+1403,17,おなか,お腹,onaka,perut,noun,mnn
+1404,17,こし,腰,koshi,pinggang,noun,mnn
+1405,17,ひざ,膝,hiza,lutut,noun,mnn
+1406,17,ほね,骨,hone,tulang,noun,mnn
+1407,17,あし,足,ashi,kaki,noun,mnn
+1408,17,しり,尻,shiri,pantat,noun,mnn
+
+1409,17,まゆ,眉,mayu,alis,noun,mnn
+1410,17,まつげ,睫毛,matsuge,bulu mata,noun,mnn
+1411,17,ほほ,頬,hoho,pipi,noun,mnn
+1412,17,は,歯,ha,gigi,noun,mnn
+1413,17,した,舌,shita,lidah,noun,mnn
+1414,17,くちびる,唇,kuchibiru,bibir,noun,mnn
+1415,17,かおいろ,顔色,kaoiro,warna wajah,noun,mnn
+1416,17,おしり,お尻,oshiri,pantat,noun,mnn
+1417,17,もも,腿,momo,paha,noun,mnn
+1418,17,すね,脛,sune,tulang kering,noun,mnn
+1419,17,あしくび,足首,ashikubi,pergelangan kaki,noun,mnn
+1420,17,かかと,踵,kakato,tumit,noun,mnn
+1421,17,てくび,手首,tekubi,pergelangan tangan,noun,mnn
+1422,17,ひとさしゆび,人差し指,hitosashiyubi,jari telunjuk,noun,mnn
+1423,17,おやゆび,親指,oyayubi,ibu jari,noun,mnn
+1424,17,おでこ,おでこ,odeko,dahi,noun,mnn
+1425,17,ふくらはぎ,脹脛,fukurahagi,betis,noun,mnn
+
+1426,18,できます,,dekimasu,"dapat, bisa, mampu",noun,mnn
+1427,18,あらいます,,araimasu,mencuci,verb,mnn
+1428,18,ひきます,,hikimasu,bermain (bermaksud untuk bermain alat musik),verb,mnn
+1429,18,うたいます,,utaimasu,"bernyanyi, menyanyi",verb,mnn
+1430,18,あつめます,,atsumemasu,mengumpulkan,verb,mnn
+1431,18,すてます,,sutemasu,membuang,verb,mnn
+1432,18,かえます,,kaemasu,"mengganti, menukar",verb,mnn
+1433,18,うんてんします,,untenshimasu,"menyetir, mengendarai",verb,mnn
+1434,18,よやくします,,yoyakushimasu,memesan,verb,mnn    [[ENTER]]
+
+1435,18,ピアノ,,piano,piano,noun,mnn
+1436,18,ーメートル,,ー meetoru,ー meter,noun,mnn
+1437,18,げんきん,現金,genkin,uang tunai,noun,mnn
+1438,18,しゅみ,趣味,shumi,"hobi, kegemaran",noun,mnn
+1439,18,にっき,日記,nikki,catatan harian,noun,mnn
+1440,18,おいのり,,oinori,doa (〜を します : berdoa),expression,mnn [[ENTER]]
+
+1441,18,かちょう,課長,kachou,kepala seksi,noun,mnn
+1442,18,ぶちょう,部長,buchou,kepala bagian,noun,mnn
+1443,18,しゃちょう,社長,shachou,direktur utama,noun,mnn
+1444,18,どうぶつ,動物,doubutsu,"hewan, binatang",noun,mnn
+1445,18,うま,馬,uma,kuda,noun,mnn
+1446,18,インターネット,,intaanetto,internet,noun,mnn  [[ENTER]]
+
+1447,18,とくに,特に,tokuni,"terutama, khususnya",adverb,mnn
+1448,18,へえ,,hee,Betul ya?/Benar ya?/Masa! (digunakan ketika terkagum atau terkejut),expression,mnn
+1449,18,それはおもしろいですね,,sore wa omoshiroi desu ne,Itu menarik ya.,expression,mnn
+1450,18,なかなか,,nakanaka,"jarang,tidak mudah (diikuti bentuk negatif)",adverb,mnn
+1451,18,ほんとうですか,,hontou desu ka,Betul?/Benar?,expression,mnn
+1452,18,ぜひ,,zehi,"benar-benar, mesti",adverb,mnn
+1453,18,ふるさと,,furusato,Furusato (judul lagu kampung halaman),noun,mnn
+1454,18,ビートルズ,,biitoruzu,The Beatles (nama grup musik asal Inggris),noun,mnn
+1455,18,あきはばら,秋葉原,akihabara,nama daerah di Tokyo,noun,mnn    [[ENTER]]
+
+1456,18,うごき,動き,ugoki,gerakan,noun,mnn
+1457,18,とぶ,飛ぶ,tobu,terbang,verb,mnn
+1458,18,とぶ,跳ぶ,tobu,meloncat,verb,mnn
+1459,18,のぼる,登る,noboru,memanjat,verb,mnn
+1460,18,はしる,走る,hashiru,berlari,verb,mnn
+1461,18,およぐ,泳ぐ,oyogu,berenang,verb,mnn
+1462,18,もぐる,潜る,moguru,menyelam,verb,mnn
+1463,18,とびこむ,飛び込む,tobikomu,terjun,verb,mnn
+
+1464,18,さかだちする,逆立ちする,sakadachi suru,berjungkir balik,verb,mnn
+1465,18,はう,,hau,merayap,verb,mnn
+
+1466,18,ける,蹴る,keru,menendang,verb,mnn
+1467,18,ふる,振る,furu,melambaikan,verb,mnn
+
+1468,18,もちあげる,持ち上げる,mochiageru,mengangkat,verb,mnn
+1469,18,なげる,投げる,nageru,melempar,verb,mnn
+1470,18,たたく,叩く,tataku,memukul,verb,mnn
+1471,18,ひく,引く,hiku,menarik,verb,mnn
+1472,18,おす,押す,osu,mendorong,verb,mnn
+1473,18,まげる,曲げる,mageru,membengkokkan,verb,mnn
+1474,18,のばす,伸ばす,nobasu,meluruskan,verb,mnn
+1475,18,ころぶ,転ぶ,korobu,jatuh,verb,mnn
+1476,18,ふりむく,振り向く,furimuku,menengok ke belakang,verb,mnn
